@@ -2,17 +2,17 @@
     "A framework for Model-Driven Engineering of resilient software-controlled systems": {
         "DT_Definition": "dynamic virtual model of a system, processor, or service, with data (e.g., sensor data) from physical systems or processes integrated into it.; \"Software digital twins representations provide a key abstraction, providing an agile interface on hardware components, capturing operational behaviours of physical assets and processes, also providing refined and interpreted data, to enable diagnoses, predic\u0002tive maintenance tasks, process plannings, process optimizations, virtual prototyping, and simulation.\"",
         "data": {
-            "0": "{\"modeling language\":\"SysML BDD\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML BDD\",\"target\":\"Knowledge Base of software digital twins (Metamodel proposed in Figure 5 of the paper) -> in fact, this is the class diagram of their knowledge base\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"Knowledge base model\",\"note on modeling language\":\"contribution of the paper\",\"model type\":null,\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"Fault Trees\",\"target\":\"FaultTreeAnalyzer (metamodel proposed in Figure 8)\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":\"just a Model\",\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"SysML\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML: BDD\",\"target\":\"Knowledge Base of software digital twins (Metamodel proposed in Figure 5 of the paper) -> in fact, this is the class diagram of their knowledge base\",\"purpose of DT\":\"mirror items for monitoring and control operations\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Knowledge base model\",\"note on modeling language\":\"contribution of the paper\",\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"Fault Trees\",\"target\":\"FaultTreeAnalyzer (metamodel proposed in Figure 8)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "limited traffic zone access control",
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": "H \u00c2\u2014 Transportation and Storage",
         "purpose of MDE application": "reuse information created by reliability engineers (sysml) for concrete software implementation",
         "purpose of DT": "mirror items for monitoring and control operations",
-        "use case domain": "H \u00c2\u2014 Transportation and Storage",
         "purpose /expected benefit of using models": "formal specification of information in the form of models allows the application of MDE techniques (model transformations)",
         "Publication Title": "Computing",
         "Authors": "Parri J.; Patara F.; Sampietro S.; Vicario E.",
@@ -23,17 +23,17 @@
     "A Methodology for Digital Twin Modeling and Deployment for Industry 4.0": {
         "DT_Definition": "\"The digital twin (DT) is a virtual representation of a physical object, which has been proposed as one of the key concepts for Industry 4.0.\"",
         "data": {
-            "0": "{\"modeling language\":\"AutomationML\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"AutomationML models\",\"target\":\"Restful API, Html pages\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}",
-            "1": "{\"modeling language\":\"AutomationML\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"AutomationML models\",\"target\":\"DT runtime memory\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"AutomationML\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"AutomationML models\",\"target\":\"Restful API, Html pages\",\"purpose of DT\":\"Syncronizing data from the physical system with the model\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"AutomationML models\",\"target\":\"DT runtime memory\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "refinery automationsystem with four valves ",
-        "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).; Systems of Systems, such as complete factories (Biesinger et al., 2018), oil wells (Kosenkov et al., 2018), or railway systems (Vatn, 2018).",
+        "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).;Systems of Systems, such as complete factories (Biesinger et al., 2018), oil wells (Kosenkov et al., 2018), or railway systems (Vatn, 2018).",
+        "use case domain": "C \u00c2\u2014 Manufacturing",
         "purpose of MDE application": "Synchronizing data from the physical system with the model",
         "purpose of DT": "Syncronizing data from the physical system with the model",
-        "use case domain": "C \u00c2\u2014 Manufacturing",
         "purpose /expected benefit of using models": "model the physical device, serving as the virtual representation of the device; to model the DT itself, serving as a configuration reference for the deployment phase. ; reusability of similar basic components; model the physical device; serving as the virtual representation of the device; to model the DT itsel - serving as a configuration reference for the deployment phase",
         "Publication Title": "Proceedings of the IEEE",
         "Authors": "G. N. Schroeder; C. Steinmetz; R. N. Rodrigues; R. V. B. Henriques; A. Rettberg; C. E. Pereira",
@@ -44,9 +44,9 @@
     "A Novel Methodology to Construct Digital Twin Models for Spacecraft Operations Using Fault and Behaviour Trees": {
         "DT_Definition": "\"a digital twin of a system consists of a set of models of the system, a set of digital shadows, and provides a set of services to use the data and models purposefully with respect to the original system [Da20].\"",
         "data": {
-            "0": "{\"modeling language\":\"Fault Tree\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Fault Trees\",\"target\":\"Operations-Dedicated Models (ODMs)\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
-            "1": "{\"modeling language\":\"ODM Models\",\"note on modeling language\":\"ODM = DT, but no dedicated language mentioned\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"AutomationML\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"DT model (=ODM model)\",\"target\":\"UI-based monitoring tools\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Fault Tree\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Fault Trees\",\"target\":\"Operations-Dedicated Models (ODMs)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"ODM Models\",\"note on modeling language\":\"ODM = DT, but no dedicated language mentioned\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"AutomationML\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"DT model (=ODM model)\",\"target\":\"UI-based monitoring tools\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Operated\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
@@ -63,17 +63,17 @@
     "AML4DT: A Model-Driven Framework for Developing and Maintaining Digital Twins with AutomationML": {
         "DT_Definition": "a virtual model of a city",
         "data": {
-            "0": "{\"modeling language\":\"Azure DTDL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"AML\",\"target\":\"DT-MM\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"AutomationML\",\"note on modeling language\":\"focus on CAEX\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"DT-MM\",\"target\":\"Json Files\",\"system lifecycle phase\":\"Maintain\",\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"DT-MM: platform-neutral DT metamodel\",\"note on modeling language\":\"contribution of the paper\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Azure DTDL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"AML\",\"target\":\"DT-MM\",\"purpose of DT\":\"\\\"By integrating the digital and physical worlds, the DT enables real-time monitoring of systems and processes and helps, for example, to reduce downtimes and detect errors at an early stage\\\"; interface to running system\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"AutomationML\",\"note on modeling language\":\"focus on CAEX\",\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"DT-MM\",\"target\":\"Json Files\",\"purpose of DT\":null,\"system lifecycle phase\":\"Maintain\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"DT-MM: platform-neutral DT metamodel\",\"note on modeling language\":\"contribution of the paper\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "Air Quality Opitmization System",
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
-        "purpose of DT": "\"By integrating the digital and physical worlds, the DT enables real-time monitoring of systems and processes and helps, for example, to reduce downtimes and detect errors at an early stage\"; interface to running system",
         "use case domain": "N \u00c2\u2014 Administrative and Support Service Activities",
+        "purpose of DT": "\"By integrating the digital and physical worlds, the DT enables real-time monitoring of systems and processes and helps, for example, to reduce downtimes and detect errors at an early stage\"; interface to running system",
         "purpose /expected benefit of using models": "reduces complexity through abstraction, enables automation through model-driven engineering; represent information across asset lifecycle, reuse information based on machine-readable format of models",
         "Publication Title": "2021 26th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA )",
         "Authors": "D. Lehner; S. Sint; M. Vierhauser; W. Narzt; M. Wimmer",
@@ -84,17 +84,17 @@
     "Case Study on Automated and Continuous Reliability Assessment of Software-Defined Manufacturing Based on Digital Twins": {
         "DT_Definition": "\"A digital twin is a software system consisting of models, data, and services to interact with a cyber-physical system for a particular purpose [3, 21, 22]. \"",
         "data": {
-            "0": "{\"modeling language\":\"SysML v2\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML v2 structure models\",\"target\":\"Fault Trees\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
-            "1": "{\"modeling language\":\"SysML v2\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML v2 action sequences\",\"target\":\"Markov chains\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"SysML v2\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML v2 structure models\",\"target\":\"Fault Trees\",\"purpose of DT\":\"They serve to monitor, better understand and optimize the behavior of their respective counterparts.\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML v2 action sequences\",\"target\":\"Markov chains\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": null,
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": "C \u00c2\u2014 Manufacturing",
         "purpose of MDE application": "optimization",
         "purpose of DT": "They serve to monitor, better understand and optimize the behavior of their respective counterparts.",
-        "use case domain": "C \u00c2\u2014 Manufacturing",
         "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
         "Authors": "Grimmeisen P,Wortmann A,Morozov A",
         "Publication Year": 2022.0,
@@ -104,16 +104,16 @@
     "Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context": {
         "DT_Definition": "\"a Digital Twin is a virtual reproduction of a system based on simulations, real-time and historical data that allows representing, understanding, and predicting scenarios of the past, present, and future, with verified and validated models, and synchronized at a specified frequency and fidelity with the system\"",
         "data": {
-            "0": "{\"modeling language\":\"SDL\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SDL model\",\"target\":\"Discrete Event System Specification (formal model for simulation engines)\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"SDL\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"SDL model\",\"target\":\"Snap!\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"SDL\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SDL model\",\"target\":\"Discrete Event System Specification (formal model for simulation engines)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"SDL model\",\"target\":\"Snap!\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "4-5: das Ding l\u00c3\u00a4uft \"im Labor\"",
         "notes": null,
         "Use Case": null,
         "twinning target": "Processes, e.g., business processes (Rambow-Hoeschele et al., 2018), medical processes (Karakra et al., 2018), or recycling processes (Popa et al., 2018).",
-        "purpose of MDE application": "execute/simulate modeled behavior",
         "use case domain": "P \u00c2\u2014 Education",
+        "purpose of MDE application": "execute/simulate modeled behavior",
         "purpose /expected benefit of using models": "low-code programming; enable industrial users to test and/or build their own Digital Twin models at a suitable abstraction level and with low entry barriers ; create an open-source and web-based tool that facilitates the implementation and validation of Digital Twin prototypes",
         "Publication Title": "2021 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)",
         "Authors": "X. P. i. Palom\u00e9s; P. Tuset-Peir\u00f3; P. F. i. Casas",
@@ -124,17 +124,17 @@
     "CPSAML: A Language and Code Generation Framework for Digital Twin Based Monitoring of Mobile Cyber-Physical Systems": {
         "DT_Definition": "middleware between CPS and a monitoring cockpit; \"A digital twin of a system consists of a set of models of the system, a set of digital shadows and their aggregation and abstraction collected from a system, and a set of services that allow using the data and models purposefully with respect to the original system\"",
         "data": {
-            "0": "{\"modeling language\":\"SysML v2\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":\"Multi Paradigm Approach\",\"source\":\"CPSAML\",\"target\":\"SysML (partial model)\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"CPSAML\",\"note on modeling language\":\"contribution of the paper\",\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"SysML (complete model)\",\"target\":\"CPS software code (ROS Packages, DT, Monitoring Cockpit). Sprachen: Java, Typescript, Python, Docker\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"SysML v2\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":\"Multi Paradigm Approach\",\"source\":\"CPSAML\",\"target\":\"SysML (partial model)\",\"purpose of DT\":\"aggregates data from CPS into a \\\"single system snapchot\\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"CPSAML\",\"note on modeling language\":\"contribution of the paper\",\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"SysML (complete model)\",\"target\":\"CPS software code (ROS Packages, DT, Monitoring Cockpit). Sprachen: Java, Typescript, Python, Docker\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "4-5: das Ding l\u00c3\u00a4uft \"im Labor\"",
         "notes": "github repository: https://github.com/me-big-tuwien-ac-at/cpsaml",
         "Use Case": "Roomba floor cleaning robot",
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": "I \u00c2\u2014 Accommodation and Food Service Activities",
         "purpose of MDE application": "Integration of CPS and Information Systems; transform System Architect vision (CPSAML) into starting point for System Engineer (partial SysML model); \"better support both the system architect and the operator for the development of a mobile CPS. The system architect only keeps the focus on her interests through the introduced DSL, while the oper\u0002ator is supported by the generated cockpit application. In addition, the used code generation should save a lot of implementation effort for developers\"",
         "purpose of DT": "aggregates data from CPS into a \"single system snapchot\"",
-        "use case domain": "I \u00c2\u2014 Accommodation and Food Service Activities",
         "purpose /expected benefit of using models": "\"Model engineering abstracts real world concepts in a way, such that only the relevant properties are left. A model therefore is a simplified representation of reality. This helps planning and designing complex systems, as a model should give a common sense of the underlying system.\"",
         "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
         "Authors": "Fend A,Bork D",
@@ -145,16 +145,16 @@
     "Interface Development for Digital Twin of an Electric Motor Based on Empirical Performance Model": {
         "DT_Definition": "\"The concept of Digital Twin (DT) is creating and maintaining a digital representation of the real physical entity and supporting its performance through simulation and optimization tools, which are fed with real and updated data\"; \"A perfect DT will be identical to the real physical entity in terms of appearance and behavior with the extra advantage of making future predictions.\"",
         "data": {
-            "0": "{\"modeling language\":\"Unity 3D simulation model\",\"note on modeling language\":\" describing detailed physics of twinned asset\",\"model type\":\"behavior, physics\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"Simulation Controller\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"Unity 3D simulation model\",\"note on modeling language\":\" describing detailed physics of twinned asset\",\"model type\":\"behavior, physics\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"ROS Bridge\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Unity 3D simulation model\",\"note on modeling language\":\" describing detailed physics of twinned asset\",\"model type\":\"behavior, physics\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"Simulation Controller\",\"purpose of DT\":\"3D simulation model that is updated with live data from the twinned asset\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":\" describing detailed physics of twinned asset\",\"model type\":\"behavior, physics\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"ROS Bridge\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": null,
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
-        "purpose of DT": "3D simulation model that is updated with live data from the twinned asset",
         "use case domain": "H \u00c2\u2014 Transportation and Storage",
+        "purpose of DT": "3D simulation model that is updated with live data from the twinned asset",
         "Publication Title": "IEEE Access",
         "Authors": "A. Rass\u00f5lkin; V. Rjabt\u009aikov; V. Kuts; T. Vaimann; A. Kallaste; B. Asad; A. Partyshev",
         "Publication Year": 2022.0,
@@ -164,15 +164,15 @@
     "Digital Twins Driving Model Based on Petri Net in Industrial Pipeline": {
         "DT_Definition": "\"the digital twin, that is, real-time data synchronization and feedback control of the entity\"",
         "data": {
-            "0": "{\"modeling language\":\"Petri Net\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"Petrinet\",\"target\":\"real time simulation of state\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Petri Net\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"Petrinet\",\"target\":\"real time simulation of state\",\"purpose of DT\":\"online syncronization of physical and digital system\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "Suit tailoring",
         "twinning target": "Processes, e.g., business processes (Rambow-Hoeschele et al., 2018), medical processes (Karakra et al., 2018), or recycling processes (Popa et al., 2018).",
-        "purpose of DT": "online syncronization of physical and digital system",
         "use case domain": "C \u00c2\u2014 Manufacturing",
+        "purpose of DT": "online syncronization of physical and digital system",
         "purpose /expected benefit of using models": "single source of truth for simulation",
         "Publication Title": "2020 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA)",
         "Authors": "Y. Dai; Y. Shi; Z. Zhang; R. Tao; F. Fang",
@@ -183,17 +183,17 @@
     "Enabling Semantic Interoperability of Asset Administration Shells through an Ontology-Based Modeling Method": {
         "DT_Definition": "= AAS Model",
         "data": {
-            "0": "{\"modeling language\":\"OWL Ontology + OML Vocabulary\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OML Vocabulary\",\"target\":\"UML Profile\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"UML Profile\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"AAS\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"OWL Ontology + OML Vocabulary\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OML Vocabulary\",\"target\":\"UML Profile\",\"purpose of DT\":\"\\\" the Asset Administration Shell (AAS), provides a syntactic interoperability interface for all assets involved in smart factories\\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML Profile\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"AAS\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": "twinning target is systems-of-systems, including modeling of individual systems",
         "Use Case": "robotic cell (niryo ned for gripping + turtlebot for transportation)",
         "twinning target": "Systems of Systems, such as complete factories (Biesinger et al., 2018), oil wells (Kosenkov et al., 2018), or railway systems (Vatn, 2018).",
-        "purpose of DT": "\" the Asset Administration Shell (AAS), provides a syntactic interoperability interface for all assets involved in smart factories\"",
         "use case domain": "C \u00c2\u2014 Manufacturing",
+        "purpose of DT": "\" the Asset Administration Shell (AAS), provides a syntactic interoperability interface for all assets involved in smart factories\"",
         "purpose /expected benefit of using models": "formal definition that allows reasoning on/interpretation of models, interoperability",
         "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
         "Authors": "Huang Y,Dhouib S,Medinacelli LP,Malenfant J",
@@ -204,22 +204,22 @@
     "Generating customized low-code development platforms for digital twins": {
         "DT_Definition": "\"A digital twin is a set of models of the system, a set of digital shadows and their aggregation and abstraction collected from a system, and a set of services that allow using the data and models purposefully with respect to the original system\"",
         "data": {
-            "0": "{\"modeling language\":\"DSL Component\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"DSL component + GUI models for editor and viewer + DT components\",\"target\":\"Digital Twin Implementation: Low-code editor for DT configuration\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Operated\"}",
-            "1": "{\"modeling language\":\"MontiArc\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"MontiArc model\",\"target\":\"Digital Twin Implementation: Java code, Software Architecture Components + Glue Code\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"GUI Language\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"GUI Model\",\"target\":\"Digital Twin Implementation: DT Cockpit\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}",
-            "3": "{\"modeling language\":\"UML Classdiagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"CD\",\"target\":\"Digital Twin Implementation: Java code (Backend)\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}",
-            "4": "{\"modeling language\":\"Case-based reasoning (CBR9)\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"CBR\",\"target\":\"Reasoner Component of DT Architecture\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":null}",
-            "5": "{\"modeling language\":\"Event-Condition-Action (ECA) language\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"ECA\",\"target\":\"Evaluator Component of DT Archtiecture\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":null}",
-            "6": "{\"modeling language\":\"Communication specification language\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"Communication specification\",\"target\":\"Java Code for communication between CPS and DT\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"DSL Component\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"DSL component + GUI models for editor and viewer + DT components\",\"target\":\"Digital Twin Implementation: Low-code editor for DT configuration\",\"purpose of DT\":\"realize self-adaptation loop for CPS; \\\"Leveraging DTs that monitor and control the system of interest can reduce configuration time, save energy, and prevent waste.\\\"\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"MontiArc\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"MontiArc model\",\"target\":\"Digital Twin Implementation: Java code, Software Architecture Components + Glue Code\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"GUI Language\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"GUI Model\",\"target\":\"Digital Twin Implementation: DT Cockpit\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "3": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML Classdiagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"CD\",\"target\":\"Digital Twin Implementation: Java code (Backend)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "4": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Case-based reasoning (CBR9)\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"CBR\",\"target\":\"Reasoner Component of DT Architecture\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "5": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Event-Condition-Action (ECA) language\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"ECA\",\"target\":\"Evaluator Component of DT Archtiecture\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "6": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Communication specification language\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"Communication specification\",\"target\":\"Java Code for communication between CPS and DT\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Operated\"}"
         },
         "open challenges": "account for future variability; DT as part of an ecosystem",
         "Technological Readiness Level": "4-5: das Ding l\u00c3\u00a4uft \"im Labor\"",
         "notes": null,
         "Use Case": "injection molding machine",
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": "C \u00c2\u2014 Manufacturing",
         "purpose of MDE application": "generation of low-code development platform;  generation of dt architecture; visualization; data modelling; adaptive behavior of DT; recognizing error states in CPS behavior; generating a communication protocol;",
         "purpose of DT": "realize self-adaptation loop for CPS; \"Leveraging DTs that monitor and control the system of interest can reduce configuration time, save energy, and prevent waste.\"",
-        "use case domain": "C \u00c2\u2014 Manufacturing",
         "purpose /expected benefit of using models": "Custom Low-code development for domain experts; configurability: easily configure 1 implementation for different CPSs; easily integrate different implementations (monti arc as definition of common interfaces); \"The models we use for configuration are more ab\u0002stract than programming languages and allow domain experts to create powerful full digital twin applications nonetheless.\"",
         "Publication Title": "Journal of Computer Languages",
         "Authors": "Dalibor M.; Heithoff M.; Michael J.; Netz L.; Pfeiffer J.; Rumpe B.; Varga S.; Wortmann A.",
@@ -230,17 +230,17 @@
     "Generating Digital Twin Cockpits for Parameter Management in the Engineering of Wind Turbines": {
         "DT_Definition": null,
         "data": {
-            "0": "{\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"UML Class Diagram\",\"target\":\"UI Model\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"UI Model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"UML Class Diagram\",\"target\":\"Part of DT UI Cockpit (Python + Typescript)\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"UI Model\",\"target\":\"Part of DT UI Cockpit (Typescript)\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"UML Class Diagram\",\"target\":\"UI Model\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UI Model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"UML Class Diagram\",\"target\":\"Part of DT UI Cockpit (Python + Typescript)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"UI Model\",\"target\":\"Part of DT UI Cockpit (Typescript)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "cooling system of a wind turbine",
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
-        "purpose of MDE application": "Derive UI from Cd; Data structure and DT cockpit backend and frontend api generation; UI generation",
         "use case domain": "D \u00c2\u2014 Electricity, Gas, Steam and Air Conditioning Supply",
+        "purpose of MDE application": "Derive UI from Cd; Data structure and DT cockpit backend and frontend api generation; UI generation",
         "purpose /expected benefit of using models": "reduce complexity in system design by bridging the gap between high-level requirements and high-detail implementations; \"Suitable models in the early phase are engineering models and models to describe behavior-to-be that can be simulated and analyzed\"",
         "Publication Title": "Lecture Notes in Informatics (LNI), Proceedings - Series of the Gesellschaft fur Informatik (GI)",
         "Authors": "Michael J.; Nachmann I.; Netz L.; Rumpe B.; St\u00fcber S.",
@@ -251,13 +251,14 @@
     "Generative and Model-driven SDK development for the Industrie 4.0 Digital Twin": {
         "DT_Definition": " \"A digital twin allows us to reason about a physical and/or ideal assets in the virtual (i.e. cyber) space thus providing a necessary foundation for complex and large cyber-physical systems.\"",
         "data": {
-            "0": "{\"modeling language\":\"AAS model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"AAS model\",\"target\":\"GPL (shown for C#\\/Java) Stubs + Contracts\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"AAS model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"AAS model\",\"target\":\"GPL (shown for C#\\/Java) Stubs + Contracts\",\"purpose of DT\":\"reasoning in the virtual space\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": "further GPLs, build parser for OWL ontologies",
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": "no demonstration or evaluation provided, only description of the prototypical implementation of the proposed concept",
         "Use Case": null,
         "twinning target": null,
+        "use case domain": null,
         "purpose of DT": "reasoning in the virtual space",
         "Publication Title": "2021 26th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA )",
         "Authors": "N. Braunisch; M. Ristin-Kaufmann; R. Lehmann; H. W. van de Venn",
@@ -268,16 +269,16 @@
     "Integration of SysML Models in a 3D Environment for Virtual Testing and Validation": {
         "DT_Definition": "\"A Digital Twin is\na digital 3D - CAD replica of a living or non-living physical entity, allowing to replicate the same behavior as that of the actual\ncomponent\"",
         "data": {
-            "0": "{\"modeling language\":\"SysML\",\"note on modeling language\":\"Block Definition Diagram, Internal Block Diagram, Requirements Diagram and a State Machine Diagram\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"SysML Modelle\",\"target\":\"Unity Model\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}",
-            "1": "{\"modeling language\":\"Unity 3D Model\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"SysML\",\"note on modeling language\":\"Block Definition Diagram, Internal Block Diagram, Requirements Diagram and a State Machine Diagram\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"SysML Modelle\",\"target\":\"Unity Model\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Unity 3D Model\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": "However, more research and development are needed to improve the 3D representation of the SysML\nmodel. In future work, the steps presented in the aforementioned\ntimeline will be implemented.",
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": null,
         "twinning target": "Systems of Systems, such as complete factories (Biesinger et al., 2018), oil wells (Kosenkov et al., 2018), or railway systems (Vatn, 2018).",
-        "purpose of MDE application": "3D Visualization of SYSML model; \"comprehend and understand the complexity of the models.\"",
         "use case domain": "D \u00c2\u2014 Electricity, Gas, Steam and Air Conditioning Supply",
+        "purpose of MDE application": "3D Visualization of SYSML model; \"comprehend and understand the complexity of the models.\"",
         "Publication Title": "Proceedings of the Federated Africa and Middle East Conference on Software Engineering",
         "Authors": "Barosan I,van der Heijden J",
         "Publication Year": 2022.0,
@@ -287,16 +288,16 @@
     "Digital Twin of an Electrical Motor Based on Empirical Performance Model": {
         "DT_Definition": "\"The concept of Digital Twin (DT) is creating and maintaining a digital representation of the real physical entity and supporting its performance through simulation and optimization tools, which are fed with real and updated data\"; \"A perfect DT will be identical to the real physical entity in terms of appearance and behavior with the extra advantage of making future predictions.\"",
         "data": {
-            "0": "{\"modeling language\":\"Unity 3D simulation model\",\"note on modeling language\":\"describing detailed physics of twinned asset\",\"model type\":\"behavior, physics\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"Simulation Controller\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"ROS Bridge\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Unity 3D simulation model\",\"note on modeling language\":\"describing detailed physics of twinned asset\",\"model type\":\"behavior, physics\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"Simulation Controller\",\"purpose of DT\":\"3D simulation model that is updated with live data from the twinned asset\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Unity Model\",\"target\":\"ROS Bridge\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": null,
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
-        "purpose of DT": "3D simulation model that is updated with live data from the twinned asset",
         "use case domain": "H \u00c2\u2014 Transportation and Storage",
+        "purpose of DT": "3D simulation model that is updated with live data from the twinned asset",
         "Publication Title": "2020 XI International Conference on Electrical Power Drive Systems (ICEPDS)",
         "Authors": "A. Rass\u00f5lkin; V. Rjabt\u009aikov; T. Vaimann; A. Kallaste; V. Kuts; A. Partyshev",
         "Publication Year": 2020.0,
@@ -306,17 +307,17 @@
     "Knowledge driven rapid development of white box digital twins for industrial plant systems": {
         "DT_Definition": null,
         "data": {
-            "0": "{\"modeling language\":\"SADL ontology\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"SADL ontology\",\"target\":\"M&CML control systems model\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"Control Systems Model (M&CML)\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"M&CML\",\"target\":\"fininte state machine\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"finite state machines (FSM)\",\"note on modeling language\":\"represented in SCXML\",\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"SADL ontology\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"SADL ontology\",\"target\":\"M&CML control systems model\",\"purpose of DT\":\"enable a virtual sand-box environment simulating the behaviour of a plant to perform analyses and predictions.\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Control Systems Model (M&CML)\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"M&CML\",\"target\":\"fininte state machine\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"finite state machines (FSM)\",\"note on modeling language\":\"represented in SCXML\",\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "power plant",
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
-        "purpose of DT": "enable a virtual sand-box environment simulating the behaviour of a plant to perform analyses and predictions.",
         "use case domain": "D \u00c2\u2014 Electricity, Gas, Steam and Air Conditioning Supply",
+        "purpose of DT": "enable a virtual sand-box environment simulating the behaviour of a plant to perform analyses and predictions.",
         "Publication Title": "IECON 2021 \u0096 47th Annual Conference of the IEEE Industrial Electronics Society",
         "Authors": "A. B.; S. R.C.; B. B.; R. Dhakshinamoorthy; S. A.; N. S.",
         "Publication Year": 2021.0,
@@ -326,16 +327,16 @@
     "Meta-model-based shop-floor digital twin architecture, modeling and application": {
         "DT_Definition": "\"DT is considered a new paradigm of modeling and simulationtechnology, extending the use of models to all stages of the product\"; the Shop-floor Digital Twin (SDT), as the digital counterpart of physical entities including the humans, machines, material, methods and environments in the existing shop-floor, mirrors the physical shop-floor behavior and performance in the virtual space. The digital counterpart is comprised of a series of se\u0002mantic digital models and simulation models of the physical shop-floor and has the automatic data synchronization between the physical and virtual space. By establishing the automatic data flow between the physical shop-floor and digital counterpart, the semantic digital models and simulation \nmodels could be converted to digital shadow and further evolved into SDT.",
         "data": {
-            "0": "{\"modeling language\":\"SysML BDD\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"raw data (conforming to data model)\",\"target\":\"SysML BDD\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
-            "1": "{\"modeling language\":\"Data Model\",\"note on modeling language\":\"contribution of the paper\",\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"SysML BDD\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"raw data (conforming to data model)\",\"target\":\"SysML BDD\",\"purpose of DT\":\"Provide Self-Adapation\\/Optimization based on (i) data from PT, (ii) operations offered by the PT; \\\"DT has a strong vitality in the whole product lifecycle and could provide strong support for the digital and intelligent transformation of manufacturing industry in the aspects of virtual model construction and cyber-physical information fusion.\\\"\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Data Model\",\"note on modeling language\":\"contribution of the paper\",\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": null,
         "Technological Readiness Level": "4-5: das Ding l\u00c3\u00a4uft \"im Labor\"",
         "notes": null,
         "Use Case": "shopfloor",
         "twinning target": "Systems of Systems, such as complete factories (Biesinger et al., 2018), oil wells (Kosenkov et al., 2018), or railway systems (Vatn, 2018).",
-        "purpose of DT": "Provide Self-Adapation/Optimization based on (i) data from PT, (ii) operations offered by the PT; \"DT has a strong vitality in the whole product lifecycle and could provide strong support for the digital and intelligent transformation of manufacturing industry in the aspects of virtual model construction and cyber-physical information fusion.\"",
         "use case domain": "C \u00c2\u2014 Manufacturing",
+        "purpose of DT": "Provide Self-Adapation/Optimization based on (i) data from PT, (ii) operations offered by the PT; \"DT has a strong vitality in the whole product lifecycle and could provide strong support for the digital and intelligent transformation of manufacturing industry in the aspects of virtual model construction and cyber-physical information fusion.\"",
         "Publication Title": "Robotics and Computer-Integrated Manufacturing",
         "Authors": "Yang X.; Liu X.; Zhang H.; Fu L.; Yu Y.",
         "Publication Year": 2023.0,
@@ -345,21 +346,21 @@
     "Model-Driven Development of a Digital Twin for Injection Molding": {
         "DT_Definition": "\"A digital twin of a system consists of a set of models of the system, a set of digital shadows, and provides a set of services to use the data and models purposefully with respect to the original system.\"",
         "data": {
-            "0": "{\"modeling language\":\"MontiArc\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc\",\"target\":\"Java\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Classdiagrams\",\"target\":\"Java\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "2": "{\"modeling language\":\"Event language\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Event model\",\"target\":null,\"system lifecycle phase\":\"Operate, Maintain\",\"twin lifecycle phase\":\"As-Designed, As-Operated\"}",
-            "3": "{\"modeling language\":\"design of experiment language\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":\"Maintain\",\"twin lifecycle phase\":\"As-Operated\"}",
-            "4": "{\"modeling language\":\"OPC UA DSL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OPCUA model\",\"target\":\"Java\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "5": "{\"modeling language\":\"Tagging Language\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":\"tagging\",\"source\":\"UML Class Diagram\",\"target\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"MontiArc\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc\",\"target\":\"Java\",\"purpose of DT\":\"realizes self-adaptation loop based on MAPE (cf. Figure 2)\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Classdiagrams\",\"target\":\"Java\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Event language\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Event model\",\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":\"Operate, Maintain\",\"twin lifecycle phase\":\"As-Designed, As-Operated\"}",
+            "3": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"design of experiment language\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}",
+            "4": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"OPC UA DSL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OPCUA model\",\"target\":\"Java\",\"purpose of DT\":null,\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "5": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Tagging Language\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":\"tagging\",\"source\":\"UML Class Diagram\",\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": null,
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": "C \u00c2\u2014 Manufacturing",
         "purpose of MDE application": "DT software architecture; domain description; specifying the behavior of the DT based on Event, condition action; Setting up an experiment for optimization; communication;",
         "purpose of DT": "realizes self-adaptation loop based on MAPE (cf. Figure 2)",
-        "use case domain": "C \u00c2\u2014 Manufacturing",
         "purpose /expected benefit of using models": "domain experts can easily optimize their injection modling machine with domain expressions; optimization of injection molding process through repeated execution of DOE; describing the DT\u2019s situations (events) and reactions.",
         "Publication Title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
         "Authors": "Bibow P.; Dalibor M.; Hopmann C.; Mainz B.; Rumpe B.; Schmalzing D.; Schmitz M.; Wortmann A.",
@@ -370,11 +371,11 @@
     "Model-Driven Digital Twin Construction: Synthesizing the Integration of Cyber-Physical Systems with Their Information Systems": {
         "DT_Definition": "\"A digital twin (DT) of a system consists of a set of models  of the system, a set of contextual data traces and/or their aggregation and abstraction collected from a system, and a set of services that allow using the data and models purposefully  with respects to the original system.\"",
         "data": {
-            "0": "{\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"tagging model, Class Diagram, MontiArc Model\",\"target\":\"extended MontiArc Model\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}",
-            "1": "{\"modeling language\":\"MontiArc ADL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc model\",\"target\":\"GPL code for CPS\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "2": "{\"modeling language\":\"tagging language\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"class diagram\",\"target\":\"digital twin information system\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "3": "{\"modeling language\":\"GUI DSL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"GUI Model\",\"target\":\"Webpage\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "4": "{\"modeling language\":\"OCL\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc ADL + Tagging applied on ports of adl model\",\"target\":\"new MontiArc ADL with components receiving tagged ports\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"tagging model, Class Diagram, MontiArc Model\",\"target\":\"extended MontiArc Model\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"MontiArc ADL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc model\",\"target\":\"GPL code for CPS\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"tagging language\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"class diagram\",\"target\":\"digital twin information system\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "3": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"GUI DSL\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"GUI Model\",\"target\":\"Webpage\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "4": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"OCL\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc ADL + Tagging applied on ports of adl model\",\"target\":\"new MontiArc ADL with components receiving tagged ports\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": "Although model-driven software engineering (MDSE) provides the necessary methods to generate these connections, these methods have not yet been applied to integrated development and connection of DTs to CPSs.",
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
@@ -392,16 +393,16 @@
     "Model-driven engineering city spaces via bidirectional model transformations": {
         "DT_Definition": "\" In the realm of smart cities, a digital twin is a virtual model of a city\u00c2\u2014a model representation of the physical world\"; a virtual model of a city",
         "data": {
-            "0": "{\"modeling language\":\"City GML 3D city model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"CityGML\",\"target\":\"cyber-physical spaces\",\"system lifecycle phase\":\"Plan\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"cyber-physical spaces\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"City GML 3D city model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"CityGML\",\"target\":\"cyber-physical spaces\",\"purpose of DT\":\"cyber-physical spaces model upon which formal reasoning can be performed\",\"system lifecycle phase\":\"Plan\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"cyber-physical spaces\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": "investigate pluggable custom application policies and support arbitrary CityGML features. generalization of synchronization to a many-to-one model; being able to support multi-model sources might enable support of a wider range of applications dealing with wide area services.",
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "smart city",
         "twinning target": "Systems of Systems, such as complete factories (Biesinger et al., 2018), oil wells (Kosenkov et al., 2018), or railway systems (Vatn, 2018).",
-        "purpose of DT": "cyber-physical spaces model upon which formal reasoning can be performed",
         "use case domain": "F \u00c2\u2014 Construction",
+        "purpose of DT": "cyber-physical spaces model upon which formal reasoning can be performed",
         "Publication Title": "Software and Systems Modeling",
         "Authors": "Visconti E.; Tsigkanos C.; Hu Z.; Ghezzi C.",
         "Publication Year": 2021.0,
@@ -411,14 +412,15 @@
     "On the Engineering of IoT-Intensive Digital Twin Software Systems": {
         "DT_Definition": null,
         "data": {
-            "0": "{\"modeling language\":\"undefined\",\"note on modeling language\":\"only \\\"structural and behavioral models\\\" mentioned\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"structural model of the PT\",\"target\":\"Model Synchronizer + Model Manager component\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"behavioral model of the PT\",\"target\":\"Model Synchronizer + Model Manager component\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"undefined\",\"note on modeling language\":\"only \\\"structural and behavioral models\\\" mentioned\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"structural model of the PT\",\"target\":\"Model Synchronizer + Model Manager component\",\"purpose of DT\":\"\\\"Coping with the dynamic and uncertain characteristics of the physical world (i.e., faced by the real-twin)\\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"behavioral model of the PT\",\"target\":\"Model Synchronizer + Model Manager component\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": "very high-level concept, no application to a particular example/domain, no example models given",
         "Use Case": null,
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": null,
         "purpose of DT": "\"Coping with the dynamic and uncertain characteristics of the physical world (i.e., faced by the real-twin)\"",
         "Publication Title": "Proceedings of the IEEE/ACM 42nd International Conference on Software Engineering Workshops",
         "Authors": "Rivera LF,M\u00fcller HA,Villegas NM,Tamura G,Jim\u00e9nez M",
@@ -429,7 +431,7 @@
     "Proof of Concept for a Roundtrip Engineering IS for the New Enterprise in the Industry 4.0 Era": {
         "DT_Definition": "\"The concept of Digital Twin is reserved for denoting a digital representation which is fully integrated with its Physical Twin (i.e. data flow between the physical object and the digital object in both directions) [4]. Likewise, we understand the Digital Twin as a software component that is i) model and data driven (it gets inputs from both cyber and physical objects; i.e., it can be a model that gets input from another model or from a physical object) and ii) can control physical devices (can operate on them). \"",
         "data": {
-            "0": "{\"modeling language\":\"BPMN\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"BPMN\",\"target\":\"Python Drone control code\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"BPMN\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"code generation\",\"model usage technique\":null,\"source\":\"BPMN\",\"target\":\"Python Drone control code\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
@@ -446,18 +448,18 @@
     "Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework": {
         "DT_Definition": null,
         "data": {
-            "0": "{\"modeling language\":\"OWL Ontology\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OML\",\"target\":\"UML Stereotypes\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"OML Vocabulary\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"AAS\",\"target\":\"OWL Individuals (MaRCO)\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"AAS\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OWL Ontology + OWL Individuals\",\"target\":\"capability matchmaker\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}",
-            "3": "{\"modeling language\":\"OWL Individuals\",\"note on modeling language\":\"instantiated OWL ontology\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"AAS Model\",\"target\":\"user interface created by the authors (cf. Section 4.C)\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"OWL Ontology\",\"note on modeling language\":null,\"model type\":\"rule\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OML\",\"target\":\"UML Stereotypes\",\"purpose of DT\":\"AAS model, enriched with semantic annotations based on OWL ontology\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"OML Vocabulary\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"AAS\",\"target\":\"OWL Individuals (MaRCO)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"AAS\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"OWL Ontology + OWL Individuals\",\"target\":\"capability matchmaker\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "3": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"OWL Individuals\",\"note on modeling language\":\"instantiated OWL ontology\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"AAS Model\",\"target\":\"user interface created by the authors (cf. Section 4.C)\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "robotic cell (niryo ned for gripping + turtlebot for transportation)",
         "twinning target": null,
-        "purpose of DT": "AAS model, enriched with semantic annotations based on OWL ontology",
         "use case domain": "C \u00c2\u2014 Manufacturing",
+        "purpose of DT": "AAS model, enriched with semantic annotations based on OWL ontology",
         "Publication Title": "2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems (ICPS)",
         "Authors": "Y. Huang; S. Dhouib; L. P. Medinacelli; J. Malenfant",
         "Publication Year": 2023.0,
@@ -467,18 +469,18 @@
     "Towards a Digital Twin for Cyber-Physical Production Systems: A Multi-Paradigm Modeling Approach in the Postal Industry": {
         "DT_Definition": "\"However, the characteristics commonly associated to the DT are that it must be able to 1) behave like the real system during its entire life cycle, 2) allow to predict possible failures and 3) take autonomous decisions accordingly. Moreover, it appears to be fundamental to have a seamless connection and synchronization between the DT and the system.\"",
         "data": {
-            "0": "{\"modeling language\":\"BPMN\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"BPMN\",\"target\":\"Activity Diagram\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"UML Activity Diagram\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"Activity Diagram\",\"target\":\"Class Diagram\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"BPMN\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"BPMN\",\"target\":\"Activity Diagram\",\"purpose of DT\":\"\\\"emulate the sorting CPPS via Multi-Agent System\\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML Activity Diagram\",\"note on modeling language\":null,\"model type\":\"behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"Activity Diagram\",\"target\":\"Class Diagram\",\"purpose of DT\":null,\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML Class Diagram\",\"note on modeling language\":null,\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of DT\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "sorting robot of a postal center",
         "twinning target": "Processes, e.g., business processes (Rambow-Hoeschele et al., 2018), medical processes (Karakra et al., 2018), or recycling processes (Popa et al., 2018).",
+        "use case domain": "N \u00c2\u2014 Administrative and Support Service Activities",
         "purpose of MDE application": "Multi-paradigm modeling: convert BPMN Model into an executable AD; Multi-paradigm modeling: extract structural information from AD",
         "purpose of DT": "\"emulate the sorting CPPS via Multi-Agent System\"",
-        "use case domain": "N \u00c2\u2014 Administrative and Support Service Activities",
         "Publication Title": "Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
         "Authors": "Niati A,Selma C,Tamzalit D,Bruneliere H,Mebarki N,Cardin O",
         "Publication Year": 2020.0,
@@ -488,9 +490,9 @@
     "Towards a Model-Driven Architecture for Interactive Digital Twin Cockpits": {
         "DT_Definition": "\"A digital twin of a system consists of a set of models of the system, a set of digital shadows and their aggregation and abstraction collected from a system, and a set of services that allow using the data and models purposefully with respect to the original system. \"",
         "data": {
-            "0": "{\"modeling language\":\"MontiArc\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"CD\",\"target\":\"Java Code\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"modeling language\":\"MontiGem GUI Model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"GUI Model\",\"target\":\"DT cockpits\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}",
-            "2": "{\"modeling language\":\"Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc model\",\"target\":\"system architecture\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"MontiArc\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"CD\",\"target\":\"Java Code\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"MontiGem GUI Model\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"GUI Model\",\"target\":\"DT cockpits\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "2": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Class Diagram\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"MontiArc model\",\"target\":\"system architecture\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
@@ -508,15 +510,15 @@
     "Towards Reactive Planning with Digital Twins and Model-Driven Optimization": {
         "DT_Definition": "\"DTs enable a bi-directional data flow between a physical system and its virtual representation, requiring different software components to enable this communication\"",
         "data": {
-            "0": "{\"modeling language\":\"EMF Meta-Models\",\"note on modeling language\":\" + according Models\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Henshin model\",\"target\":\"Digital Twin\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed, As-Operated\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"EMF Meta-Models\",\"note on modeling language\":\" + according Models\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Henshin model\",\"target\":\"Digital Twin\",\"purpose of DT\":\"provide an interface to both simulation and PT\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed, As-Operated\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
-        "notes": null,
+        "notes": "application to generic optimization problem - no specific domain",
         "Use Case": null,
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": null,
         "purpose of DT": "provide an interface to both simulation and PT",
-        "use case domain": "application to generic optimization problem - no specific domain",
         "Publication Title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
         "Authors": "Eisenberg M.; Lehner D.; Sindelar R.; Wimmer M.",
         "Publication Year": 2022.0,
@@ -526,15 +528,15 @@
     "Twin Process Model Driven Machining Quality Optimization for Complex Parts": {
         "DT_Definition": "\"Digital twin is an efficient method to realize simulation, monitoring and control of multi scale and physical quantity.\"",
         "data": {
-            "0": "{\"modeling language\":\"Twin Process Model\",\"note on modeling language\":\"Twin Process Model = model containing structural and behavioral (process) information, stored as XML, but no language\\/metamodel described\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Twin Process Model\",\"target\":\"Numeric Control (NC)Code\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"Twin Process Model\",\"note on modeling language\":\"Twin Process Model = model containing structural and behavioral (process) information, stored as XML, but no language\\/metamodel described\",\"model type\":\"structure\",\"model processing technique\":null,\"model usage technique\":null,\"source\":\"Twin Process Model\",\"target\":\"Numeric Control (NC)Code\",\"purpose of DT\":\"efficiently realizes \\\"simulation, monitoring and control of multi scale and physical quantity\\\"\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": null,
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
-        "purpose of DT": "efficiently realizes \"simulation, monitoring and control of multi scale and physical quantity\"",
         "use case domain": "C \u00c2\u2014 Manufacturing",
+        "purpose of DT": "efficiently realizes \"simulation, monitoring and control of multi scale and physical quantity\"",
         "Publication Title": "2021 International Conference on Digital Society and Intelligent Systems (DSInS)",
         "Authors": "J. Li; G. Zhou; C. Zhang",
         "Publication Year": 2021.0,
@@ -544,17 +546,17 @@
     "Understanding and Improving Model-Driven IoT Systems through Accompanying Digital Twins": {
         "DT_Definition": "\"A digital twin (DT) of a system consists of a set of models of the system, a set of contextual data traces and/or their ag\u0002gregation and abstraction collected from a system, and a set of services that allow using the data and models purposefully with respects to the original system.\"; \"Digital twins (DTs) are digital representations of cyber-physical systems. They monitor systems to offer services to analyze, control, and optimize the system. Alas, there is no commonly agreed on definition of DTs\"",
         "data": {
-            "0": "{\"modeling language\":\"MontiThings\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model-to-Model transformation\",\"model usage technique\":null,\"source\":\"MontiThings model or real system\",\"target\":\"MontiThings model or reproduced system\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
-            "1": "{\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Code generation\",\"model usage technique\":null,\"source\":\"MontiThings\",\"target\":\"IoT controller code in C++\",\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":null}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"MontiThings\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Model-to-Model transformation\",\"model usage technique\":null,\"source\":\"MontiThings model or real system\",\"target\":\"MontiThings model or reproduced system\",\"purpose of DT\":\" collect  required data; \\\"The DT collects data from the generated IoT code, reproduces the data traces, adapts the input models accordingly, and re-generates the new software based on the adapted models\\\"\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Operated\"}",
+            "1": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":null,\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"Code generation\",\"model usage technique\":null,\"source\":\"MontiThings\",\"target\":\"IoT controller code in C++\",\"purpose of DT\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Operated\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "smart lawn watering system; heating, ventilation, and air conditioning of a\nsmart home",
         "twinning target": "Individual Systems, such as automated cars (Atorf and Ro\u00dfmann, 2018), gas turbines (Dawes et al., 2019), or manufacturing machines (Debroy et al., 2017).",
+        "use case domain": "I \u00c2\u2014 Accommodation and Food Service Activities",
         "purpose of MDE application": "\"generates a reproduction model from the original models and the system traces. Developers can use the reproduction model to retrospectively analyze the system and refine the architecture models for the next iteration\"; \"One of the advantages of our model-driven approach is that there is no manual work involved when recording or replaying system traces.\"; Automatically generate controller code",
         "purpose of DT": " collect  required data; \"The DT collects data from the generated IoT code, reproduces the data traces, adapts the input models accordingly, and re-generates the new software based on the adapted models\"",
-        "use case domain": "I \u2014 Accommodation and Food Service Activities",
         "Publication Title": "Proceedings of the 20th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences",
         "Authors": "Kirchhof JC,Malcher L,Rumpe B",
         "Publication Year": 2021.0,
@@ -564,16 +566,16 @@
     "Using UML and OCL Models to Realize High-Level Digital Twins": {
         "DT_Definition": "\"A Digital Twin (DT) is a comprehensive digital representation of an actual system, service or product (the Physical Twin, PT), synchronized at a specified frequency and fidelity\"",
         "data": {
-            "0": "{\"modeling language\":\"UML CD + OCL constraints\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"UML class diagram\",\"target\":\"uml cd adapter that interprets CD and adapts a data lake accordingly (data lake stores data from the PT)\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"DTDef virtual representation\":null,\"DTCommunication\":null,\"specific\":null,\"modeling language\":\"UML CD + OCL constraints\",\"note on modeling language\":null,\"model type\":\"structure\",\"model processing technique\":\"model interpretation\",\"model usage technique\":null,\"source\":\"UML class diagram\",\"target\":\"uml cd adapter that interprets CD and adapts a data lake accordingly (data lake stores data from the PT)\",\"purpose of DT\":\"DT = UML class diagram; configures data lake that stores data from PT, which should be used by different services\",\"system lifecycle phase\":\"Operate\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "1-3: die Technologie gibt's, evtl. am Toy Example gezeigt",
         "notes": null,
         "Use Case": "lego mindstorms car",
         "twinning target": null,
+        "use case domain": "H \u00c2\u2014 Transportation and Storage",
         "purpose of MDE application": "adapt a data lake according to CD",
         "purpose of DT": "DT = UML class diagram; configures data lake that stores data from PT, which should be used by different services",
-        "use case domain": "H \u00c2\u2014 Transportation and Storage",
         "Publication Title": "2021 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)",
         "Authors": "P. Mu\u00f1oz; J. Troya; A. Vallecillo",
         "Publication Year": 2021.0,
@@ -587,6 +589,7 @@
         "Technological Readiness Level": null,
         "notes": null,
         "Use Case": null,
-        "twinning target": null
+        "twinning target": null,
+        "use case domain": null
     }
 }
