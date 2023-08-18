@@ -1,0 +1,616 @@
+;Title
+0;3d city model of new york city - tum
+4;a centralized support infrastructure (csi) to manage cps digital twin, towards the synchronization between cpss deployed on the shopfloor and their digital representation
+5;a classification and comparison framework for software architecture description languages
+6;a classification and comparison framework for software architecture description languages
+7;a community-sourced view on engineering digital twins: a report from the edt. community
+8;a comparison among tools for the diagnosability of discrete event systems
+10;a component architecture for the internet of things
+12;a comprehensive performance evaluation of procedural geometry workloads on resource-constrained devices
+14;a computational product model for conceptual design using sysml
+19;a cost-benefit analysis simulation for the digitalisation of cold supply chains
+24;a data-and knowledge-driven framework for digital twin manufacturing cell
+25;a decision-making framework for dynamic schedul- ing of cyber-physical production systems based on digital twins
+26;a digital shadow reference model for worldwide production labs
+30;a digital twin for operational evaluation of vertical transportation sys- tems
+39;a discussion of qualifications and skills in the fac- tory of the future: a german and american perspective
+41;a domain model-driven approach for producing user interfaces to multi-platform information systems
+42;a domain-specific approach to architecturing error handling in pervasive computing
+43;a dynamic bayesian network approach for digital twin
+44;a fast and elitist multiobjective genetic algorithm
+45;a fast remotely operable digital twin of a generic electric powertrain for geographically distributed hardware-in-the-loop simulation testbed
+49;a formal verification framework for sysml activity diagrams
+50;a four-layer â¨ architecture pattern for constructing and managing digital twins
+57;a little synopsis on streams, stream processing functions, and state-based stream processing
+60;a mda-based environment for web applications development: from conceptual models to code
+62;a meta-modeling paradigm of the manufacturing resources using mathematical logic for process planning
+65;a model- driven engineering workbench for caex supporting language cus- tomization and evolution
+66;a model driven method to design educational cyber physical systems.
+67;a model order reduction approach to create patient-specific mechanical models of human liver in computational medicine applications
+68;a model-based testing for aadl model of embedded software
+74;a multi agent system architecture to implement collaborative learning for social industrial assets
+79;a pattern catalog for augmenting digital twin models with behavior
+80;a pattern catalog for augmenting digital twin models with behavior: ein musterkatalog zur erweiterung von digitalen zwillingsmodellen um verhaltenssichten
+81;a practical guide for using statistical tests to assess randomized algorithms in software engineering
+82;a practical guide to sysml: the systems modeling language
+84;a probe effect in concurrent programs
+85;a real-time-linux-based framework for model-driven engineering in control and automation
+90;"a review of the technology standards for enablin g digital twin [version 2; peer review: 2 approved]"
+91;a review of the technology standards for enabling digital twin
+92;a review of the technology standards for enabling digital twin. version 2.},
+95;a semi-active human digital twin model for detecting severity of carotid stenoses from head vibrationâa coupled computational mechanics and computer vision method
+97;a simulation-based digital twin for model-driven health monitoring and predictive maintenance of an automotive braking system
+100;a survey of formal methods in self-adaptive systems
+103;a survey of online failure prediction methods
+107;a survey on explainable artificial intelligence (xai): toward medical xai
+111;a timevarying geometry modeling method for parts with deformation during machining process
+112;a toolset for performance engineering and software design of client-server systems
+113;a tosca-based conceptual architecture to support the federation of heterogeneous msaas infrastructures
+115;aas capability- based operation and engineering of flexible production lines
+116;about the importance of autonomy and digital twins for the future of manufacturing
+117;about the importance of autonomy and digital twins for the future of manufacturing
+118;abstraction and refinement in hierarchically decom- posable and underspecified cps-architectures
+121;achieving complete and near-lossless conversion from ifc to citygml
+123;actionable artificial intelligence for the future of production
+128;addressing big data issues in scientific data infrastructure
+129;agile design science research
+131;agile modeling method engineering
+136;an approach for leveraging digital twins in agent-based production systems
+139;an architectural blueprint for autonomic computing
+143;an asm semantics for uml activity diagrams
+146;an empirical study of the state of the practice and acceptance of model-driven engineering in four industrial cases
+148;an industrial system engineering process integrating model driven architecture and model based design
+149;an interactive method for detection of process activity executions from iot data
+150;an investigation of self-learning and self-protection for adaptive digital twins
+151;an ontologybased metamodel for capability descriptions
+156;anomaly detection in cyber-physical production systems
+157;apache kafka: next generation distributed messaging system
+159;application of digital twins in smart grids
+160;application of digital-twin technology for the job-shop scheduling problem
+165;architecting digital twins using a domain-driven design-based approach
+166;architecting dynamic cyber-physical spaces
+167;architecting principles for systems-of-systems
+170;architectural programming with montiarcautomaton
+171;architecture and behavior modeling of cyber-physical systems with montiarcautomaton
+172;architecture-based resilience evaluation for self-adaptive systems
+173;artificial intelligence-definition and practice
+174;aspect-oriented model-driven engineering for embedded systems applied to automation systems
+176;assurance using models at runtime for self-adaptive software systems
+177;augmenting modelbased systems engineering with knowledge
+178;auto- matic verification and performance analysis of time-constrained sysml activity diagrams
+179;automated fault tree analysis from aadl models
+180;automated planning for self-adaptive systems
+181;automated planning: theory and practice.
+182;automatic analysis and sketch-based retrieval of architectural floor plans
+184;automatic derivation of fault tree models from sysml models for safety analysis
+185;automatic fault tree gen- eration from sysml system models
+187;automatic generation of static fault trees from aadl models
+189;automatic synthesis from uml/ marte models using channel semantics
+193;automationml-the glue for seamless automation engineering
+194;automationml-the glue for seamless automation engineering
+195;automatisierte montage groãskaliger wasser-elektrolyseure
+197;autonomous, context-aware, adaptive digital twins-state of the art and roadmap
+198;behavior trees in robotics and ai: an introduction
+199;behavior-based control of multi-robot assembly/palletizing systems
+200;behavior-centered digital-twin design for dynamic cyber-physical system development
+203;bewertung der anwendbarkeit von grafischen modellierungssprachen fã¼r digitale zwillinge
+204;bidirectional model transformations in qvt: semantic issues and open questions
+208;bim handbook: a guide to building information modeling for owners, managers, designers, engineers and contractors
+211;bpmn vs uml activity diagram for business process modeling
+215;broken rotor bar fault detection of the grid and inverter- fed induction motor by effective attenuation of the fundamental com- ponent
+218;building a digital twin powered intelligent predictive maintenance system for industrial ac machines
+219;building a minimum viable product? youâre probably doing it wrong
+224;business process model and notation (bpmn), version 2.0
+225;business process model and notation v2.0
+228;calvin - merging cloud and iot
+229;can a byte improve our bite? an analysis of digital twins in the food industry
+230;can we benefit from game engines to develop digital twins for planning the deployment of photovoltaics?
+233;case-based reasoning: foundational issues, methodological variations, and system approaches
+237;chamulteon: coordinated auto-scaling of micro- services (icdcsâ19)
+239;check for updates model-based system architecting and decision-making yaroslav menshenin, yaniv mordecai, edward f. crawley, and bruce g. cameron
+241;circuit breakers, discovery, and api gateways in microservices
+243;city geography markup language (citygml) encoding standard, version: 2.0.0
+244;citygml 3.0 requirements
+246;citygml application domain extension (ade): overview of developments
+248;citygml open data initiatives
+250;closed-loop systems engineering (close): integrating experi- mentable digital twins with the model-driven engineering process
+255;cognitive robotics
+256;collaboration is not evil: a systematic look at security research for industrial use
+259;collaborative repositories in model-driven engineering [software technology]
+260;collision between a sport utility vehicle operating with partial driving automation and a crash attenuator
+261;combinatorial robustness testing based on error-constraints
+263;common data dictionary (cdd)
+264;communication networks and systems in substationsâpart 7-4: basic communication structure for substation and feeder equipmentâcompatible logical node classes and data classes
+266;complex systems engineering: theory and practice
+268;composing model-based analysis tools
+271;computer automated multiparadigm modeling: an introduction
+272;computer science with snap! emu-online scheden
+274;conceptual modelling and telos
+278;connotation, archtecture, and trends of product digital twin[j]
+285;continuous transition from model-driven prototype to full-size real-world enterprise information sys- tems
+287;continuously analyzing finite
+288;core platform. u. technologies
+289;correctness of model synchronization based on triple graph grammars
+290;co-simulation: a survey
+293;cpsaml a language and code generation framework for digital twin based monitoring of mobile cyber-physical systems
+294;creating and deploying digital twins in the process industries
+295;cyber physical systems: design challenges
+298;cyber-physical systems
+299;cyberphysical systems: the next computing revolution
+304;data distribution service (dds), version 1.4
+305;data lake concept and systems: a survey
+306;data sharing in industry 4.0-automationml, b2mml and international data spaces-based solutions
+316;definition of virtual reality simulation models using specification and description language diagrams
+317;definitions and principles of digital twins
+318;demonstration of a limited scope probabilistic risk assessment for au- tonomous warehouse robots with openpra
+319;deploying digital twins in a lambda architecture for industry 4.0
+320;describing capabilities of industrie 4.0 components
+321;describing capabilities of industrie 4.0 components
+324;design and implementation of business process model in stereoscopic warehouse digital twin system
+330;design patterns: elements of reusable object-oriented software
+331;design science in information systems research
+336;desvendando a camada de aplicaã§ao na internet das coisas: teoria, prã¡tica e tendãªncias
+337;details of the administration shell. from idea to implemen- tation
+338;details of the asset administration shell - part 1
+339;details of the asset administration shell - part 1,
+340;details of the asset administration shell - part 1: the exchange of information between partners in the value chain of industrie 4.0
+341;details of the asset administration shell - part 2: interoperability at runtime â exchanging information via application programming interfaces (version 1.0rc01)
+343;deterministic replay of distributed java applications
+345;developing multi-agent systems with jade
+346;device shadow service for aws iot
+348;devs as a common denominator for multi- formalism hybrid systems modelling, journal = ieee international symposium on computer-aided control system design
+351;digital first: the ontological reversal and new challenges for is research
+353;digital system models: an investigation of the non-technical challenges and research needs
+360;digital twin as a service (dtaas) in industry 4.0: an architecture reference model
+361;digital twin as a service (dtaas): a platform for digital twin developers and users
+362;digital twin as enabler for an innovative digital shopfloor management system in the esb logistics learning factory at reutlingen
+366;digital twin concept for renewable energy sources
+369;digital twin design in production
+376;digital twin for propulsion drive of autonomous electric vehicle
+378;digital twin framework for manufacturing
+379;digital twin in industry: state- of-the-art
+380;digital twin in manufacturing: a categorical literature review and classi- fication
+382;digital twin model for cutting tools in machining process
+383;digital twin modeling
+386;digital twin of an electrical motor based on empir- ical performance model
+388;digital twin paradigm: a systematic literature review
+390;digital twin requirements in the context of industry 4.0
+393;digital twin system interoperability framework
+394;digital twin system interoperability framework
+395;digital twin techniques for power electronics-based energy conversion systems
+398;"digital twin workshop; a new paradigm for future workshop[j]"
+400;digital twin: manufacturing excellence through virtual factory replication
+401;digital twin: manufacturing excellence through virtual factory replication [eb/ol], (2014-05-06)
+402;digital twin: methodologies for modeling the work environment during the design and development processes
+407;digital twinâthe simulation aspect
+408;digital twin-based anomaly detec- tion in cyber-physical systems
+411;digital twin-based optimization for ultraprecision motion systems with back- lash and friction
+417;digital twin-driven product design framework
+425;digital twins and cyberâ physical systems toward smart manufacturing and industry 4.0: correlation and comparison
+433;digital twins for built environment. a review on key enablers
+434;digital twins for cyber-biophysical systems: challenges and lessons learned
+436;digital twins for sustainable software systems
+441;digital twins in industry 5.0
+445;digital twins: introduction to the special theme
+446;digital twins: properties, software frame- works, and application scenarios
+448;digital twin---the simulation aspect
+451;diseã±o y desarrollo de un gemelo digital de un brazo robã³tico arduino (tinkerkit braccio)
+452;distributed parallel needleman-wunsch algorithm on heterogeneous cluster system.
+453;dna computing-based multi-source data storage model in digital twins
+455;domain-specific conceptual modelling: concepts methods and adoxx tools
+456;draft modeling, simulation, information technology & processing roadmap
+460;dynamic provisioning of multi-tier internet applications
+461;dynamico: a reference model for governing control objectives and context relevance in self-adaptive software systems
+463;efficiency map comparison of induction and syn- chronous reluctance motors
+466;efficiently engineering iot architecture languagesâan experience report
+468;embracing conceptual modelling to enable the mediation role of enterprise information systems
+469;emergence of digital twins - is this the march of reason?
+470;emergency response after 9/11: the potential of real-time 3d gis for quick emergency response in micro-spatial environments
+473;enabling semantic interoperability of asset administration shells through an ontologybased modeling method
+475;end-user development: an emerging paradigm
+476;energie und entropie: die physik des naturwissenschaftlers. eine einfã¼hrung in die thermodynamik
+477;energy cyber-physical system digital twin playground
+478;engineering design - a systematic approach
+480;engineering of digital twins for cyber-physical systems
+481;engineering of trust analysis-driven digital twins for a medical device
+482;engineering scal- able, elastic, and cost-efficient cloud computing applications: the cloudscale method
+484;enhancing digital shadows with workflows
+485;enhancing sdlps with co-simulation
+486;enhancing the operational resilience of cyber-manufacturing systems (cms) against cyber-attacks
+488;enterprise integration patterns: designing, building, and deploying messaging solutions
+492;event-based simulation for transient systems with capture replay to predict self-adaptive systems (work in progress paper)
+496;exemplification of the industrie 4.0 applica- tion scenario value-based service following iira structure
+497;experimentable digital twins - streamlining simulation-based systems engineering for industry 4.0
+498;experimentable digital twinsâstreamlining simulation-based systems engineering for industry 4.0
+499;experimental analysis of powertrain test bed dynamometers for black box-based digital twin generation
+500;experimentation in software engineering
+501;explainable autonomy: a study of ex- planation styles for building clear mental models (inlgâ18)
+502;explainable software for cyber-physical systems (es4cps): report from the gi dagstuhl seminar 19023, january 06-11 2019, schloss dagstuhl
+504;fa 3 st service--an open source implementation of the reactive asset administration shell
+505;facebookâs cyberâcyber and cyberâphysical digital twins (easeâ21)
+507;fault diagnosis and identification of discrete event systems using petri nets
+508;fault diagnosis for timed automata
+509;fault diagnosis in discrete-event systems: framework and model reduction
+511;fault tree handbook
+514;five-dimension digital twin modeling and its key technologies
+515;five-phase harmonic-excited synchronous machine for hybrid vehicle application
+516;flexibilisation of injection moulding manufacture through digitisation
+517;flexible simulation (flexsim) software: flexsim simulation environmen
+518;flexible strategy learning: analogical replay of problem solving episodes
+520;fortschrittsbericht zur modellbasierten unterstã¼tzung der konstrukteurstã¤tigkeit durch fas4m
+521;forty years of product data management from pdm via plm to syslm
+522;framework for automatic sdl to c++ translation
+524;free public mqtt 5 broker server | emq
+525;frequency: the new dimension for digital twins
+530;future internet: the internet of things architecture, possible applications and key challenges
+531;ga optimization model for solving tower crane location problem in construction sites
+532;generalized roof model catalog (lod2)
+535;glossary of digital twins (digital twin consortium - online reference)
+536;gmbh the adoscript programming language
+540;graph transformation for software engineers
+541;graph-based retrieval of building information models for supporting the early design stages
+542;grumâa flexible model-driven runtime monitoring framework and its application to automated aerial and ground vehicles
+543;guest editorâs introduction: model-driven engineering
+544;guest editorial: special issue on computer automated multi-paradigm modeling
+545;guidelines for conducting and reporting case study research in software engineering
+548;hardware-in-the-loop testing of modern on- board power systems using digital twins
+551;heiner lasi, peter fettke, hans-georg kemper, thomas feld, and michael hoffmann. 2014. industry 4.0. business & information systems engineering 6,
+552;henshin: advanced concepts and tools for in-place emf model transformations
+556;historical civil registration record transcription using an extreme model driven approach
+561;how virtualization, decentralization and network building change the manufacturing landscape: an industry 4.0 perspective
+562;https://github.com/aas-core-works/aas-package3-csharp
+563;https://github.com/admin-shell-io/aas-specs
+564;https://github.com/admin-shell-io/aasx-package-explorer
+565;https://github.com/admin-shell-io/aasx-server
+566;https://spinrdf.org/shacl-and-owl.html
+567;https://www.w3.org/tr/owl2-overview/
+568;https://www.w3.org/tr/pr-rdf-syntax/overview.html
+569;https://www.w3.org/tr/shacl/
+573;hybrid causal logic methodology for risk assessment
+575;ibm rational rhapsody
+576;iec pas 63088:2017 smart manufacturing - reference architec- ture model industry 4.0
+577;ieee std 1003.1-2008, the open group base specifications.
+579;implementing qvt-r bidirectional model transformations using alloy
+580;improving big plans
+581;improving interoperability in the exchange of digital twin data within engineering processes
+582;improving robot plans during their execution
+583;in- heriting curiosity: leveraging mbse to build mars2020
+586;incorporating â measurement uncertainty into ocl/uml primitive datatypes
+588;industrie 4.0 service architecture basic concepts for interoperability
+589;industry 4.0 â an introduction in the phenomenon
+590;industry 4.0 for smes - smart manufacturing and logistics for smes in an x-to-order and mass customization environment
+593;industry 4.0. business & information systems engineering 6
+594;industry 4.0âa glimpse
+595;industry clockspeed and competency chain design: an introductory essay
+596;inferring analyzable models from trajectories of spatially-distributed internet-of-things
+598;information modeling for cyber- physical production system based on digital twin and automationml
+599;information reuse and stochastic search: managing uncertainty in self* systems
+601;information systems engineering with digital shadows: concept and case studies
+603;injection molding handbook
+607;inte- gration of ros and tecnomatix for the development of digital twins based decision-making systems for smart factories
+610;integrating ontologi- cal domain knowledge into a robotic dsl
+612;integrating product- line fault tree analysis into aadl models
+613;intelligent agents: theory and practice
+614;internet of things: vision, applications and research challenges
+615;interoperable digital twins in iiot systems by transformation of informa- tion models: a case study with asset administration shell
+617;intro to the sysml v2 language-textual notation
+620;introduction to model-based system engineering (mbse) and sysml
+621;introduction to probability
+628;isa95, enterprise-control system integration- isa
+629;iso/iec 20922:2016 information technology - message queuing telemetry transport (mqtt) v3.1.1
+630;iso/iec 25010: systems and software engineering-systems and software quality requirements and evaluation (square)-system and software quality models
+631;issues in mechanical engineering design management
+632;j. vincur
+634;jenseits menschlicher fã¤higkeiten. modellgestã¼tzte prozesseinrichtung durch vollvernetzte produktion im spritzgieãen
+635;journal of industrial information integration
+637;key-value vs graph-based data lakes for realizing digital twin systems
+638;key-value vs graph-based data lakes for realizing digital twin systems (poster)
+639;knowl- edge base engineering for industrial safety expertise: a model-driven development approach specialization
+640;knowledge equivalence in digital twins of intelligent systems
+643;knowledge-graph based multi-domain model integration method for digital-twin workshops
+644;l. netz
+645;la gestiã³n de la producciã³n a partir de modelos inteligentes para la industria 4.0: retos y oportunidades
+646;language and code generator composition for model-driven engineering of robotics component & connector systems
+648;le standard eclass
+649;lean automation enabled by industry 4.0 technologies
+650;learning with case-injected genetic algorithms
+657;low-code application development
+659;low-code platform for automating business processes in manufac- turing
+664;machinability assessment of inconel 718 by factorial design of experiment coupled with response surface methodology
+667;magic quadrant for enterprise low-code application platforms
+668;map representation for ubiquitous network robot services
+669;matching sequences under deletion/insertion constraints
+670;mda explained: the model driven architecture: practice and promise
+672;mechanical concept development using principle solution models
+673;message-oriented middleware
+674;meta object facility (mof) core specification
+675;meta-modeling for manufacturing processes
+676;methodology and tools for digital twin managementâthe fa3st approach
+678;micro focus
+680;microser-vices: yesterday, today, and tomorrow
+681;microsoft power apps and microsoft power automate
+682;mil-std-498, crosstalk
+683;minicursos da ersi-rj 2021-vii escola regional de sistemas de informaã§ã£o do rio de janeiro
+685;mobilitã© urbaine: apprentissage automatique pour la construction de simulateurs ã  l'aide de masses de donnã©es
+686;model based systems engineering on the europa mission concept study
+687;model centered architecture
+688;model checking
+689;model driven architecture
+691;model driven architecture: principles and practice
+692;model- driven development of a digital twin for injection molding
+693;model driven engineering: an emerging technical space
+694;model driven engineering: an emerging technical space
+697;model transformation approach according model-driven architecture from bpmn to uml up to ifml
+698;model-based design workflows for cyber-physical systems applied to an electric-mechanical coolant pump
+699;model-based engineering for avionics: will specification and formal verification e.g. based on broy's streams become feasible?
+705;model-based safety analysis of simulink models using scade design verifier
+708;model-based synthesis of fault trees from matlab-simulink models
+709;model-based system architecture
+710;model-based system engineering for fault tree generation and analysis
+714;modeldriven development of a digital twin for injection molding
+716;model-driven development of complex software: a research roadmap
+717;model-driven digital twin construction: synthesiz- ing the integration of cyber-physical systems with their information systems
+718;model-driven engineering
+719;model-driven engineering for design-runtime interaction in complex systems: scientific challenges and roadmap
+722;model-driven iot app stores: deploying customizable software products to heterogeneous devices
+725;model-driven software development
+726;model-driven software development: technology, engineering, management
+727;model-driven software developmentâtechnology, engineering, management
+728;model-driven software engineering in practice
+729;model-driven software engineering in practice
+730;model-driven software engineering in practice,
+731;modeling â objects with uncertain behaviors
+734;modeling and simulat- ing software architectures â the palladio approach
+738;modeling capabilities of digital twin platforms - old wine in new bottles?
+739;modeling capabilities of digital twin platforms-old wine in new bottles?
+740;modeling capabilities of digital twin platforms-old wine in new bottles?
+741;modeling capabilities of digital twin platforms-old wine in new bottles?},
+745;modeling languages in industry 4.0: an extended systematic mapping study. software and systems modeling
+748;modeling objects with uncertain behaviors.
+751;modeling of iot-based additive manufacturing machineâs digital twin for error detection
+753;modeling urban digital twins over the cloud-to-thing continuum
+754;modeling with uml: language
+756;modeling, simulation, information technology & processing roadmap
+757;modellbasierter entwicklungsprozess cybertronischer systeme
+758;modelling an injection moulding machine using the vienna development method
+760;modelling multiple views on buildings
+761;modelling pig rearing as digital shadow
+762;modelling production system families with automa- tionml
+764;models@ run.time
+765;models@run.time
+766;models@run.time: a guided tour of the state of the art and â¨ research challenges
+768;mogamr: a multiobjective genetic algorithm for real-time mission replanning
+769;monadic combinators for âputbackâ style bidirectional programming
+770;monitoring cps at runtime-a case study in the uav domain
+772;monitoring mobiler cyber-physischer systeme mittels model-driven engineering
+773;montiarc - architectural modeling of interactive distributed and cyber-physical systems
+774;montiarc - architectural modeling of interactive distributed and cyber-physical systems
+775;montiarcautomaton: architecture and behavior modeling of cyber-physical systems with montiarcautomaton
+776;monticore 5 language workbench edition 2017
+777;monticore language workbench and library handbook: edition 2021
+782;multi-fidelity digital twins: a means for better cyberphysical systems testing?
+785;multi-paradigm modeling for design and operation of intelligent cyber-physical systems (keynote talk)
+786;multi-paradigm modelling for cyber- physical systems: a descriptive framework
+788;mysql workbench
+789;neuro-adaptive dynamic control with edge-computing for collaborative digital twin of an industrial robotic manipulator
+790;new development platforms emerge for customer-facing applications
+791;new development platforms emerge forcustomer-facing applications
+792;next generation digital twin
+793;node-redâlow-code programming for event-driven applications.
+794;node-red---low-code programming for event-driven applications
+796;nonelectronic parts reliability data 1995
+797;nordrhein-westfalen open geographic data
+798;now platform
+799;object-oriented development of real-time industrial automation systems
+801;ocl-based runtime monitoring of applications with protocol state machines
+803;of the estonian academy of sciences
+804;omg systems modeling language (sysml) version 2
+805;omg unified modeling language (omg uml). version 2.5.1
+807;on a test of whether one of two random variables is stochastically larger than the other
+808;on abstract intelligence: toward a unifying theory of natural, artificial, machinable, and computational intelligence
+809;on better understanding uml diagrams through interactive three-dimensional visualization and animation
+811;on digital twin condition monitoring approach for drive-trains in marine applications
+815;on provisioning procedural geometry workloads on edge architectures.
+816;on the use of resilience models as digital twins for operational support and in-time decision making
+819;opc ua ?? ?????? ??? ?? ????? ??? ??
+820;opc unified architecture
+821;opc unified architecture - pioneer of the 4th industrial (r)evolution
+822;operational technology and information technology in industrial control systems
+825;optimization of injection molding process parameters using combination of artificial neural network and genetic algorithm method
+826;optimized throughput improvement of assem- bly flow line with digital twin online analytics
+827;optimizing location of tower cranes on construction sites through gis and bim integration
+833;overview on digital twin for autonomous electrical vehicles propulsion drive system. sustainability 2022, 14, 601
+834;owl web ontology language overview
+835;pair grammars, graph languages and string-to-graph translations
+836;papyrus for manufacturing model driven workbench
+839;patternâoriented software architecture: a system of patterns
+840;pattern-oriented software architecture, patterns for concurrent and networked objects, vol 2
+841;pattern-oriented software architecture: a system of patterns, vol 1
+843;pega platform
+844;petri nets: properties, analysis and applications
+847;planning by rewriting
+848;plant model- based fault detection during aircraft takeoff using non-deterministic finite- state automata
+850;plug-and-simulate within modular assembly line enabled by digital twins and the use of automationml
+852;positioning of the low-code movement within the field of model- driven engineering
+855;potential for combining semantics and data anal- ysis in the context of digital twins
+857;practical applications of taguchi method for optimization of processing parameters for plastic injection moulding: a retrospective review
+858;pragmadev studio reference manual
+859;predictive big data analytics and cyber physical systems for tes systems
+861;principles of model checking
+862;prinziplã¶sungen zur konstruktion technischer produkte
+863;proactive aiops through digital twins
+864;probabilistic safety analysis with xfta
+869;product processes based on digital twin
+870;programming without code: the rise of no- code software development
+873;pytrees library documentation
+874;quickbase platform
+876;rã©solution d'un problã¨me industriel de type pick & place d'un centre de tri postal
+879;recommendations for implementing the strategic initiative industrie 4.0 â securing the future of german manufacturing industry
+881;reduction of variability in a smart shop floor using discrete event simulation
+882;reference architecture model industrie 4.0 (rami4.0)
+884;reflecting on self-adaptive software systems
+886;reliability block diagram
+889;replay debugging for distributed applications
+891;reproducibility of the plastic injection moulding process
+893;requirements and assessment of languages and frameworks for adaptation models
+897;resilience 4.0: charting the path to the future with a literature review
+899;resilient architectures through dynamic management of software components
+903;review of digital twin about concepts, technologies, and industrial applications
+904;review of digital twin applications in manufacturing
+905;revit products 2018 documentationâconstraints definition feature
+906;revolution on digital twin technologyâa patent research approach
+909;robot operating system (ros): the complete reference (volume 1)
+911;ros middle-layer integration into unity3d as an interface option for propulsion drive simulations of autonomous vehicles
+912;ros middle-layer integration to unity 3d as an interface option for propulsion drive simulations of autonomous vehicles
+913;ros: an opensource robot operating system
+914;ros: an open-source robot operating system
+917;salesforce platform
+918;sars-cov-2 spread forecast dynamic model validation through digital twin approach, catalonia case study
+920;scalable concept extraction in industry 4.0
+921;scalable model views over heterogeneous modeling technologies and resources.
+923;sdl - ccitt specification and descrip- tion language
+924;searching for optimal models: comparing two encoding approaches
+925;secrets revealed in container images: an internet-wide study on occurrence and impact
+926;securing the future of german manufacturing industry: recommendations for implementing the strategic initiative industrie 4.0
+927;self-adaptation driven by sysml and goal models--a literature review
+928;self-adaptive digital twin reference architecture to improve process quality
+929;self-adaptive manufac- â¨ turing with digital twins
+931;self-adaptive software needs quantitative verification at runtime
+932;semantic modeling of virtual environments using mascaret
+933;semantics and complexity of sparql
+937;sense, transform & send for the internet of things (sts4iot): uml profile for data-centric iot applications
+939;service-oriented architecture: concepts, technology, and design
+941;simulador do campo girante para motores de inducao trifasicos
+942;simulizar: design- time modeling and performance analysis of self-adaptive systems (seâ13)
+943;smart cities built on resilient cloud computing and secure internet of things
+944;smart city digital twin-enabled energy management: toward real-time urban building energy bench-marking
+948;soa design patterns
+949;society 5.0: aiming for a new human-centered society
+950;society 5.0: technologies for collecting, analyzing, and sharing data about individuals
+951;software engineering for self-adaptive systems: a research roadmap
+952;software engineering for the internet of things
+953;software languages for assistive systems
+954;sparql query language for rdf
+955;specification and development of interactive systems
+956;specification and development of interactive systems. focus on streams, interfaces and refinement
+960;spectrum analysis for condition monitoring and fault diagnosis of ventilation motor: a case study. energies 2021, 14, 2001
+962;standardized information ex- change within production system engineering
+965;structured fault-detection and diagnosis using finite-state automaton
+967;subsea risk and reliability
+969;supporting technical adaptation and implementation of digital twins in manufacturing
+971;supporting the understand- ing and comparison of low-code development platforms
+972;survey of model-based systems engineering (mbse) methodologies
+974;sustainable digital twin engineering for the internet of production
+975;symmetric edit lenses: a new foundation for bidirectional languages
+976;synchronizing physical factory and its digital twin through an iiot middleware: a case study
+978;sysml for systems engineering (computing)
+979;sysml for systems engineering: a model based approach
+980;sysml v2, omg sysml
+982;systematic comparison of software agents and digital twins: differences, similarities, and synergies in industrial production
+986;systematic literature review (slr) development of the iot industry in the south america region
+987;systematic literature review: software engineering frameworks
+989;tagging model properties for flexible communi- cation
+992;the 5th science and technology basic plan. technical report. microsoft
+993;the adoxx metamodeling platform
+994;the air force digital thread/digital twin - life cycle integration and use of computational and experimental knowledge
+995;the applicability of markov analysis methods to reliability, maintainability, and safety
+996;the applications of model driven architecture (mda) in wireless sensor networks (wsn): techniques and tools
+998;the bpmn specification page
+999;the ccitt-specification and description language sdl
+1002;the comparison between ros and ros2 based on the propulsion drive of autonomous vehicle
+1004;the current mtconnect protocol
+1006;the design concept of digital twin
+1007;the digital twin - the evolution of a key concept of industry 4.0
+1008;the digital twin â a critical enabler of industry 4.0
+1009;the digital twin concept in industry â a review and systematization
+1012;the digital twin paradigm for future nasa and us air force vehicles
+1013;the digital twin: realizing the cyber-physical production system for industry 4
+1017;the djitellopy python library
+1019;the emergence of intelligent enterprises: from cps to cpss
+1020;the evolution of model editors: browser- and cloud-based solutions
+1023;the four steps to the epiphany: successful strategies for products that win
+1024;the industrial digital energy twin as a tool for the comprehensive optimization of industrial processes
+1025;the informational behavior applied to the pim-pkm pair through the hci in a mobile device ecology
+1026;the internet of production digital shadow reference model for worldwide production labs
+1027;the journal of systems & software
+1028;the lean startup: how todayâs entrepreneurs use continuous innovation to create radically successful businesses
+1029;the mechatronic modeler: a software tool for computer-aided modeling of the principle solution of an advanced mechatronic system
+1030;the megam@rt2 ecsel project: megamodelling at runtimeâscalable model-based framework for continuous development and runtime validation of complex systems
+1032;the paradigm of digital twin communications
+1033;the physics of notations: towards a scientific basis for constructing visual notations in software engineering
+1034;the reference architectural model industrie 4.0 (rami 4.0)
+1035;the reference architecture model rami 4.0 and the industrie 4.0 component
+1036;the reference architecture model rami 4.0 and the industrie 4.0 component.
+1037;the relationship of system engineering to the project cycle
+1038;the road to accountable and dependable manufacturing
+1039;the road to accountable and dependable manufacturing. automation 2021, 2, 202â219
+1041;the role of models and megamodels at runtime
+1043;the room connectivity graph: shape retrieval in the architectural domain
+1044;the semantic asset administration shell
+1045;the slingshot simula- tor: an extensible event-driven pcm simulator (poster) (sspâ21)
+1047;the string-to-string correction problem
+1048;the sysml modelling language
+1049;the ultimate guide to digital twins
+1050;the use of ontologies for effec- tive knowledge modelling and information retrieval
+1052;the vision of autonomic computing
+1053;the vision of autonomic computing
+1057;thirty years of graph matching in pattern recognition
+1058;three dimensional software modelling
+1061;tooling concepts for seamless, model-based development of embedded systems
+1064;toward a structured concept for purpose-driven modeling of a digital shadow in manufacturing
+1065;toward a unified english-like representation of semantic models data and graph patterns for subject matter experts
+1066;toward an experiential design language: augmenting model- based systems engineering with technical storytelling in virtual worlds
+1076;towards a holistic and functional model-based design method for mechatronic cyber-physical systems
+1077;towards a low-code solu- tion for monitoring machine learning model performance
+1079;towards a model- centric approach for developing functional architectures in industry 4.0 systems
+1080;towards a model- driven architecture for interactive digital twin cockpits
+1082;towards a model-driven archi- tecture process for developing industry 4.0 applications
+1087;towards an agile, model-based multidisciplinary process to improve operational diagnosis in complex systems
+1088;towards an automatic transformation from a devs to a sdl specification
+1089;towards an mde approach of digital twin for software applications
+1094;towards developing a digital twin for a manufacturing pilot line: an industrial case study
+1100;towards formal analysis of multi-paradigm model transformations
+1101;towards industry 4.0-standardization as the crucial challenge for highly modular, multi- vendor production systems
+1102;towards iort collaborative digital twin technology enabled future surgical sector: technical innovations, opportunities and challenges
+1107;towards self-explainable cyber-physical systems (models- câ19)
+1108;towards university 4.0: a model-driven-engineering method to design educational cyber physical systems
+1109;transfer-learning: bridging the gap between real and simulation data for machine learning in injection moulding
+1110;transforming sdl diagrams in a devs speci- fication
+1111;trilateral: a model-based approach for industrial cpsâmonitoring and control
+1112;twinbase: open-source server soft- ware for the digital twin web
+1113;twinops- devops meets model-based engineering and digital twins for the engineering of cps
+1114;ubiquitous computing
+1115;uml model to fault tree model transformation for dependability analysis
+1116;uml2opc- uatransforming uml class diagrams to opc ua information mod- els
+1117;understand and use device twins in iot hub
+1118;understanding digital twin: a systematic mapping study
+1121;unmanned aerial vehicle systems for disaster relief: tornado alley, chap
+1122;update semantics of relational views
+1124;urban mobility: leveraging machine learning and data masses for the building of simulators
+1125;use: a uml-based specifica- â¨ tion environment for validating uml and ocl
+1128;using microsoft powerapps
+1129;using semantic markup to boost context awareness for assistive systems
+1130;using specification and description language to define and implement discrete simulation models
+1131;using uml and ocl models to realize high- level digital twins
+1133;utilizing spin rules to infer the parameters for combined capabilities of aggregated manufacturing resources
+1134;vantiq digital twin architecture
+1138;verification and validation of simulation models
+1140;virtual representa- tion of physical objects for software defined manufacturing
+1141;virtualization of the sysml model for the aes trucklab
+1142;vision 2020 (incose-tp-2004-004-02)
+1147;watchdog agentâan infotronics-based prognostics approach for product performance degradation assessment and prediction
+1148;watering your lawn
+1149;web enabled spatio-temporal semantic analysis of traffic noise using citygml
+1151;web-based solution to automate capability matchmaking for rapid system design and recon- figuration
+1154;what about the usability in low-code platforms? a systematic literature review
+1155;what industry needs from architectural languages: a survey
+1156;what is sysml? omgsysml
+1158;whensoftbotsmeet digital twins: towards supporting the cognitive operator 4.0
+1159;white paper: the promise of a digital twin strategy - best practices for designers and manufacturers of products and industrial equipment
+1160;whitepaper automationml part 1 - archi- tecture and general requirements
+1161;widget showcase
+1163;wind power generation and wind power design
+1164;x3d-uml: 3d uml state machine diagrams
+1166;xmof: executable dsmls based on fuml
+1167;yenilenebilir enerji kaynaklar? ?ã§in dijital ?kiz konsepti
+1168;z.109 : specification and description language - unified modeling language profile for sdl-2010
