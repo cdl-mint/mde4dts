@@ -3,9 +3,7 @@ Concept of a Modular and System Model Driven Digital Twin for Engineering Educat
 from a physical counterpart is processed within models to give 
 recommendations towards a user or the system itself. Other 
 components include its bidirectional orientation [9] as well as its 
-real time capabilities [15].";SysML (BDD, Sequence Diagram, Parametric Diagram, State Machines);data model;Model to Model Transformation;;SysML;Simulink Model;"""MBSE seems a promising approach to grasp the increasing complexity of modern systems"", ""Hence, a model driven concept, 
-which directly utilizes these models seems to be a promising 
-approach e.g., by directly deriving executable code for the Twin. """;"""Digital Twins must be utilized to solve problems 
+real time capabilities [15].";SysML (BDD, Sequence Diagram, Parametric Diagram, State Machines);data model;Model to Model Transformation;;SysML;Simulink Model;"""MBSE seems a promising approach to grasp the increasing complexity of modern systems"", ""Hence, a model driven concept, which directly utilizes these models seems to be a promising approach e.g., by directly deriving executable code for the Twin. """;"""Digital Twins must be utilized to solve problems 
 and generate benefits.""";P  Education;Design;Individual Systems;As-Designed;"""System models can help to 
 visualize this complexity and at the same time being utilized to 
 define this behaviour in a machine-readable context, such as 
