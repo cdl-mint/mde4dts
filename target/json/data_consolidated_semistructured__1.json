@@ -807,19 +807,24 @@
     "Concept of a Modular and System Model Driven Digital Twin for Engineering Education": {
         "DT_Definition": "It is generally defined as a concept in which operational data \r\nfrom a physical counterpart is processed within models to give \r\nrecommendations towards a user or the system itself. Other \r\ncomponents include its bidirectional orientation [9] as well as its \r\nreal time capabilities [15].",
         "modelTrafos": {
-            "0": "{\"model type original\":\"data model\",\"model type\":null,\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML\",\"target\":\"Simulink Model\",\"purpose of MDE application\":\"\\\"MBSE seems a promising approach to grasp the increasing complexity of modern systems\\\", \\\"Hence, a model driven concept, which directly utilizes these models seems to be a promising approach e.g., by directly deriving executable code for the Twin. \\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"model type original\":\"behaviour\",\"model type\":null,\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of MDE application\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
+            "0": "{\"model type original\":\"data model\",\"model type\":\"Structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML models (BDD, Sequence Diagram, Parametric Diagram, State Machines)\",\"target\":\"Simulink Model\",\"purpose of MDE application\":\"\\\"MBSE seems a promising approach to grasp the increasing complexity of modern systems\\\", \\\"Hence, a model driven concept, which directly utilizes these models seems to be a promising approach e.g., by directly deriving executable code for the Twin. \\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"model type original\":null,\"model type\":\"Behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of MDE application\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}",
+            "2": "{\"model type original\":\"behaviour\",\"model type\":\"Behavior\",\"model processing technique\":null,\"model usage technique\":null,\"source\":null,\"target\":null,\"purpose of MDE application\":null,\"system lifecycle phase\":null,\"twin lifecycle phase\":null}"
         },
         "open challenges": null,
         "Technological Readiness Level": "TRL 1-3",
         "notes": null,
         "Use Case": "education platform",
         "twinning target": "Individual Systems",
-        "use case domain": "P \u00c2\u0097 Education",
+        "use case domain": "Education",
         "virtual space": null,
         "Kritzinger": null,
         "DT is specific": null,
-        "modeling language": [],
+        "modeling language": [
+            "SysML",
+            "SysML",
+            "Simulink"
+        ],
         "purpose of DT": "\"Digital Twins must be utilized to solve problems \r\nand generate benefits.\"",
         "DTPurposeCategory": null,
         "purpose /expected benefit of using models": "\"System models can help to \r\nvisualize this complexity and at the same time being utilized to \r\ndefine this behaviour in a machine-readable context, such as \r\nshown in [26]. \""
@@ -834,7 +839,7 @@
         "notes": null,
         "Use Case": "Robotic arm",
         "twinning target": "Individual Systems",
-        "use case domain": "C \u00c2\u0097 Manufacturing",
+        "use case domain": "Manufacturing",
         "virtual space": null,
         "Kritzinger": null,
         "DT is specific": null,
@@ -846,18 +851,20 @@
     "Supporting Digital Twins for the Retrofit in Aviation by a Model-Driven Data Handling": {
         "DT_Definition": "\"the digital twin is described more generally as a concept, which describes the linkage between (aspects of) a physical product or object and its virtual representation\"",
         "modelTrafos": {
-            "0": "{\"model type original\":\"data model\",\"model type\":null,\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML (csv representation)\",\"target\":\"SysML (Graph Database entries)\",\"purpose of MDE application\":\"\\\"model-driven approach to support data handling in aviation\\\"\",\"system lifecycle phase\":\"Maintain\",\"twin lifecycle phase\":\"As-Operated\"}"
+            "0": "{\"model type original\":\"data model\",\"model type\":\"Structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML (csv representation)\",\"target\":\"SysML (Graph Database entries)\",\"purpose of MDE application\":\"\\\"model-driven approach to support data handling in aviation\\\"\",\"system lifecycle phase\":\"Maintain\",\"twin lifecycle phase\":\"As-Operated\"}"
         },
         "open challenges": "\"implementation of graph algorithms to source information from the complete set of information\" (similarities between related aircraft could be automatically identified)",
         "Technological Readiness Level": "TRL 1-3",
         "notes": null,
         "Use Case": "Aircraft cabine refitting",
         "twinning target": "Individual Systems",
-        "use case domain": "H \u00c2\u0097 Transportation and Storage",
+        "use case domain": "Transportation and Storage",
         "virtual space": null,
         "Kritzinger": null,
         "DT is specific": null,
-        "modeling language": [],
+        "modeling language": [
+            "SysML"
+        ],
         "purpose of DT": "\"digital twins of specific aircraft focusing on the information needed for the retrofit\"",
         "DTPurposeCategory": null,
         "purpose /expected benefit of using models": "single-source-of-truth aspect of system models; creation of these models can be performed by engineers with no expertise in programming; \" digitized single source of truth\", \"This makes the previously mostly analog information digitally available during the retrofit.\""
@@ -865,27 +872,30 @@
     "Supporting the Implementation of Digital Twins for IoT-Enhanced BPs": {
         "DT_Definition": "\"This work considers two main features of a digital twin system: (1) the representation and storage of the characteristics of real-world entities in a structured form, and (2) the runtime synchronisation between digital and real-world entities.\"; \"A Digital Twin (DT) is a virtual representation of real-world entities (physical objects and systems, or immaterial things that exist over a significant time span) and processes (events or activities that occur in time), synchronised at a specified frequency and fidelity\r\n[1]. It connects with the physical part allowing data transfer from the physical to the digital part and vice versa, in such a way that it can represent, simulate, or predict changes in the physical system.\"",
         "modelTrafos": {
-            "0": "{\"model type original\":\"behavior\",\"model type\":null,\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"BPMN Model\",\"target\":\"DTDL Model\",\"purpose of MDE application\":\"we propose a Model-Driven approach to support the creation\\r\\nof the software artefacts required to represent, store and synchronise at runtime the\\r\\ncharacteristics of real-world entities in IoT-enhanced BPs DTs.\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"model type original\":\"data model\",\"model type\":null,\"model processing technique\":\"Code Generation\",\"model usage technique\":null,\"source\":\"BPMN Model\",\"target\":\"java template code for microservices\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"model type original\":\"behavior\",\"model type\":\"Behavior\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"BPMN Model\",\"target\":\"DTDL Model\",\"purpose of MDE application\":\"we propose a Model-Driven approach to support the creation\\r\\nof the software artefacts required to represent, store and synchronise at runtime the\\r\\ncharacteristics of real-world entities in IoT-enhanced BPs DTs.\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"model type original\":\"data model\",\"model type\":\"Structure\",\"model processing technique\":\"Code Generation\",\"model usage technique\":null,\"source\":\"BPMN Model\",\"target\":\"java template code for microservices\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": null,
         "Technological Readiness Level": "TRL 1-3",
         "notes": null,
         "Use Case": "CO2 Measurement",
         "twinning target": "Systems of Systems",
-        "use case domain": "I \u00c2\u0097 Accommodation and Food Service Activities",
+        "use case domain": "Accommodation",
         "virtual space": null,
         "Kritzinger": null,
         "DT is specific": null,
-        "modeling language": [],
+        "modeling language": [
+            "BPMN",
+            "DTDL"
+        ],
         "purpose of DT": "\"This work considers two main features of a digital twin system: (1) the representation and storage of the characteristics of real-world entities in a structured form, and (2) the runtime synchronisation between digital and real-world entities.\"",
         "DTPurposeCategory": null
     },
     "TwinOps - DevOps Meets Model-Based Engineering and Digital Twins for the Engineering of CPS": {
         "DT_Definition": "\"Digital Twins. consist of three components, a physical product, a virtual representation of that product, and the bi-directional data connections that feed data from the physical to the virtual representation, and information and processes from the virtual representation to the physical\" ",
         "modelTrafos": {
-            "0": "{\"model type original\":null,\"model type\":null,\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML\",\"target\":\"AADL\",\"purpose of MDE application\":\"\\\"critical impacts of automated code generation on the engineering of embedded software in both increased confidence in produced software and fast delivery. \\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
-            "1": "{\"model type original\":null,\"model type\":null,\"model processing technique\":\"Code Generation\",\"model usage technique\":null,\"source\":\"AADL\",\"target\":\"Azure code that is used to execute the system and perform monitoring (I think that both aspects are the same)\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "0": "{\"model type original\":null,\"model type\":\"Structure\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"SysML\",\"target\":\"AADL\",\"purpose of MDE application\":\"\\\"critical impacts of automated code generation on the engineering of embedded software in both increased confidence in produced software and fast delivery. \\\"\",\"system lifecycle phase\":\"Design\",\"twin lifecycle phase\":\"As-Designed\"}",
+            "1": "{\"model type original\":null,\"model type\":\"Architecture\",\"model processing technique\":\"Code Generation\",\"model usage technique\":null,\"source\":\"AADL\",\"target\":\"Azure code that is used to execute the system and perform monitoring (I think that both aspects are the same)\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
             "2": "{\"model type original\":null,\"model type\":null,\"model processing technique\":\"Code Generation\",\"model usage technique\":null,\"source\":\"AADL\",\"target\":\"LNT model (used for model checking)\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}",
             "3": "{\"model type original\":null,\"model type\":null,\"model processing technique\":\"Code Generation\",\"model usage technique\":null,\"source\":\"AADL\",\"target\":\"FMI device mock-ups\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Implement\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
@@ -894,11 +904,14 @@
         "notes": null,
         "Use Case": "hypothetical monitoring system for a building",
         "twinning target": "Systems of Systems",
-        "use case domain": "I \u00c2\u0097 Accommodation and Food Service Activities",
+        "use case domain": "Accommodation",
         "virtual space": null,
         "Kritzinger": null,
         "DT is specific": null,
-        "modeling language": [],
+        "modeling language": [
+            "SysML",
+            "AADL"
+        ],
         "purpose of DT": "support system continuous improvement and maintenance through the analysis of runtime logs and their comparison to system optimal performance.",
         "DTPurposeCategory": null,
         "purpose /expected benefit of using models": "enable simulation; \"Models can address some of these concerns: systems engineering models to capture system requirements, its interface, and theirmdecomposition into subsystems; simulation models to evaluate the system general behavior; engineering models to move forward towards the realization of the system\""
