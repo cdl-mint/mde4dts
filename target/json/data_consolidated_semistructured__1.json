@@ -540,7 +540,7 @@
     "Model-driven engineering city spaces via bidirectional model transformations": {
         "DT_Definition": "\" In the realm of smart cities, a digital twin is a virtual model of a city\u00b6?a model representation of the physical world\"; a virtual model of a city",
         "modelTrafos": {
-            "0": "{\"model type original\":\"structure\",\"model type\":\"3D\",\"model processing technique\":\"Bi-Directional Model Transformation\",\"model usage technique\":null,\"source\":\"CityGML model\",\"target\":\"cyber-physical spaces (3D topology) model\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Plan\",\"twin lifecycle phase\":\"As-Designed\"}"
+            "0": "{\"model type original\":\"structure\",\"model type\":\"3D\",\"model processing technique\":\"Model to Model Transformation\",\"model usage technique\":null,\"source\":\"CityGML model\",\"target\":\"cyber-physical spaces (3D topology) model\",\"purpose of MDE application\":null,\"system lifecycle phase\":\"Plan\",\"twin lifecycle phase\":\"As-Designed\"}"
         },
         "open challenges": "investigate pluggable custom application policies and support arbitrary CityGML features. generalization of synchronization to a many-to-one model; being able to support multi-model sources might enable support of a wider range of applications dealing with wide area services.",
         "Technological Readiness Level": null,
