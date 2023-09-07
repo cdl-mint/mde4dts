@@ -1,0 +1,7 @@
+target;Accommodation;Administrative;Construction;Manufacturing;Transportation and Storage;Education;Electricity
+architecture model;4;0;0;0;0;0;0
+data model;1;1;1;3;1;0;0
+formal model;1;0;0;0;0;2;1
+ontology model;0;0;0;1;0;0;0
+state-based;0;1;0;3;0;0;1
+ui configuration model;0;1;0;0;0;0;0

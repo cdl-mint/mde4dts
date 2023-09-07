@@ -1,0 +1,7 @@
+source;PT;Software;behavior + structure model;behavior model;machine learning model;other software code;runtime data;simulation code;software;structural model;structure + behavior;structure model;ui configuration model;visualization software
+PT;3;1;0;0;0;0;0;0;0;0;0;0;0;0
+behavior + structure model;0;0;0;1;0;3;0;1;0;3;1;0;0;0
+behavior model;0;0;1;4;1;9;0;8;0;3;0;1;0;1
+runtime data;0;0;0;0;0;0;0;0;0;1;0;1;0;0
+software;5;0;0;0;0;0;0;0;1;0;0;0;0;0
+structural model;0;0;1;4;1;22;1;2;1;6;0;0;1;11
