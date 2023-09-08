@@ -1,0 +1,8 @@
+source;data model;machine learning model;n.d.;ontology;other software code;simulation code;state-based behavior
+architecture model;0;0;1;0;0;0;0
+continuous behavior;0;0;0;0;1;1;0
+data model;0;1;2;1;5;2;0
+n.d.;0;0;4;0;0;1;0
+ontology;1;0;1;1;1;0;0
+state-based behavior;0;1;0;0;2;2;1
+ui configuration model;0;0;1;0;1;0;0

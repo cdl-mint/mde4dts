@@ -1,0 +1,7 @@
+source;Code Generation;Model Interpretation;Model to Model Transformation
+architecture model;6;1;3
+continuous behavior;1;2;0
+data model;12;11;7
+ontology;1;4;2
+state-based behavior;4;6;8
+ui configuration model;5;2;1
