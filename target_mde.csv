@@ -1,11 +1,11 @@
 target;Code Generation;Model Interpretation;Model to Model Transformation
-architecture model;2;0;2
-continuous behavior;1;0;2
-data model;1;1;2
+architecture model;3;0;1
+continuous behavior;0;0;4
+data model;1;1;3
 machine learning model;0;2;0
-ontology;0;2;0
-other software code;14;10;4
+ontology;0;0;2
+other software code;13;12;7
 runtime data;1;0;0
-simulation code;2;6;0
-state-based behavior;1;1;2
+simulation code;3;8;0
+state-based behavior;0;0;5
 ui configuration model;0;0;2

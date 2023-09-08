@@ -1,7 +1,6 @@
-source;architecture model;continuous behavior;data model;n.d.;other software code;state-based behavior;ui configuration model
-architecture model;2;1;0;0;0;0;0
-data model;0;0;1;4;1;0;1
-n.d.;0;1;0;4;0;1;0
-ontology;0;0;0;1;1;0;0
-state-based behavior;0;0;1;3;2;1;1
-ui configuration model;0;0;0;1;0;0;0
+source;architecture model;continuous behavior;data model;n.d.;ontology;other software code;state-based behavior;ui configuration model
+architecture model;1;1;0;0;0;2;0;0
+data model;0;0;2;1;1;2;1;1
+n.d.;0;2;0;1;0;0;1;0
+ontology;0;0;1;1;1;1;0;0
+state-based behavior;0;1;0;0;0;2;3;1
