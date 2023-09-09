@@ -1,7 +1,0 @@
-source;architecture model;continuous behavior;data model;machine learning model;ontology;other software code;runtime data;simulation code;state-based behavior;ui configuration model
-architecture model;2;1;0;0;0;6;0;0;0;0
-continuous behavior;0;0;0;0;0;1;0;5;0;0
-data model;1;0;2;1;1;12;1;2;1;1
-ontology;0;0;1;0;1;2;0;1;0;0
-state-based behavior;1;1;1;1;0;7;0;2;3;1
-ui configuration model;0;0;0;0;0;3;0;0;0;0
