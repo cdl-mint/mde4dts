@@ -6,7 +6,7 @@
             "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"runtime data\",\"source category\":\"structural model\",\"source sub-category\":null,\"source model target category\":\"data model\",\"target\":\"physical model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
         },
         "use case domain": "Manufacturing",
-        "twinning target": "Individual Systems;Individual Systems",
+        "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Operated",
         "Technological Readiness Level": "TRL 4-6",
         "Use Case": "Transmission of CNC Machine",
@@ -40,7 +40,7 @@
             "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"AutomationML models\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"Restful API, Html pages\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
         },
         "use case domain": "Manufacturing",
-        "twinning target": "Systems of Systems;Individual Systems",
+        "twinning target": "Systems of Systems",
         "twin lifecycle phase": "As-Designed",
         "Technological Readiness Level": "TRL 1-3",
         "Use Case": "refinery automationsystem with four valves ",
@@ -91,7 +91,7 @@
             "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"structure model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"structure + behavior model (DTML)\",\"target category\":\"behavior + structure model\",\"target category 2\":null,\"target sub-category\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
         },
         "use case domain": "Manufacturing",
-        "twinning target": "Individual Systems;Individual Systems",
+        "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
         "Technological Readiness Level": "TRL 1-3",
         "Use Case": "3D Printer",
@@ -245,7 +245,7 @@
             "2": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
         },
         "use case domain": "Information and Communication",
-        "twinning target": "Systems of Systems;Systems of Systems;Systems of Systems",
+        "twinning target": "Systems of Systems",
         "twin lifecycle phase": "As-Designed",
         "Technological Readiness Level": "TRL 1-3",
         "Use Case": "Households of an Economy in the context of COVID-19",
@@ -313,7 +313,7 @@
             "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Modelica model\",\"source category\":\"behavior model\",\"source sub-category\":\"continuous behavior\",\"source model target category\":\"PT\",\"target\":\"Modelica Simulator\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
         },
         "use case domain": "Accommodation",
-        "twinning target": "Individual Systems;Individual Systems",
+        "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
         "Technological Readiness Level": "TRL 1-3",
         "Use Case": "electric heater system",
@@ -765,7 +765,7 @@
             "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"OD (Snapshot); CD (snapshot metamodel)\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT + software\",\"target\":\"Type Checking Algorithm\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
         },
         "use case domain": "Transportation and Storage",
-        "twinning target": "Individual Systems;Individual Systems",
+        "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Operated",
         "Technological Readiness Level": "TRL 1-3",
         "Use Case": "Lego Mindstorms Car",
@@ -799,7 +799,7 @@
             "2": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"geometric model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"DT Simulation\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"simulation code\",\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
         },
         "use case domain": "Manufacturing",
-        "twinning target": "Individual Systems;Individual Systems;Individual Systems",
+        "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
         "Technological Readiness Level": "TRL 4-6",
         "Use Case": null,
