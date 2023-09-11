@@ -1,95 +1,85 @@
 ;source;target;mde;domain
 0;data model;other software code;Model Interpretation;Manufacturing
-1;data model;other software code;Model to Model Transformation;Transportation and Storage
-2;state-based behavior;other software code;Model to Model Transformation;Transportation and Storage
-3;data model;runtime data;Code Generation;Manufacturing
-4;ui configuration model;visualization software;Model Interpretation;Manufacturing
-5;data model;;Model Interpretation;Electricity
-6;state-based behavior;structural model;Model Interpretation;Professional, Scientific
-7;data model;visualization software;;Professional, Scientific
-8;state-based behavior;behavior + structure model;Model to Model Transformation;Manufacturing
-9;data model;behavior + structure model;Model to Model Transformation;Manufacturing
-10;data model;structural model;Model to Model Transformation;Administrative
-11;data model;structural model;Code Generation;Administrative
-12;state-based behavior;behavior model;Model to Model Transformation;Manufacturing
-13;data model;;;Transportation and Storage
-14;state-based behavior;behavior model;Model to Model Transformation;Education
-15;state-based behavior;behavior model;Model Interpretation;Education
-16;data model;;;Education
-17;architecture model;structural model;Model to Model Transformation;Accommodation
-18;architecture model;visualization software;Code Generation;Accommodation
-19;data model;;Model Interpretation;Transportation and Storage
-20;state-based behavior;;Model Interpretation;Transportation and Storage
-21;data model;;Model Interpretation;Information and Communication
-22;continuous behavior;;Model Interpretation;Transportation and Storage
-23;continuous behavior;;Model Interpretation;Transportation and Storage
-24;state-based behavior;;Model Interpretation;Manufacturing
-25;ontology;structural model;Model to Model Transformation;Manufacturing
-26;continuous behavior;;Model Interpretation;Accommodation
-27;continuous behavior;;Model Interpretation;Accommodation
-28;architecture model;;Code Generation;Manufacturing
-29;state-based behavior;;Code Generation;Manufacturing
-30;data model;;Code Generation;Manufacturing
-31;state-based behavior;;Code Generation;Manufacturing
-32;ui configuration model;;Model Interpretation;Manufacturing
-33;architecture model;visualization software;Model Interpretation;Manufacturing
-34;ui configuration model;visualization software;Code Generation;Manufacturing
-35;data model;structural model;Model to Model Transformation;Electricity
-36;ui configuration model;visualization software;Code Generation;Electricity
-37;ui configuration model;visualization software;Code Generation;Electricity
-38;data model;;Code Generation;None
-39;continuous behavior;;Code Generation;Transportation and Storage
-40;continuous behavior;;Code Generation;Transportation and Storage
-41;data model;behavior model;Model to Model Transformation;Electricity
-42;ontology;structural model;Model to Model Transformation;Electricity
-43;architecture model;;Code Generation;Manufacturing
-44;data model;;Code Generation;Manufacturing
-45;architecture model;;Model to Model Transformation;Accommodation
-46;ui configuration model;;Code Generation;Accommodation
-47;data model;structural model;Code Generation;Accommodation
-48;data model;visualization software;Code Generation;Accommodation
-49;ui configuration model;visualization software;Code Generation;Accommodation
-50;data model;structural model;Model to Model Transformation;Construction
-51;ui configuration model;;Code Generation;N/A
-52;state-based behavior;visualization software;;N/A
-53;data model;visualization software;;N/A
-54;data model;other software code;Model Interpretation;None
-55;state-based behavior;other software code;Code Generation;Transportation and Storage
-56;state-based behavior;other software code;Model Interpretation;Manufacturing
-57;data model;ontology;Model to Model Transformation;Manufacturing
-58;ontology;other software code;Model to Model Transformation;Manufacturing
-59;data model;;Model Interpretation;Manufacturing
-60;ontology;;Model Interpretation;Manufacturing
-61;data model;other software code;Model to Model Transformation;Transportation and Storage
-62;state-based behavior;other software code;Model to Model Transformation;Accommodation
-63;state-based behavior;data model;Code Generation;Accommodation
-64;ontology;other software code;Model Interpretation;N/A
-65;ontology;simulation code;Model Interpretation;N/A
-66;ontology;ontology;Model to Model Transformation;N/A
-67;state-based behavior;;Model Interpretation;Education
-68;state-based behavior;state-based behavior;Model to Model Transformation;Administrative
-69;state-based behavior;ui configuration model;Model to Model Transformation;Administrative
-70;data model;other software code;Code Generation;Manufacturing
-71;architecture model;other software code;Code Generation;Manufacturing
-72;ui configuration model;visualization software;Code Generation;Manufacturing
-73;state-based behavior;other software code;Model Interpretation;None
-74;state-based behavior;simulation code;Code Generation;Manufacturing
-75;architecture model;continuous behavior;Model to Model Transformation;Accommodation
-76;architecture model;;Code Generation;Accommodation
-77;architecture model;other software code;Code Generation;Accommodation
-78;state-based behavior;architecture model;Code Generation;Accommodation
-79;architecture model;other software code;Model to Model Transformation;Accommodation
-80;architecture model;architecture model;Code Generation;Accommodation
-81;data model;other software code;Model Interpretation;Transportation and Storage
-82;data model;other software code;Model Interpretation;Transportation and Storage
-83;data model;other software code;Model Interpretation;Transportation and Storage
-84;data model;simulation code;Model Interpretation;Manufacturing
-85;data model;simulation code;Model Interpretation;Manufacturing
-86;data model;ontology;Model to Model Transformation;Manufacturing
-87;state-based behavior;data model;Code Generation;Accommodation
-88;ontology;ontology;Model to Model Transformation;N/A
-89;state-based behavior;state-based behavior;Model to Model Transformation;Administrative
-90;state-based behavior;ui configuration model;Model to Model Transformation;Administrative
-91;architecture model;continuous behavior;Model to Model Transformation;Accommodation
-92;state-based behavior;architecture model;Code Generation;Accommodation
-93;architecture model;architecture model;Code Generation;Accommodation
+1;data model;other software code;Code Generation;Transportation and Storage
+2;data model;runtime data;Code Generation;Manufacturing
+3;ui configuration model;visualization software;Model Interpretation;Manufacturing
+4;data model;;Model Interpretation;Electricity
+5;data model;visualization software;;Professional, Scientific
+6;data model;;Model to Model Transformation;Manufacturing
+7;data model;data model;Model to Model Transformation;Administrative
+8;data model;data model;Model to Model Transformation;Administrative
+9;data model;;;Transportation and Storage
+10;data model;;;Education
+11;architecture model;architecture model;Model to Model Transformation;Accommodation
+12;architecture model;visualization software;Code Generation;Accommodation
+13;data model;;Model Interpretation;Transportation and Storage
+14;data model;;Model Interpretation;Information and Communication
+15;continuous behavior;;Model Interpretation;Transportation and Storage
+16;continuous behavior;;Model Interpretation;Transportation and Storage
+17;ontology;data model;Model to Model Transformation;Manufacturing
+18;continuous behavior;;Model Interpretation;Accommodation
+19;continuous behavior;;Model Interpretation;Accommodation
+20;architecture model;;Code Generation;Manufacturing
+21;data model;;Code Generation;Manufacturing
+22;ui configuration model;;Model Interpretation;Manufacturing
+23;architecture model;visualization software;Model Interpretation;Manufacturing
+24;ui configuration model;visualization software;Code Generation;Manufacturing
+25;data model;ui configuration model;Model to Model Transformation;Electricity
+26;ui configuration model;visualization software;Code Generation;Electricity
+27;ui configuration model;visualization software;Code Generation;Electricity
+28;data model;;Code Generation;None
+29;continuous behavior;;Code Generation;Transportation and Storage
+30;continuous behavior;;Code Generation;Transportation and Storage
+31;data model;discrete behavior;Model to Model Transformation;Electricity
+32;ontology;data model;Model to Model Transformation;Electricity
+33;architecture model;;Code Generation;Manufacturing
+34;data model;;Code Generation;Manufacturing
+35;architecture model;;Model to Model Transformation;Accommodation
+36;ui configuration model;;Code Generation;Accommodation
+37;data model;architecture model;Model to Model Transformation;Accommodation
+38;data model;visualization software;Code Generation;Accommodation
+39;ui configuration model;visualization software;Code Generation;Accommodation
+40;data model;data model;Model to Model Transformation;Construction
+41;ui configuration model;;Code Generation;N/A
+42;data model;visualization software;;N/A
+43;data model;other software code;Model Interpretation;None
+44;data model;ontology;Model to Model Transformation;Manufacturing
+45;ontology;other software code;Model Interpretation;Manufacturing
+46;data model;visualization software;Model Interpretation;Manufacturing
+47;ontology;;Model to Model Transformation;Manufacturing
+48;data model;other software code;Code Generation;Transportation and Storage
+49;ontology;other software code;Model Interpretation;N/A
+50;ontology;simulation code;Model Interpretation;N/A
+51;ontology;ontology;Model to Model Transformation;N/A
+52;data model;other software code;Code Generation;Manufacturing
+53;architecture model;other software code;Code Generation;Manufacturing
+54;ui configuration model;visualization software;Code Generation;Manufacturing
+55;architecture model;continuous behavior;Model to Model Transformation;Accommodation
+56;architecture model;simulation code;Code Generation;Accommodation
+57;architecture model;other software code;Code Generation;Accommodation
+58;architecture model;other software code;Code Generation;Accommodation
+59;architecture model;architecture model;Model to Model Transformation;Accommodation
+60;data model;other software code;Model Interpretation;Transportation and Storage
+61;data model;other software code;Model Interpretation;Transportation and Storage
+62;data model;other software code;Model Interpretation;Transportation and Storage
+63;data model;simulation code;Model Interpretation;Manufacturing
+64;data model;simulation code;Model Interpretation;Manufacturing
+65;discrete behavior;data model;Model to Model Transformation;Professional, Scientific
+66;data model;data model;Model to Model Transformation;Administrative
+67;data model;data model;Model to Model Transformation;Administrative
+68;;continuous behavior;Model to Model Transformation;Education
+69;architecture model;architecture model;Model to Model Transformation;Accommodation
+70;ontology;data model;Model to Model Transformation;Manufacturing
+71;data model;ui configuration model;Model to Model Transformation;Electricity
+72;;continuous behavior;Model to Model Transformation;Electricity
+73;ontology;data model;Model to Model Transformation;Electricity
+74;;data model;Model to Model Transformation;Manufacturing
+75;data model;architecture model;Model to Model Transformation;Accommodation
+76;data model;data model;Model to Model Transformation;Construction
+77;data model;ontology;Model to Model Transformation;Manufacturing
+78;discrete behavior;data model;Model to Model Transformation;Accommodation
+79;ontology;ontology;Model to Model Transformation;N/A
+80;discrete behavior;ui configuration model;Model to Model Transformation;Administrative
+81;architecture model;continuous behavior;Model to Model Transformation;Accommodation
+82;discrete behavior;architecture model;Model to Model Transformation;Accommodation
+83;architecture model;architecture model;Model to Model Transformation;Accommodation

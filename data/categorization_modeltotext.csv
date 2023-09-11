@@ -1,6 +1,6 @@
-source;architecture model;data model;n.d.;other software code;runtime data;simulation code;structural model;visualization software
-architecture model;1;0;3;2;0;0;0;1
-continuous behavior;0;0;2;0;0;0;0;0
-data model;0;0;3;1;1;0;2;1
-state-based behavior;1;1;2;1;0;1;0;0
-ui configuration model;0;0;2;0;0;0;0;5
+source;n.d.;other software code;runtime data;simulation code;visualization software
+architecture model;2;3;0;1;1
+continuous behavior;2;0;0;0;0
+data model;3;3;1;0;1
+discrete behavior;2;2;0;1;0
+ui configuration model;2;0;0;0;5

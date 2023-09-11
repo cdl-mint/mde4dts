@@ -1,6 +1,6 @@
-source;behavior + structure model;behavior model;continuous behavior;n.d.;ontology;other software code;state-based behavior;structural model;ui configuration model
-architecture model;0;0;1;1;0;1;0;1;0
-data model;1;1;0;0;1;2;0;3;0
-n.d.;0;3;0;0;0;0;0;1;0
-ontology;0;0;0;0;1;1;0;2;0
-state-based behavior;1;2;0;0;0;2;1;0;1
+source;architecture model;continuous behavior;data model;discrete behavior;n.d.;ontology;ui configuration model
+architecture model;2;1;0;0;1;0;0
+data model;1;0;3;1;1;1;1
+discrete behavior;1;0;2;3;1;0;1
+n.d.;0;2;1;1;1;0;0
+ontology;0;0;2;0;1;1;0

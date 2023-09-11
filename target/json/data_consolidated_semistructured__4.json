@@ -20,8 +20,8 @@
     "A framework for Model-Driven Engineering of resilient software-controlled systems": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML: BDD\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"Knowledge Base of software digital twins (Metamodel proposed in Figure 5 of the paper) -> in fact, this is the class diagram of their knowledge base\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Transportation and Storage\",\"Publisher\":\"Springer\"}",
-            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Fault Trees\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":null,\"target\":\"FaultTreeAnalyzer (metamodel proposed in Figure 8)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":\"Springer\"}"
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML: BDD\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"Knowledge Base of software digital twins (Metamodel proposed in Figure 5 of the paper) -> in fact, this is the class diagram of their knowledge base\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Transportation and Storage\",\"Publisher\":\"Springer\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Fault Trees\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":null,\"target\":\"FaultTreeAnalyzer (metamodel proposed in Figure 8)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":\"Springer\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -76,8 +76,8 @@
     "A Novel Methodology to Construct Digital Twin Models for Spacecraft Operations Using Fault and Behaviour Trees": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":\"structural model\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
-            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Fault Trees\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Operations-Dedicated Models (ODMs)\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Professional, Scientific\",\"Publisher\":\"ACM\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":\"structural model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Fault Trees\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Operations-Dedicated Models (ODMs)\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Professional, Scientific\",\"Publisher\":\"ACM\"}",
             "2": "{\"model processing technique\":null,\"source\":\"DT model (=ODM model)\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"UI-based monitoring tools\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
@@ -96,8 +96,8 @@
     "A pattern catalog for augmenting Digital Twin models with behavior; [Ein Musterkatalog zur Erweiterung von digitalen Zwillingsmodellen um Verhaltenssichten]": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"behavior model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"structure + behavior model (DTML)\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior + structure model\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"De Gruyter Oldenbourg\"}",
-            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"structure model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"structure + behavior model (DTML)\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior + structure model\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"De Gruyter Oldenbourg\"}"
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"behavior model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"structure + behavior model (DTML)\",\"target category\":\"behavior + structure model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Manufacturing\",\"Publisher\":\"De Gruyter Oldenbourg\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"structure model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"structure + behavior model (DTML)\",\"target category\":\"behavior + structure model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Manufacturing\",\"Publisher\":\"De Gruyter Oldenbourg\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -115,8 +115,8 @@
     "AML4DT: A Model-Driven Framework for Developing and Maintaining Digital Twins with AutomationML": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AML\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"DT-MM\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Administrative\",\"Publisher\":\"IEEE\"}",
-            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"DT-MM\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"Json Files\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AML\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"DT-MM\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Administrative\",\"Publisher\":\"IEEE\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"DT-MM\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"Json Files\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
             "2": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"IEEE\"}"
         },
         "target model target category": null,
@@ -135,8 +135,8 @@
     "Case Study on Automated and Continuous Reliability Assessment of Software-Defined Manufacturing Based on Digital Twins": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML v2 action sequences\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":null,\"target\":\"Markov chains\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior model\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
-            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML v2 structure models\",\"source category\":\"structural model\",\"source sub-category\":null,\"source model target category\":null,\"target\":\"Fault Trees\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior model\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"ACM\"}"
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML v2 action sequences\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":null,\"target\":\"Markov chains\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"discrete behavior\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML v2 structure models\",\"source category\":\"structural model\",\"source sub-category\":null,\"source model target category\":null,\"target\":\"Fault Trees\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"discrete behavior\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -172,8 +172,8 @@
     "Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SDL model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Discrete Event System Specification (formal model for simulation engines)\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior model\",\"use case domain\":\"Education\",\"Publisher\":\"IEEE\"}",
-            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"SDL model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":null,\"target\":\"Snap!\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior model\",\"use case domain\":null,\"Publisher\":\"IEEE\"}"
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SDL model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Discrete Event System Specification (formal model for simulation engines)\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"discrete behavior\",\"use case domain\":\"Education\",\"Publisher\":\"IEEE\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"SDL model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":null,\"target\":\"Snap!\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"IEEE\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -191,7 +191,7 @@
     "Concept of a Modular and System Model Driven Digital Twin for Engineering Education": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML models (BDD, Sequence Diagram, Parametric Diagram, State Machines)\",\"source category\":\"behavior + structure model\",\"source sub-category\":null,\"source model target category\":null,\"target\":\"Simulink Model\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior model\",\"use case domain\":\"Education\",\"Publisher\":\"IEEE\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML models (BDD, Sequence Diagram, Parametric Diagram, State Machines)\",\"source category\":\"behavior + structure model\",\"source sub-category\":null,\"source model target category\":null,\"target\":\"Simulink Model\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"continuous behavior\",\"use case domain\":\"Education\",\"Publisher\":\"IEEE\"}",
             "1": "{\"model processing technique\":null,\"source\":null,\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"IEEE\"}",
             "2": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"IEEE\"}",
             "3": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"IEEE\"}"
@@ -212,7 +212,7 @@
     "CPSAML: A Language and Code Generation Framework for Digital Twin Based Monitoring of Mobile Cyber-Physical Systems": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"CPSAML\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"SysML (partial model)\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"CPSAML\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"SysML (partial model)\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"architecture model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}",
             "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML (complete model)\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"CPS software code (ROS Packages, DT, Monitoring Cockpit). Sprachen: Java, Typescript, Python, Docker\",\"target category\":\"Software\",\"target category 2\":\"other software code\",\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
@@ -249,7 +249,7 @@
     "Digital Behavioral Twins for Safe Connected Cars": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"discrete markov decision process for modeling driving context; behavioral AI model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Risk Analyzer; linear ML methods\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Transportation and Storage\",\"Publisher\":\"ACM\"}"
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"discrete markov decision process for modeling driving context; behavioral AI model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Risk Analyzer; linear ML methods\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Transportation and Storage\",\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -306,7 +306,7 @@
     "Digital Twins Driving Model Based on Petri Net in Industrial Pipeline": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Petrinet\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":null,\"target\":\"real time simulation of state\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Manufacturing\",\"Publisher\":\"IEEE\"}"
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Petrinet\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":null,\"target\":\"real time simulation of state\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Manufacturing\",\"Publisher\":\"IEEE\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -324,7 +324,7 @@
     "Enabling Semantic Interoperability of Asset Administration Shells through an Ontology-Based Modeling Method": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"OML Vocabulary\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":\"PT\",\"target\":\"UML Profile\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"ACM\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"OML Vocabulary\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":\"PT\",\"target\":\"UML Profile\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"ACM\"}",
             "1": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}",
             "2": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}"
         },
@@ -364,9 +364,9 @@
         "modeling language": {},
         "modelTrafos": {
             "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiArc model\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"Digital Twin Implementation: Java code, Software Architecture Components + Glue Code\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}",
-            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"ECA\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"software\",\"target\":\"Evaluator Component of DT Archtiecture\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"ECA\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"software\",\"target\":\"Evaluator Component of DT Archtiecture\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}",
             "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"CD\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"Digital Twin Implementation: Java code (Backend)\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}",
-            "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"CBR\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Reasoner Component of DT Architecture\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}",
+            "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"CBR\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Reasoner Component of DT Architecture\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}",
             "4": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Communication specification\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"Java Code for communication between CPS and DT\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}",
             "5": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"DSL component + GUI models for editor and viewer + DT components\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"Digital Twin Implementation: Low-code editor for DT configuration\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"Elsevier Ltd\"}",
             "6": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"Digital Twin Implementation: DT Cockpit\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}"
@@ -387,7 +387,7 @@
     "Generating Digital Twin Cockpits for Parameter Management in the Engineering of Wind Turbines": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"UML Class Diagram\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"UI Model\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Electricity\",\"Publisher\":\"Gesellschaft fur Informatik (GI)\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"UML Class Diagram\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"UI Model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"ui configuration model\",\"use case domain\":\"Electricity\",\"Publisher\":\"Gesellschaft fur Informatik (GI)\"}",
             "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"UI Model\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"Part of DT UI Cockpit (Typescript)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"Gesellschaft fur Informatik (GI)\"}",
             "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"UML Class Diagram\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"Part of DT UI Cockpit (Python + Typescript)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"Gesellschaft fur Informatik (GI)\"}"
         },
@@ -425,7 +425,7 @@
     "Integration of SysML Models in a 3D Environment for Virtual Testing and Validation": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML models\",\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":\"Unity Model\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior model\",\"use case domain\":\"Electricity\",\"Publisher\":\"ACM\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML models\",\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":\"Unity Model\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"continuous behavior\",\"use case domain\":\"Electricity\",\"Publisher\":\"ACM\"}",
             "1": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
@@ -463,8 +463,8 @@
     "Knowledge driven rapid development of white box digital twins for industrial plant systems": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"M&CML\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":null,\"target\":\"fininte state machine\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"behavior model\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
-            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SADL ontology\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":\"PT\",\"target\":\"M&CML control systems model\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Electricity\",\"Publisher\":\"IEEE\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"M&CML\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":null,\"target\":\"fininte state machine\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"discrete behavior\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SADL ontology\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":\"PT\",\"target\":\"M&CML control systems model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Electricity\",\"Publisher\":\"IEEE\"}",
             "2": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"IEEE\"}"
         },
         "target model target category": null,
@@ -483,7 +483,7 @@
     "Meta-model-based shop-floor digital twin architecture, modeling and application": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"raw data (conforming to data model)\",\"source category\":\"structural model\",\"source sub-category\":null,\"source model target category\":\"data model\",\"target\":\"SysML BDD\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"Elsevier Ltd\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"raw data (conforming to data model)\",\"source category\":\"structural model\",\"source sub-category\":null,\"source model target category\":\"data model\",\"target\":\"SysML BDD\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"Elsevier Ltd\"}",
             "1": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Elsevier Ltd\"}"
         },
         "target model target category": null,
@@ -523,7 +523,7 @@
         "modelTrafos": {
             "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"MontiArc model\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"GPL code for CPS\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}",
             "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiArc ADL + Tagging applied on ports of adl model\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"new MontiArc ADL with components receiving tagged ports\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}",
-            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"tagging model, Class Diagram, MontiArc Model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"extended MontiArc Model\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}",
+            "2": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"tagging model, Class Diagram, MontiArc Model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"extended MontiArc Model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"architecture model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}",
             "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"UML Class Diagram\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"digital twin information system\",\"target category\":\"Software\",\"target category 2\":\"other software code\",\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
             "4": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"Webpage\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"ACM\"}"
         },
@@ -543,7 +543,7 @@
     "Model-driven engineering city spaces via bidirectional model transformations": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"CityGML model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"cyber-physical spaces (3D topology) model\",\"target category\":null,\"target category 2\":null,\"target sub-category\":\"structural model\",\"use case domain\":\"Construction\",\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}"
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"CityGML model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"software\",\"target\":\"cyber-physical spaces (3D topology) model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Construction\",\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -562,7 +562,7 @@
         "modeling language": {},
         "modelTrafos": {
             "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"UI Model\",\"source category\":\"structural model\",\"source sub-category\":\"ui configuration model\",\"source model target category\":\"software\",\"target\":\"Web app\",\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}",
-            "1": "{\"model processing technique\":null,\"source\":\"Process Model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Web app\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}",
+            "1": "{\"model processing technique\":null,\"source\":\"Process Model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Web app\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}",
             "2": "{\"model processing technique\":null,\"source\":\"Data model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"Web app\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}"
         },
         "target model target category": null,
@@ -599,7 +599,7 @@
     "Proof of Concept for a Roundtrip Engineering IS for the New Enterprise in the Industry 4.0 Era": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Python Drone control code\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Transportation and Storage\",\"Publisher\":\"IEEE\"}"
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Python Drone control code\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Transportation and Storage\",\"Publisher\":\"IEEE\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -617,7 +617,7 @@
     "Reliable Counterparts: Efficiently Testing Causal Relationships in Digital Twins": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Causal Directed Acyclic Graphs (DAG)\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Inference Engine\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"ACM\"}"
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Causal Directed Acyclic Graphs (DAG)\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Inference Engine\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -636,9 +636,9 @@
         "modeling language": {},
         "modelTrafos": {
             "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AAS\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"OWL Individuals (MaRCO)\",\"target category\":\"behavior + structure model\",\"target category 2\":null,\"target sub-category\":\"ontology\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
-            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"OWL Ontology + OWL Individuals\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":\"PT\",\"target\":\"capability matchmaker\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
-            "2": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"AAS Model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"user interface created by the authors (cf. Section 4.C)\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"IEEE\"}",
-            "3": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"OML\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":null,\"target\":\"UML Stereotypes\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Manufacturing\",\"Publisher\":\"IEEE\"}"
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"OWL Ontology + OWL Individuals\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":\"PT\",\"target\":\"capability matchmaker\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
+            "2": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"AAS Model\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":\"PT\",\"target\":\"user interface created by the authors (cf. Section 4.C)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"visualization software\",\"use case domain\":null,\"Publisher\":\"IEEE\"}",
+            "3": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"OML\",\"source category\":\"behavior + structure model\",\"source sub-category\":\"ontology\",\"source model target category\":null,\"target\":\"UML Stereotypes\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Manufacturing\",\"Publisher\":\"IEEE\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -656,7 +656,7 @@
     "Supporting Digital Twins for the Retrofit in Aviation by a Model-Driven Data Handling": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML (csv representation)\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":null,\"target\":\"SysML (Graph Database entries)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Transportation and Storage\",\"Publisher\":null}"
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML (csv representation)\",\"source category\":\"structural model\",\"source sub-category\":\"data model\",\"source model target category\":null,\"target\":\"SysML (Graph Database entries)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"Transportation and Storage\",\"Publisher\":null}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -673,8 +673,8 @@
     "Supporting the Implementation of Digital Twins for IoT-Enhanced BPs": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"java template code for microservices\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":null}",
-            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"DTDL Model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Accommodation\",\"Publisher\":null}"
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"java template code for microservices\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":null}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"DTDL Model\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"data model\",\"use case domain\":\"Accommodation\",\"Publisher\":null}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -710,7 +710,7 @@
     "The OMiLAB Digital Innovation environment: Agile conceptual models to bridge business value with Digital and Physical Twins for Product-Service Systems development": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Education\",\"Publisher\":\"Elsevier B.V.\"}"
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":\"Education\",\"Publisher\":\"Elsevier B.V.\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -728,8 +728,8 @@
     "Towards a Digital Twin for Cyber-Physical Production Systems: A Multi-Paradigm Modeling Approach in the Postal Industry": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":null,\"target\":\"Activity Diagram\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"state-based behavior\",\"use case domain\":\"Administrative\",\"Publisher\":\"ACM\"}",
-            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Activity Diagram\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Class Diagram\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"ui configuration model\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":null,\"target\":\"Activity Diagram\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"discrete behavior\",\"use case domain\":\"Administrative\",\"Publisher\":\"ACM\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Activity Diagram\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Class Diagram\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"ui configuration model\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
             "2": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
@@ -768,7 +768,7 @@
     "Towards Reactive Planning with Digital Twins and Model-Driven Optimization": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Henshin model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":\"PT\",\"target\":\"Digital Twin\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"None\",\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}"
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Henshin model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Digital Twin\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":\"None\",\"Publisher\":\"Springer Science and Business Media Deutschland GmbH\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -786,7 +786,7 @@
     "Twin Process Model Driven Machining Quality Optimization for Complex Parts": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"Twin Process Model\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":null,\"target\":\"Numeric Control (NC)Code\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"simulation code\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"IEEE\"}"
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"Twin Process Model\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":null,\"target\":\"Numeric Control (NC)Code\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"simulation code\",\"use case domain\":\"Manufacturing\",\"Publisher\":\"IEEE\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -805,9 +805,9 @@
         "modeling language": {},
         "modelTrafos": {
             "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AADL\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"LNT model (used for model checking)\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":\"continuous behavior\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
-            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"AADL\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"FMI device mock-ups\",\"target category\":\"behavior model\",\"target category 2\":null,\"target sub-category\":null,\"use case domain\":null,\"Publisher\":\"ACM\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"AADL\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"FMI device mock-ups\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"simulation code\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
             "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"AADL\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"Azure code that is used to execute the system and perform monitoring (I think that both aspects are the same)\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
-            "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML\",\"source category\":\"behavior model\",\"source sub-category\":\"state-based behavior\",\"source model target category\":null,\"target\":\"AADL\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"architecture model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}"
+            "3": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML\",\"source category\":\"behavior model\",\"source sub-category\":\"discrete behavior\",\"source model target category\":null,\"target\":\"AADL\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"architecture model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
@@ -825,8 +825,8 @@
     "Understanding and Improving Model-Driven IoT Systems through Accompanying Digital Twins": {
         "modeling language": {},
         "modelTrafos": {
-            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"MontiThings\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"IoT controller code in C++\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
-            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiThings model or real system\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"MontiThings model or reproduced system\",\"target category\":\"structural model\",\"target category 2\":\"other software code\",\"target sub-category\":\"architecture model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}"
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiThings\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"IoT controller code in C++\",\"target category\":\"Software\",\"target category 2\":null,\"target sub-category\":\"other software code\",\"use case domain\":null,\"Publisher\":\"ACM\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"MontiThings model or real system\",\"source category\":\"structural model\",\"source sub-category\":\"architecture model\",\"source model target category\":\"software\",\"target\":\"MontiThings model or reproduced system\",\"target category\":\"structural model\",\"target category 2\":null,\"target sub-category\":\"architecture model\",\"use case domain\":\"Accommodation\",\"Publisher\":\"ACM\"}"
         },
         "target model target category": null,
         "system lifecycle phase": null,
