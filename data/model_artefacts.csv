@@ -9,11 +9,6 @@
 7;ontology;data;Model to Model Transformation;Electricity
 8;ontology;other software code;Model Interpretation;Manufacturing
 9;ontology;;Model to Model Transformation;Manufacturing
-10;ontology;other software code;Model Interpretation;
-11;ontology;simulation code;Model Interpretation;
-12;ontology;ontology;Model to Model Transformation;
-13;;continuous behavior;Model to Model Transformation;Education
-14;;continuous behavior;Model to Model Transformation;Electricity
-15;data;ontology;Model to Model Transformation;Manufacturing
-16;ontology;ontology;Model to Model Transformation;
-17;architecture;continuous behavior;Model to Model Transformation;Accommodation
+10;;continuous behavior;Model to Model Transformation;Electricity
+11;data;ontology;Model to Model Transformation;Manufacturing
+12;architecture;continuous behavior;Model to Model Transformation;Accommodation
