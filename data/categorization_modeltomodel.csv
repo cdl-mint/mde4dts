@@ -1,6 +1,6 @@
-source;architecture model;continuous behavior;data model;discrete behavior;n.d.;ontology;ui configuration model
-architecture model;2;1;0;0;1;0;0
-data model;1;0;3;1;1;1;1
+source;architecture;continuous behavior;data;discrete behavior;n.d.;ontology;ui configuration
+architecture;2;1;0;0;1;0;0
+data;1;0;3;1;1;1;1
 discrete behavior;1;0;2;3;1;0;1
 n.d.;0;2;1;1;1;0;0
 ontology;0;0;2;0;1;1;0

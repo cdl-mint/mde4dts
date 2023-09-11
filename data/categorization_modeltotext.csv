@@ -1,6 +1,6 @@
 source;n.d.;other software code;runtime data;simulation code;visualization software
-architecture model;2;3;0;1;1
+architecture;2;3;0;1;1
 continuous behavior;2;0;0;0;0
-data model;3;3;1;0;1
+data;3;3;1;0;1
 discrete behavior;2;2;0;1;0
-ui configuration model;2;0;0;0;5
+ui configuration;2;0;0;0;5

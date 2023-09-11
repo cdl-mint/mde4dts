@@ -1,85 +1,19 @@
 ;source;target;mde;domain
-0;data model;other software code;Model Interpretation;Manufacturing
-1;data model;other software code;Code Generation;Transportation and Storage
-2;data model;runtime data;Code Generation;Manufacturing
-3;ui configuration model;visualization software;Model Interpretation;Manufacturing
-4;data model;;Model Interpretation;Electricity
-5;data model;visualization software;;Professional, Scientific
-6;data model;;Model to Model Transformation;Manufacturing
-7;data model;data model;Model to Model Transformation;Administrative
-8;data model;data model;Model to Model Transformation;Administrative
-9;data model;;;Transportation and Storage
-10;data model;;;Education
-11;architecture model;architecture model;Model to Model Transformation;Accommodation
-12;architecture model;visualization software;Code Generation;Accommodation
-13;data model;;Model Interpretation;Transportation and Storage
-14;data model;;Model Interpretation;Information and Communication
-15;continuous behavior;;Model Interpretation;Transportation and Storage
-16;continuous behavior;;Model Interpretation;Transportation and Storage
-17;ontology;data model;Model to Model Transformation;Manufacturing
-18;continuous behavior;;Model Interpretation;Accommodation
-19;continuous behavior;;Model Interpretation;Accommodation
-20;architecture model;;Code Generation;Manufacturing
-21;data model;;Code Generation;Manufacturing
-22;ui configuration model;;Model Interpretation;Manufacturing
-23;architecture model;visualization software;Model Interpretation;Manufacturing
-24;ui configuration model;visualization software;Code Generation;Manufacturing
-25;data model;ui configuration model;Model to Model Transformation;Electricity
-26;ui configuration model;visualization software;Code Generation;Electricity
-27;ui configuration model;visualization software;Code Generation;Electricity
-28;data model;;Code Generation;None
-29;continuous behavior;;Code Generation;Transportation and Storage
-30;continuous behavior;;Code Generation;Transportation and Storage
-31;data model;discrete behavior;Model to Model Transformation;Electricity
-32;ontology;data model;Model to Model Transformation;Electricity
-33;architecture model;;Code Generation;Manufacturing
-34;data model;;Code Generation;Manufacturing
-35;architecture model;;Model to Model Transformation;Accommodation
-36;ui configuration model;;Code Generation;Accommodation
-37;data model;architecture model;Model to Model Transformation;Accommodation
-38;data model;visualization software;Code Generation;Accommodation
-39;ui configuration model;visualization software;Code Generation;Accommodation
-40;data model;data model;Model to Model Transformation;Construction
-41;ui configuration model;;Code Generation;N/A
-42;data model;visualization software;;N/A
-43;data model;other software code;Model Interpretation;None
-44;data model;ontology;Model to Model Transformation;Manufacturing
-45;ontology;other software code;Model Interpretation;Manufacturing
-46;data model;visualization software;Model Interpretation;Manufacturing
-47;ontology;;Model to Model Transformation;Manufacturing
-48;data model;other software code;Code Generation;Transportation and Storage
-49;ontology;other software code;Model Interpretation;N/A
-50;ontology;simulation code;Model Interpretation;N/A
-51;ontology;ontology;Model to Model Transformation;N/A
-52;data model;other software code;Code Generation;Manufacturing
-53;architecture model;other software code;Code Generation;Manufacturing
-54;ui configuration model;visualization software;Code Generation;Manufacturing
-55;architecture model;continuous behavior;Model to Model Transformation;Accommodation
-56;architecture model;simulation code;Code Generation;Accommodation
-57;architecture model;other software code;Code Generation;Accommodation
-58;architecture model;other software code;Code Generation;Accommodation
-59;architecture model;architecture model;Model to Model Transformation;Accommodation
-60;data model;other software code;Model Interpretation;Transportation and Storage
-61;data model;other software code;Model Interpretation;Transportation and Storage
-62;data model;other software code;Model Interpretation;Transportation and Storage
-63;data model;simulation code;Model Interpretation;Manufacturing
-64;data model;simulation code;Model Interpretation;Manufacturing
-65;discrete behavior;data model;Model to Model Transformation;Professional, Scientific
-66;data model;data model;Model to Model Transformation;Administrative
-67;data model;data model;Model to Model Transformation;Administrative
-68;;continuous behavior;Model to Model Transformation;Education
-69;architecture model;architecture model;Model to Model Transformation;Accommodation
-70;ontology;data model;Model to Model Transformation;Manufacturing
-71;data model;ui configuration model;Model to Model Transformation;Electricity
-72;;continuous behavior;Model to Model Transformation;Electricity
-73;ontology;data model;Model to Model Transformation;Electricity
-74;;data model;Model to Model Transformation;Manufacturing
-75;data model;architecture model;Model to Model Transformation;Accommodation
-76;data model;data model;Model to Model Transformation;Construction
-77;data model;ontology;Model to Model Transformation;Manufacturing
-78;discrete behavior;data model;Model to Model Transformation;Accommodation
-79;ontology;ontology;Model to Model Transformation;N/A
-80;discrete behavior;ui configuration model;Model to Model Transformation;Administrative
-81;architecture model;continuous behavior;Model to Model Transformation;Accommodation
-82;discrete behavior;architecture model;Model to Model Transformation;Accommodation
-83;architecture model;architecture model;Model to Model Transformation;Accommodation
+0;continuous behavior;;Model Interpretation;Transportation and Storage
+1;continuous behavior;;Model Interpretation;Transportation and Storage
+2;ontology;data;Model to Model Transformation;Manufacturing
+3;continuous behavior;;Model Interpretation;Accommodation
+4;continuous behavior;;Model Interpretation;Accommodation
+5;continuous behavior;;Code Generation;Transportation and Storage
+6;continuous behavior;;Code Generation;Transportation and Storage
+7;ontology;data;Model to Model Transformation;Electricity
+8;ontology;other software code;Model Interpretation;Manufacturing
+9;ontology;;Model to Model Transformation;Manufacturing
+10;ontology;other software code;Model Interpretation;
+11;ontology;simulation code;Model Interpretation;
+12;ontology;ontology;Model to Model Transformation;
+13;;continuous behavior;Model to Model Transformation;Education
+14;;continuous behavior;Model to Model Transformation;Electricity
+15;data;ontology;Model to Model Transformation;Manufacturing
+16;ontology;ontology;Model to Model Transformation;
+17;architecture;continuous behavior;Model to Model Transformation;Accommodation
