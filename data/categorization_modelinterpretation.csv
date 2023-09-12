@@ -1,8 +1,7 @@
-source;n.d.;other software code;simulation code;visualization software
-architecture;0;0;0;1
-continuous behavior;4;0;0;0
-data;3;5;2;1
-discrete behavior;4;3;0;0
-n.d.;1;1;1;0
-ontology;0;2;1;0
-ui configuration;1;0;0;1
+source;control;data processing;database;machine learning;machine learning model;other software;simulation software;visualization software
+architecture;0;0;0;0;0;0;0;1
+continuous behavior;0;0;0;0;0;0;5;0
+data;0;3;1;1;1;2;3;3
+data model;0;0;0;0;0;1;1;0
+discrete behavior;4;1;0;1;0;0;4;0
+ontology;1;0;0;0;0;1;1;0
