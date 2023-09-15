@@ -1,27 +1,270 @@
-;source;target;mde;domain
-0;continuous behavior;simulation software;Model Interpretation;Transportation and Storage
-1;continuous behavior;;Model Interpretation;Transportation and Storage
-2;continuous behavior;simulation software;Model Interpretation;Transportation and Storage
-3;continuous behavior;;Model Interpretation;Transportation and Storage
-4;continuous behavior;simulation software;Model Interpretation;Transportation and Storage
-5;continuous behavior;;Model Interpretation;Transportation and Storage
-6;ontology;data;Model to Model Transformation;Manufacturing
-7;ontology;;Model to Model Transformation;Manufacturing
-8;continuous behavior;simulation software;Model Interpretation;Accommodation
-9;continuous behavior;;Model Interpretation;Accommodation
-10;continuous behavior;simulation software;Model Interpretation;Accommodation
-11;continuous behavior;;Model Interpretation;Accommodation
-12;continuous behavior;simulation software;Code Generation;Transportation and Storage
-13;continuous behavior;;Code Generation;Transportation and Storage
-14;continuous behavior;simulation software;Code Generation;Transportation and Storage
-15;continuous behavior;;Code Generation;Transportation and Storage
-16;ontology;data;Model to Model Transformation;Electricity
-17;ontology;;Model to Model Transformation;Electricity
-18;ontology;other software;Model Interpretation;Manufacturing
-19;ontology;;Model Interpretation;Manufacturing
-20;ontology;data;Model to Model Transformation;Manufacturing
-21;ontology;;Model to Model Transformation;Manufacturing
-22;data;ontology;Model to Model Transformation;Manufacturing
-23;;ontology;Model to Model Transformation;Manufacturing
-24;architecture;continuous behavior;Model to Model Transformation;Accommodation
-25;;continuous behavior;Model to Model Transformation;Accommodation
+;0
+0;discrete behavior
+1;discrete behavior
+2;
+3;
+4;discrete behavior
+5;discrete behavior
+6;
+7;
+8;discrete behavior
+9;discrete behavior
+10;
+11;
+12;data
+13;data
+14;
+15;
+16;data
+17;data
+18;
+19;
+20;data
+21;data
+22;
+23;
+24;discrete behavior
+25;discrete behavior
+26;
+27;
+28;data
+29;data
+30;
+31;
+32;discrete behavior
+33;discrete behavior
+34;
+35;
+36;discrete behavior
+37;discrete behavior
+38;
+39;
+40;data
+41;data
+42;discrete behavior
+43;discrete behavior
+44;architecture
+45;architecture
+46;
+47;
+48;ontology
+49;ontology
+50;
+51;
+52;data
+53;data
+54;
+55;
+56;data
+57;data
+58;
+59;
+60;data
+61;data
+62;
+63;
+64;ontology
+65;ontology
+66;
+67;
+68;data
+69;data
+70;
+71;
+72;architecture
+73;architecture
+74;
+75;
+76;data
+77;data
+78;
+79;
+80;data
+81;data
+82;
+83;
+84;data
+85;data
+86;
+87;
+88;ontology
+89;ontology
+90;
+91;
+92;discrete behavior
+93;discrete behavior
+94;
+95;
+96;ontology
+97;ontology
+98;
+99;
+100;discrete behavior
+101;discrete behavior
+102;
+103;
+104;discrete behavior
+105;discrete behavior
+106;
+107;
+108;architecture
+109;architecture
+110;
+111;
+112;discrete behavior
+113;discrete behavior
+114;
+115;
+116;architecture
+117;architecture
+118;
+119;
+120;discrete behavior
+121;
+122;discrete behavior
+123;
+124;data
+125;
+126;data
+127;
+128;data
+129;discrete behavior
+130;data
+131;discrete behavior
+132;data
+133;discrete behavior
+134;data
+135;discrete behavior
+136;data
+137;
+138;data
+139;
+140;data
+141;
+142;data
+143;
+144;discrete behavior
+145;
+146;discrete behavior
+147;
+148;discrete behavior
+149;
+150;discrete behavior
+151;
+152;discrete behavior
+153;
+154;discrete behavior
+155;
+156;discrete behavior
+157;
+158;discrete behavior
+159;
+160;continuous behavior
+161;
+162;continuous behavior
+163;
+164;architecture
+165;
+166;architecture
+167;
+168;data
+169;
+170;data
+171;
+172;ui configuration
+173;
+174;ui configuration
+175;
+176;data
+177;
+178;data
+179;
+180;discrete behavior
+181;
+182;discrete behavior
+183;
+184;data
+185;
+186;data
+187;
+188;data
+189;
+190;data
+191;
+192;architecture
+193;
+194;architecture
+195;
+196;architecture
+197;
+198;architecture
+199;
+200;data
+201;
+202;data
+203;
+204;ontology
+205;
+206;ontology
+207;
+208;data
+209;
+210;data
+211;
+212;data
+213;
+214;data
+215;
+216;ontology
+217;
+218;ontology
+219;
+220;discrete behavior
+221;
+222;discrete behavior
+223;
+224;data
+225;
+226;data
+227;
+228;continuous behavior
+229;
+230;continuous behavior
+231;
+232;architecture
+233;
+234;architecture
+235;
+236;architecture
+237;
+238;architecture
+239;
+240;data
+241;data
+242;data
+243;architecture
+244;data
+245;ui configuration
+246;ui configuration
+247;data
+248;data
+249;continuous behavior
+250;continuous behavior
+251;architecture
+252;data
+253;architecture
+254;data
+255;ui configuration
+256;ui configuration
+257;discrete behavior
+258;data
+259;discrete behavior
+260;data
+261;discrete behavior
+262;data
+263;architecture
+264;ui configuration
+265;discrete behavior
+266;architecture
+267;architecture
+268;architecture
