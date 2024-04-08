@@ -2,7 +2,11 @@ This repository contains all data created for our systematic mapping study entit
 In the following, we describe the individual steps of the procedure performed to obtain the results for this study, and provide links to the relevant files for each step.
 
 # 1. Keyword-based search
-First, we performed a keyword-based search in different literature databases. The results of this keyword-based search (paper titles and metadata) are available in the file [00 Search Results.csv](./00%20Search%20Results.csv).
+First, we performed a keyword-based search in different literature databases using the conceptual search string 
+"Digital Twin*" AND (Model-Driven) OR "MODEL DRIVEN
+Details on the specifics of executing this search query in the different search engines of the selected literature databases are given in the file [00 Documentation of Search.md](./00%20Search%20Results.csv)
+
+The results of this keyword-based search (paper titles and metadata) are available in the file [00 Search Results.csv](./00%20Search%20Results.csv)
 This file contains xx duplicates, as well as yy papers which were not written in English or not peer-reviewed. We already excluded these papers in this initial step. The papers that remained after exclusion were forwarded to Step 2.
 
 # 2. Screening of papers
