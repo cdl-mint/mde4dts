@@ -28,13 +28,14 @@ Link to search engine: https://ieeexplore.ieee.org/Xplore/home.jsp
 
 Search String: 
 ```
-(("Document Title": "Digital Twin" OR "Abstract": "Digital Twin" OR "All Metadata": "Digital Twin") OR
-("Document Title": "Digital Twins" OR "Abstract": "Digital Twins" OR "All Metadata": "Digital Twins") 
+(("Document Title": "Digital Twin" OR "Abstract": "Digital Twin" OR "Author Keywords": "Digital Twin" OR "Publication Title": "Digital Twin") 
+OR
+("Document Title": "Digital Twins" OR "Abstract": "Digital Twins" OR "Author Keywords": "Digital Twins" OR "Publication Title": "Digital Twins") 
 )
 AND
-(("Document Title": Model-Driven OR "Abstract": Model-Driven OR "All Metadata": Model-Driven) 
+(("Document Title": "Model-Driven" OR "Abstract": "Model-Driven" OR "Author Keywords": "Model-Driven" OR "Publication Title": "Model-Driven") 
 OR
-("Document Title": "Model Driven" OR "Abstract": "Model Driven" OR "All Metadata": "Model Driven"))
+("Document Title": "Model Driven" OR "Abstract": "Model Driven" OR "Author Keywords": "Model Driven" OR "Publication Title": "Model Driven") )
 ```
 # ACM
 Link to search engine: https://dl.acm.org/search/advanced
