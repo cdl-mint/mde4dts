@@ -1,0 +1,1201 @@
+{
+    "A digital twin-driven hybrid approach for the prediction of performance degradation in transmission unit of CNC machine tool": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"hybrid model (physical, geometric, behavior, rule)\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"performance degredation measurement algorithm\",\"target category\":\"Software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"runtime data\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"simulation engine\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems",
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Manufacturing",
+        "Use Case": "Transmission of CNC Machine",
+        "Publication Title": "ROBOTICS AND COMPUTER-INTEGRATED MANUFACTURING",
+        "Authors": "Yang, X; Ran, Y; Zhang, GB; Wang, HW; Mu, ZY; Zhi, SG",
+        "Publication Year": null,
+        "Document Identifier": "J",
+        "Publisher": null
+    },
+    "A framework for Model-Driven Engineering of resilient software-controlled systems": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML: BDD\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Knowledge Base of software digital twins (Metamodel proposed in Figure 5 of the paper) -> in fact, this is the class diagram of their knowledge base\",\"target category\":\"Software\",\"target sub-category 1\":\"database\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Fault Trees\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"FaultTreeAnalyzer (metamodel proposed in Figure 8)\",\"target category\":\"Software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "limited traffic zone access control",
+        "Publication Title": "Computing",
+        "Authors": "Parri J.; Patara F.; Sampietro S.; Vicario E.",
+        "Publication Year": 2021.0,
+        "Document Identifier": "Article",
+        "Publisher": "Springer"
+    },
+    "A Methodology for Digital Twin Modeling and Deployment for Industry 4.0": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"AutomationML models\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DT runtime memory\",\"target category\":\"software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"AutomationML models\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Restful API, Html pages\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Systems of Systems",
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": "refinery automationsystem with four valves ",
+        "Publication Title": "Proceedings of the IEEE",
+        "Authors": "G. N. Schroeder; C. Steinmetz; R. N. Rodrigues; R. V. B. Henriques; A. Rettberg; C. E. Pereira",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Journals",
+        "Publisher": "IEEE"
+    },
+    "A Model-Driven Approach for Situational Intelligence & Operational Awareness": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"electrical system model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":null,\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Electricity",
+        "Use Case": null,
+        "Publication Title": "2019 Petroleum and Chemical Industry Conference Europe (PCIC EUROPE)",
+        "Authors": "S. Shokooh; G. Nordvik",
+        "Publication Year": 2019.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "A Novel Methodology to Construct Digital Twin Models for Spacecraft Operations Using Fault and Behaviour Trees": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Fault Trees\",\"source category\":\"structural model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Behavior Trees (BTs)\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":null}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Fault Trees\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Operations-Dedicated Models (ODMs)\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Operate\"}",
+            "2": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"DT model (=ODM model)\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"UI-based monitoring tools\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Professional, Scientific",
+        "Use Case": "ground station of a spacecraft",
+        "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Christofi N,Pucel X",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "A pattern catalog for augmenting Digital Twin models with behavior; [Ein Musterkatalog zur Erweiterung von digitalen Zwillingsmodellen um Verhaltenssichten]": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"behavior model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"structure + behavior model (DTML)\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":\"discrete behavior\",\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"structure model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"structure + behavior model (DTML)\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":\"discrete behavior\",\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems",
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": "3D Printer",
+        "Publication Title": "At-Automatisierungstechnik",
+        "Authors": "Lehner D.; Sint S.; Eisenberg M.; Wimmer M.",
+        "Publication Year": 2023.0,
+        "Document Identifier": "Article",
+        "Publisher": "De Gruyter Oldenbourg"
+    },
+    "AML4DT: A Model-Driven Framework for Developing and Maintaining Digital Twins with AutomationML": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AML\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DT-MM\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"DT-MM\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Json Files\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Maintain\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Administrative",
+        "Use Case": "Air Quality Opitmization System",
+        "Publication Title": "2021 26th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA )",
+        "Authors": "D. Lehner; S. Sint; M. Vierhauser; W. Narzt; M. Wimmer",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Case Study on Automated and Continuous Reliability Assessment of Software-Defined Manufacturing Based on Digital Twins": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML v2 action sequences\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Markov chains\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML v2 structure models\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Fault Trees\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Manufacturing",
+        "Use Case": null,
+        "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Grimmeisen P,Wortmann A,Morozov A",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Closed-Loop Systems Engineering (CLOSE): Integrating Experimentable Digital Twins with the Model-Driven Engineering Process": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Semantic Reference Model  (physical product parts) -> Experimentable Digital Twin\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Simulator\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "Autonomous Underwater Vehicle (Torpedo)",
+        "Publication Title": "2018 IEEE International Systems Engineering Symposium (ISSE)",
+        "Authors": "M. D. Maio; G. -D. Kapos; N. Klusmann; L. Atorf; U. Dahmen; M. Schluse; J. Rossmann",
+        "Publication Year": 2018.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SDL model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Discrete Event System Specification (formal model for simulation engines)\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SDL model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Snap!\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Processes"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Education",
+        "Use Case": null,
+        "Publication Title": "2021 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)",
+        "Authors": "X. P. i. Palom\u00e9s; P. Tuset-Peir\u00f3; P. F. i. Casas",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Concept of a Modular and System Model Driven Digital Twin for Engineering Education": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML models (BDD, Sequence Diagram, Parametric Diagram, State Machines)\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":\"discrete behavior\",\"source model target category\":\"PT\",\"target\":\"Simulink Model\",\"target category\":\"behavior model\",\"target sub-category 1\":\"continuous behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Education",
+        "Use Case": "education platform",
+        "Publication Title": "2023 18th Annual System of Systems Engineering Conference (SoSe)",
+        "Authors": "F. Wilking; M. Behringer; M. Fett; S. Goetz; E. Kirchner; S. Wartzack",
+        "Publication Year": 2023.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "CPSAML: A Language and Code Generation Framework for Digital Twin Based Monitoring of Mobile Cyber-Physical Systems": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"CPSAML\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"SysML (partial model)\",\"target category\":\"structural model\",\"target sub-category 1\":\"architecture\",\"target sub-category 2\":null,\"target model target category\":\"Software\",\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML (complete model)\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"CPS software code (ROS Packages, DT, Monitoring Cockpit). Sprachen: Java, Typescript, Python, Docker\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Accommodation",
+        "Use Case": "Roomba floor cleaning robot",
+        "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Fend A,Bork D",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "DataTime: a Framework to smoothly Integrate Past, Present and Future into Models": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"DataTime DSL\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DATA Time Framework\",\"target category\":\"Software\",\"target sub-category 1\":\"machine learning\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "Intelligent Public Transportation Systems of the city of Rennes (France)",
+        "Publication Title": "2021 ACM/IEEE 24th International Conference on Model Driven Engineering Languages and Systems (MODELS)",
+        "Authors": "G. Lyan; J. -M. J\u00e9z\u00e9quel; D. Gross-Amblard; B. Combemale",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Digital Behavioral Twins for Safe Connected Cars": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"discrete markov decision process for modeling driving context; behavioral AI model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Risk Analyzer; linear ML methods\",\"target category\":\"Software\",\"target sub-category 1\":\"machine learning\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":null}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "Connected Vehicles Behaviour prediction",
+        "Publication Title": "Proceedings of the 21th ACM/IEEE International Conference on Model Driven Engineering Languages and Systems",
+        "Authors": "Chen X,Kang E,Shiraishi S,Preciado VM,Jiang Z",
+        "Publication Year": 2018.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Digital Twin as Risk-Free Experimentation Aid for Techno-Socio-Economic Systems": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"System DT (Metamodel proposed by authors in Figure 5)\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Learning Agent (Reinforcement Learning Algorithm)\",\"target category\":\"Software\",\"target sub-category 1\":\"machine learning\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "Parcel Sorting Terminal",
+        "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems",
+        "Authors": "Barat S,Kulkarni V,Clark T,Barn B",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Digital Twin of an Electrical Motor Based on Empirical Performance Model": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Unity Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"ROS Bridge\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Unity Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Simulation Controller\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": null,
+        "Publication Title": "2020 XI International Conference on Electrical Power Drive Systems (ICEPDS)",
+        "Authors": "A. Rass\u00f5lkin; V. Rjabt\u009aikov; T. Vaimann; A. Kallaste; V. Kuts; A. Partyshev",
+        "Publication Year": 2020.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Digital Twins Driving Model Based on Petri Net in Industrial Pipeline": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Petrinet\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":null,\"target\":\"real time simulation of state\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Processes"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Manufacturing",
+        "Use Case": "Suit tailoring",
+        "Publication Title": "2020 International Conference on Artificial Intelligence and Electromechanical Automation (AIEA)",
+        "Authors": "Y. Dai; Y. Shi; Z. Zhang; R. Tao; F. Fang",
+        "Publication Year": 2020.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Enabling Semantic Interoperability of Asset Administration Shells through an Ontology-Based Modeling Method": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"OML Vocabulary\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"UML Profile\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": "robotic cell (niryo ned for gripping + turtlebot for transportation)",
+        "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Huang Y,Dhouib S,Medinacelli LP,Malenfant J",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Ensuring consistency in scalable-detail models for DT-based control": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Modelica model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Modelica Simulator\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Modelica model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Modelica Simulator\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems",
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Accommodation",
+        "Use Case": "electric heater system",
+        "Publication Title": "IFAC-PapersOnLine",
+        "Authors": "Cimino C.; Leva A.; Ferretti G.",
+        "Publication Year": 2021.0,
+        "Document Identifier": "Conference paper",
+        "Publisher": "Elsevier B.V."
+    },
+    "Generating customized low-code development platforms for digital twins": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiArc model\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Digital Twin Implementation: Java code, Software Architecture Components + Glue Code\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"ECA\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Evaluator Component of DT Archtiecture\",\"target category\":\"Software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"CD\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Digital Twin Implementation: Java code (Backend)\",\"target category\":\"Software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "3": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"CBR\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Reasoner Component of DT Architecture\",\"target category\":\"Software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "4": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Communication specification\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Java Code for communication between CPS and DT\",\"target category\":\"Software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "5": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"DSL component + GUI models for editor and viewer + DT components\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Digital Twin Implementation: Low-code editor for DT configuration\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "6": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ui configuration\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Digital Twin Implementation: DT Cockpit\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Manufacturing",
+        "Use Case": "injection molding machine",
+        "Publication Title": "Journal of Computer Languages",
+        "Authors": "Dalibor M.; Heithoff M.; Michael J.; Netz L.; Pfeiffer J.; Rumpe B.; Varga S.; Wortmann A.",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Article",
+        "Publisher": "Elsevier Ltd"
+    },
+    "Generating Digital Twin Cockpits for Parameter Management in the Engineering of Wind Turbines": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"UML Class Diagram\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"UI Model\",\"target category\":\"structural model\",\"target sub-category 1\":\"ui configuration\",\"target sub-category 2\":null,\"target model target category\":\"Software\",\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ui configuration\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Part of DT UI Cockpit (Typescript)\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"UML Class Diagram\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Part of DT UI Cockpit (Python + Typescript)\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Electricity",
+        "Use Case": "cooling system of a wind turbine",
+        "Publication Title": "Lecture Notes in Informatics (LNI), Proceedings - Series of the Gesellschaft fur Informatik (GI)",
+        "Authors": "Michael J.; Nachmann I.; Netz L.; Rumpe B.; St\u00fcber S.",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference paper",
+        "Publisher": "Gesellschaft fur Informatik (GI)"
+    },
+    "Generative and Model-driven SDK development for the Industrie 4.0 Digital Twin": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"AAS model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"GPL (shown for C#\\/Java) Stubs + Contracts\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": null,
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": "2021 26th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA )",
+        "Authors": "N. Braunisch; M. Ristin-Kaufmann; R. Lehmann; H. W. van de Venn",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Integration of SysML Models in a 3D Environment for Virtual Testing and Validation": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML models\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Unity Model\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Electricity",
+        "Use Case": null,
+        "Publication Title": "Proceedings of the Federated Africa and Middle East Conference on Software Engineering",
+        "Authors": "Barosan I,van der Heijden J",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Interface Development for Digital Twin of an Electric Motor Based on Empirical Performance Model": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"Unity Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Simulation Controller\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"Unity Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"ROS Bridge\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": null,
+        "Publication Title": "IEEE Access",
+        "Authors": "A. Rass\u00f5lkin; V. Rjabt\u009aikov; V. Kuts; T. Vaimann; A. Kallaste; B. Asad; A. Partyshev",
+        "Publication Year": 2022.0,
+        "Document Identifier": "IEEE Journals",
+        "Publisher": "IEEE"
+    },
+    "Knowledge driven rapid development of white box digital twins for industrial plant systems": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"M&CML\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"fininte state machine\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SADL ontology\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"M&CML control systems model\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Electricity",
+        "Use Case": "power plant",
+        "Publication Title": "IECON 2021 \u0096 47th Annual Conference of the IEEE Industrial Electronics Society",
+        "Authors": "A. B.; S. R.C.; B. B.; R. Dhakshinamoorthy; S. A.; N. S.",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Meta-model-based shop-floor digital twin architecture, modeling and application": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"raw data (conforming to data model)\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"SysML BDD\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Manufacturing",
+        "Use Case": "shopfloor",
+        "Publication Title": "Robotics and Computer-Integrated Manufacturing",
+        "Authors": "Yang X.; Liu X.; Zhang H.; Fu L.; Yu Y.",
+        "Publication Year": 2023.0,
+        "Document Identifier": "Article",
+        "Publisher": "Elsevier Ltd"
+    },
+    "Model-Driven Development of a Digital Twin for Injection Molding": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiArc\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Java\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"Classdiagrams\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Java\",\"target category\":\"Software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": null,
+        "Publication Title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "Authors": "Bibow P.; Dalibor M.; Hopmann C.; Mainz B.; Rumpe B.; Schmalzing D.; Schmitz M.; Wortmann A.",
+        "Publication Year": 2020.0,
+        "Document Identifier": "Conference paper",
+        "Publisher": "Springer"
+    },
+    "Model-Driven Digital Twin Construction: Synthesizing the Integration of Cyber-Physical Systems with Their Information Systems": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiArc model\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"GPL code for CPS\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"MontiArc ADL + Tagging applied on ports of adl model\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"new MontiArc ADL with components receiving tagged ports\",\"target category\":\"structural model\",\"target sub-category 1\":\"architecture\",\"target sub-category 2\":null,\"target model target category\":\"Software\",\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"tagging model, Class Diagram, MontiArc Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"extended MontiArc Model\",\"target category\":\"structural model\",\"target sub-category 1\":\"architecture\",\"target sub-category 2\":null,\"target model target category\":\"Software\",\"system lifecycle phase\":\"Design\"}",
+            "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"UML Class Diagram\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"digital twin information system\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "4": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ui configuration\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Webpage\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Accommodation",
+        "Use Case": "automatic fire extinguishing system",
+        "Publication Title": "Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems",
+        "Authors": "Kirchhof JC,Michael J,Rumpe B,Varga S,Wortmann A",
+        "Publication Year": 2020.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Model-driven engineering city spaces via bidirectional model transformations": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"CityGML model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"cyber-physical spaces (3D topology) model\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Plan\"}"
+        },
+        "Technological Readiness Level": null,
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Construction",
+        "Use Case": "smart city",
+        "Publication Title": "Software and Systems Modeling",
+        "Authors": "Visconti E.; Tsigkanos C.; Hu Z.; Ghezzi C.",
+        "Publication Year": 2021.0,
+        "Document Identifier": "Article",
+        "Publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "Model-Driven Engineering in Digital Thread Platforms: A Practical Use Case and Future Challenges": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ui configuration\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Web app\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":null}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"Process Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Web app\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":null}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"Data model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Web app\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":null}"
+        },
+        "Technological Readiness Level": null,
+        "twinning target": null,
+        "twin lifecycle phase": null,
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "Authors": "Chaudhary H.A.A.; Guevara I.; John J.; Singh A.; Ghosal A.; Pesch D.; Margaria T.",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference paper",
+        "Publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "On the Engineering of IoT-Intensive Digital Twin Software Systems": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"structural model of the PT\",\"source category\":\"structural model\",\"source sub-category 1\":null,\"source sub-category 2\":\"data\",\"source model target category\":\"PT\",\"target\":\"Model Synchronizer + Model Manager component\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"behavioral model of the PT\",\"source category\":\"behavior model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Model Synchronizer + Model Manager component\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": "Proceedings of the IEEE/ACM 42nd International Conference on Software Engineering Workshops",
+        "Authors": "Rivera LF,M\u00fcller HA,Villegas NM,Tamura G,Jim\u00e9nez M",
+        "Publication Year": 2020.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Proof of Concept for a Roundtrip Engineering IS for the New Enterprise in the Industry 4.0 Era": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Python Drone control code\",\"target category\":\"Software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "Drone fleet",
+        "Publication Title": "2022 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (SYNASC)",
+        "Authors": "A. Chi?; A. -M. Ghiran; R. A. Buchmann",
+        "Publication Year": 2022.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Reliable Counterparts: Efficiently Testing Causal Relationships in Digital Twins": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Causal Directed Acyclic Graphs (DAG)\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Inference Engine\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Test\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": "Robotic arm",
+        "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Somers RJ,Clark AG,Walkinshaw N,Hierons RM",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AAS\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"OWL Individuals (MaRCO)\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"OWL Ontology + OWL Individuals\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"capability matchmaker\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}",
+            "2": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"AAS Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"user interface created by the authors (cf. Section 4.C)\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}",
+            "3": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"OML\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"UML Stereotypes\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": null,
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": "robotic cell (niryo ned for gripping + turtlebot for transportation)",
+        "Publication Title": "2023 IEEE 6th International Conference on Industrial Cyber-Physical Systems (ICPS)",
+        "Authors": "Y. Huang; S. Dhouib; L. P. Medinacelli; J. Malenfant",
+        "Publication Year": 2023.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Supporting Digital Twins for the Retrofit in Aviation by a Model-Driven Data Handling": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML (csv representation)\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"SysML (Graph Database entries)\",\"target category\":\"Software\",\"target sub-category 1\":\"database\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Maintain\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "Aircraft cabine refitting",
+        "Publication Title": "SYSTEMS",
+        "Authors": "Laukotka, FN; Krause, D",
+        "Publication Year": null,
+        "Document Identifier": "J",
+        "Publisher": null
+    },
+    "Supporting the Implementation of Digital Twins for IoT-Enhanced BPs": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"java template code for microservices\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DTDL Model\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}",
+            "2": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DTDL Model\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"BPMN Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Java Templates for Device Management Microservices\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Systems of Systems",
+            "Processes"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Accommodation",
+        "Use Case": "Business Process of Managing CO2 Levels",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "The Framework for Designing Autonomous Cyber-Physical Multi-agent Systems for Adaptive Resource Management": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Knowledge Base Model\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Scheduling Engine\",\"target category\":\"Software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Knowledge Base Model\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Simulator\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}",
+            "2": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Knowledge Base Model\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Knowledge Base Model (updated with runtime data)\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": null,
+        "twinning target": null,
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "Authors": "Gorodetsky V.I.; Kozhevnikov S.S.; Novichkov D.; Skobelev P.O.",
+        "Publication Year": 2019.0,
+        "Document Identifier": "Conference paper",
+        "Publisher": "Springer"
+    },
+    "The OMiLAB Digital Innovation environment: Agile conceptual models to bridge business value with Digital and Physical Twins for Product-Service Systems development": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"OLIVE platform\",\"target category\":\"Software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":\"control\",\"target model target category\":null,\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Education",
+        "Use Case": null,
+        "Publication Title": "Computers in Industry",
+        "Authors": "Karagiannis D.; Buchmann R.A.; Utz W.",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Article",
+        "Publisher": "Elsevier B.V."
+    },
+    "Towards a Digital Twin for Cyber-Physical Production Systems: A Multi-Paradigm Modeling Approach in the Postal Industry": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Activity Diagram\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Activity Diagram\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Class Diagram\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Processes"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Administrative",
+        "Use Case": "sorting robot of a postal center",
+        "Publication Title": "Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Niati A,Selma C,Tamzalit D,Bruneliere H,Mebarki N,Cardin O",
+        "Publication Year": 2020.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Towards a Model-Driven Architecture for Interactive Digital Twin Cockpits": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"CD\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Java Code\",\"target category\":\"Software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiArc model\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"system architecture\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ui configuration\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"DT cockpits\",\"target category\":\"Software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": null,
+        "Publication Title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "Authors": "Dalibor M.; Michael J.; Rumpe B.; Varga S.; Wortmann A.",
+        "Publication Year": 2020.0,
+        "Document Identifier": "Conference paper",
+        "Publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "Towards Reactive Planning with Digital Twins and Model-Driven Optimization": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Henshin model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Digital Twin\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed;As-Operated",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "Authors": "Eisenberg M.; Lehner D.; Sindelar R.; Wimmer M.",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference paper",
+        "Publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "Twin Process Model Driven Machining Quality Optimization for Complex Parts": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"Twin Process Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Numeric Control (NC)Code\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": null,
+        "Publication Title": "2021 International Conference on Digital Society and Intelligent Systems (DSInS)",
+        "Authors": "J. Li; G. Zhou; C. Zhang",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "TwinOps - DevOps Meets Model-Based Engineering and Digital Twins for the Engineering of CPS": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AADL\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"LNT model (used for model checking)\",\"target category\":\"behavior model\",\"target sub-category 1\":\"continuous behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"AADL\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"FMI device mock-ups\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"AADL\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Azure code that is used to execute the system and perform monitoring (I think that both aspects are the same)\",\"target category\":\"Software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "3": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"SysML\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"AADL\",\"target category\":\"structural model\",\"target sub-category 1\":\"architecture\",\"target sub-category 2\":null,\"target model target category\":\"Software\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Accommodation",
+        "Use Case": "hypothetical monitoring system for a building",
+        "Publication Title": "Proceedings of the 23rd ACM/IEEE International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Hugues J,Hristosov A,Hudak JJ,Yankel J",
+        "Publication Year": 2020.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Understanding and Improving Model-Driven IoT Systems through Accompanying Digital Twins": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiThings\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"IoT controller code in C++\",\"target category\":\"Software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"MontiThings model or real system\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"MontiThings model or reproduced system\",\"target category\":\"structural model\",\"target sub-category 1\":\"architecture\",\"target sub-category 2\":null,\"target model target category\":\"Software\",\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Accommodation",
+        "Use Case": "smart lawn watering system; heating, ventilation, and air conditioning of a_x000D_\r\nsmart home",
+        "Publication Title": "Proceedings of the 20th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences",
+        "Authors": "Kirchhof JC,Malcher L,Rumpe B",
+        "Publication Year": 2021.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Using Trace Alignments for Measuring the Similarity between a Physical and Its Digital Twin": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"OD (Snapshot of PT and DT)\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT + software\",\"target\":\"Trace Alignment Algorithm\",\"target category\":\"Software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"OD (Snapshot); CD (snapshot metamodel)\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT + software\",\"target\":\"Type Checking Algorithm\",\"target category\":\"Software\",\"target sub-category 1\":\"other software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems",
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "Lego Mindstorms Car",
+        "Publication Title": "Proceedings of the 25th International Conference on Model Driven Engineering Languages and Systems: Companion Proceedings",
+        "Authors": "Mu\u00f1oz P,Wimmer M,Troya J,Vallecillo A",
+        "Publication Year": 2022.0,
+        "Document Identifier": "Conference Paper",
+        "Publisher": "ACM"
+    },
+    "Using UML and OCL Models to Realize High-Level Digital Twins": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"UML class diagram\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"uml cd adapter that interprets CD and adapts a data lake accordingly (data lake stores data from the PT)\",\"target category\":\"Software\",\"target sub-category 1\":\"database\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": null,
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation and Storage",
+        "Use Case": "lego mindstorms car",
+        "Publication Title": "2021 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C)",
+        "Authors": "P. Mu\u00f1oz; J. Troya; A. Vallecillo",
+        "Publication Year": 2021.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "Workshop Management and Control System Based on Digital Twin": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"dt physical model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DT Simulation\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"behavior model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DT Simulation\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"geometric model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DT Simulation\",\"target category\":\"Software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems",
+            "Individual Systems",
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": null,
+        "Publication Title": "2022 8th International Conference on Control, Automation and Robotics (ICCAR)",
+        "Authors": "G. Wang; Z. Bing; Z. Hou; Y. Guan; X. Qi; M. Liu",
+        "Publication Year": 2022.0,
+        "Document Identifier": "IEEE Conferences",
+        "Publisher": "IEEE"
+    },
+    "A Model Based Framework for IoT-Aware Business Process Management": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"BPMN\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"IoTBPMN\",\"target category\":\"behavior model\",\"target sub-category 1\":\"discrete behavior\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"IoTBPMN\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"eBPMN (java-based implementation of a BP digital twin)\",\"target category\":\"behavior model\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"SysML\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"application-specific sensor driver code\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Processes"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Water Supply",
+        "Use Case": "Water Monitoring System",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "A Model-Driven Digital Twin for Manufacturing Process Adaptation": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Application-Specific Behavior Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Digital Twin (I assume the information system)\",\"target category\":\"software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"Class Diagrams\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"DT information system\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"MontiArc models\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"DT architecture\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"OPCUA adress space model, machine interface model, mapping between opcua and machine interface\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Kafka\\/OPCUA client implementation\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": "adaptive condition mapping",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "A Modeling Approach Supporting Digital Twin Engineering: Optimizing the Energy Consumption of Air Conditioning Facilities": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"ADOxx-based DSL for air conditioning facilities\",\"source category\":\"structural model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"API Gateway\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"DSML for air conditioning\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"JSON\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Accommodation",
+        "Use Case": "Air conditioning",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "AC-ROS: Assurance case driven adaptation for the robot operating system": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Goal Structure Notation (GSN) Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Figure 6: ROS Launch Files\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"GSN Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Figure 7: Analysis Component of a MAPE-K System\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Transportation",
+        "Use Case": "Autonomously Driving Surveillance Car",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "An enhanced state-aware model learning approach for security analysis in lightweight protocol implementations": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Protocol State Machine\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Figure 4: Vulnerability Analysis and Exploitation Component\",\"target category\":\"software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": null,
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Digital twin model-driven capacity evaluation and scheduling optimization for ship welding production line": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"data \",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"config model, process rule model base, control logic model base, simulation model base --> Digital Twin Model welding production line\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"DTD-WPL (Digital twin data of welding production line) Model (comprising of Production line configuration model, Process rule model, Control logic model, Sub-model base and Simulation model)\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":\"continuous behavior\",\"source model target category\":\"PT\",\"target\":\"Figure 8: Simulation Engine\",\"target category\":\"software\",\"target sub-category 1\":\"simulation software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Manufacturing",
+        "Use Case": "Ship Manufacturing Production Line",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Empowering Industry 4.0 with Generative and Model-Driven SDK Development": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"AAS Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Abstract Syntax Tree (AST)\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"Intermediate Representation of Abstract Syntax Tree\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"C# + Python + TypeScript SDK\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":null}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Explaining Cyberphysical System Behavior With Digital Twins": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"Domain Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Dgital Twin Cockpit\",\"target category\":\"software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"Architecture Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"architecture\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Dgital Twin Cockpit\",\"target category\":\"software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"GUI Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ui configuration\",\"source sub-category 2\":null,\"source model target category\":\"Software\",\"target\":\"Dgital Twin Cockpit\",\"target category\":\"software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "3": "{\"model processing technique\":\"Code Generation\",\"source\":\"OCL Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Dgital Twin Cockpit\",\"target category\":\"software\",\"target sub-category 1\":\"visualization software\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "4": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Reasoning Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"evaluator component\",\"target category\":\"software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "5": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Process Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"evaluator component\",\"target category\":\"software\",\"target sub-category 1\":\"control\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "6": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"System Description\",\"source category\":\"structural model\",\"source sub-category 1\":null,\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Explanation Model\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Maintain\"}",
+            "7": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Process Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Explanation Model\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Maintain\"}",
+            "8": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Reasoning Model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Explanation Model\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Maintain\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": null,
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Extracting Hardware Reconfiguration Models based on Knowledge Synthesis from STEP Files": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"STEP + ODP Model\",\"source category\":\"behavior + structure model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"OWL Model\",\"target category\":\"structural model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"OWL Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Feature Model in XML\",\"target category\":\"structural model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Generation of Digital Twins for Information Exchange Between Partners in the Industrie 4.0 Value Chain": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"AAS Meta-Model in Domain-Specific Language\",\"source category\":\"structural model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"XSD\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"AAS Meta-Model in Domain-Specific Language\",\"source category\":\"structural model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"JSON Schema\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":null}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"AAS Meta-Model in Domain-Specific Language\",\"source category\":\"structural model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"RSDF\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":null}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": null,
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": null,
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Model-based digital twins of medicine dispensers for healthcare IoT applications": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"Device Domain Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"API for communicating with DT\\/PT\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"medicine dispenser structure metamodel\",\"source category\":\"structural model\",\"source sub-category 1\":\"ontology\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"JSON\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}",
+            "2": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"JSON\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"medicine dispenser structure instance model\",\"target category\":\"structural model\",\"target sub-category 1\":\"data\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Implement\"}"
+        },
+        "Technological Readiness Level": "Evaluation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Human Health",
+        "Use Case": "Healthcare System of Oslo",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Modeling Urban Digital Twins over the Cloud-to-Thing Continuum": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"UML models\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Validation in USE tool\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Transportation",
+        "Use Case": "Urban Transportation System of Malaga",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Supporting Digital Twins Systems Integrating the MERODE Approach": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Code Generation\",\"source\":\"Object Event Table\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Web API, Business Logic and Data Store of the digital twin \",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":\"database\",\"target model target category\":null,\"system lifecycle phase\":\"Implement\"}",
+            "1": "{\"model processing technique\":\"Code Generation\",\"source\":\"Class Diagram\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Web API, Business Logic and Data Store of the digital twin \",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":\"database\",\"target model target category\":null,\"system lifecycle phase\":null}",
+            "2": "{\"model processing technique\":\"Code Generation\",\"source\":\"Finite State Machine\",\"source category\":\"behavior model\",\"source sub-category 1\":\"discrete behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Web API, Business Logic and Data Store of the digital twin \",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":null}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Operated",
+        "use case domain": "Administrative",
+        "Use Case": null,
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Supporting the Development of Digital Twins in Nuclear Waste Monitoring Systems": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"building model, nuclear waste model, sensor network model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"bayesian network model for risk analysis\",\"target category\":\"behavior + structure model\",\"target sub-category 1\":\"ontology\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":null}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Systems of Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Water Supply",
+        "Use Case": "Nuclear Waste",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Survey and Practice on Architecture and Deployment Method of Digital Twin System for Intelligent Substation": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model to Model Transformation\",\"source\":\"Physics-based model\",\"source category\":\"behavior model\",\"source sub-category 1\":\"continuous behavior\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Data-driven model\",\"target category\":\"software\",\"target sub-category 1\":\"machine learning\",\"target sub-category 2\":null,\"target model target category\":\"PT\",\"system lifecycle phase\":\"Design\"}"
+        },
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Electricity",
+        "Use Case": "Oil-immersed power transformer",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    },
+    "Towards Generating Model-Driven Speech Interfaces for Digital Twins": {
+        "modeling language": {},
+        "modelTrafos": {
+            "0": "{\"model processing technique\":\"Model Interpretation\",\"source\":\"Speech Interaction Model\",\"source category\":\"structural model\",\"source sub-category 1\":\"data\",\"source sub-category 2\":null,\"source model target category\":\"PT\",\"target\":\"Speech IO Framework\",\"target category\":\"software\",\"target sub-category 1\":\"data processing\",\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":\"Operate\"}",
+            "1": "{\"model processing technique\":null,\"source\":null,\"source category\":null,\"source sub-category 1\":null,\"source sub-category 2\":null,\"source model target category\":null,\"target\":null,\"target category\":null,\"target sub-category 1\":null,\"target sub-category 2\":null,\"target model target category\":null,\"system lifecycle phase\":null}"
+        },
+        "Technological Readiness Level": "Validation Research",
+        "twinning target": [
+            "Individual Systems"
+        ],
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "Manufacturing",
+        "Use Case": "Industrial Pick and Place use case",
+        "Publication Title": null,
+        "Authors": null,
+        "Publication Year": null,
+        "Document Identifier": null,
+        "Publisher": null
+    }
+}
