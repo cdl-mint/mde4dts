@@ -63,20 +63,20 @@
 61;data
 62;
 63;
-64;ontology
-65;ontology
+64;data
+65;data
 66;
 67;
-68;data
-69;data
+68;ontology
+69;ontology
 70;
 71;
-72;architecture
-73;architecture
+72;data
+73;data
 74;
 75;
-76;data
-77;data
+76;architecture
+77;architecture
 78;
 79;
 80;data
@@ -87,12 +87,12 @@
 85;data
 86;
 87;
-88;ontology
-89;ontology
+88;data
+89;data
 90;
 91;
-92;discrete behavior
-93;discrete behavior
+92;ontology
+93;ontology
 94;
 95;
 96;discrete behavior
@@ -231,45 +231,45 @@
 229;
 230;data
 231;
-232;ui configuration
+232;data
 233;
-234;ui configuration
+234;data
 235;
-236;data
+236;ui configuration
 237;
-238;data
+238;ui configuration
 239;
-240;discrete behavior
+240;data
 241;
-242;discrete behavior
+242;data
 243;
-244;data
+244;discrete behavior
 245;
-246;data
+246;discrete behavior
 247;
 248;data
 249;
 250;data
 251;
-252;architecture
+252;data
 253;
-254;architecture
+254;data
 255;
 256;architecture
 257;
 258;architecture
 259;
-260;data
+260;architecture
 261;
-262;data
+262;architecture
 263;
-264;ontology
+264;data
 265;
-266;ontology
+266;data
 267;
-268;data
+268;ontology
 269;
-270;data
+270;ontology
 271;
 272;data
 273;
@@ -381,30 +381,29 @@
 379;discrete behavior
 380;data
 381;discrete behavior
-382;discrete behavior
-383;data
-384;architecture
-385;ui configuration
-386;discrete behavior
+382;data
+383;architecture
+384;ui configuration
+385;discrete behavior
+386;architecture
 387;architecture
 388;architecture
-389;architecture
-390;discrete behavior
-391;architecture
-392;data
-393;architecture
+389;discrete behavior
+390;architecture
+391;data
+392;architecture
+393;data
 394;data
 395;data
-396;data
-397;architecture
-398;ui configuration
-399;data
+396;architecture
+397;ui configuration
+398;data
+399;ontology
 400;ontology
 401;ontology
 402;ontology
-403;ontology
+403;data
 404;data
 405;data
 406;data
-407;data
-408;discrete behavior
+407;discrete behavior

@@ -1,6 +1,6 @@
 source;architecture;continuous behavior;data;discrete behavior;machine learning;ontology;ui configuration
 architecture;3;1;0;0;0;0;0
 continuous behavior;0;0;0;0;1;0;0
-data;1;1;11;3;0;2;1
-discrete behavior;1;1;5;7;0;2;0
+data;1;1;12;3;0;2;1
+discrete behavior;1;1;4;7;0;2;0
 ontology;0;0;4;0;0;3;0

@@ -447,7 +447,7 @@
         "modelTrafos": [
             {
                 "model processing technique": "Model Interpretation",
-                "system lifecycle phase": null,
+                "system lifecycle phase": "Design",
                 "source": "discrete markov decision process for modeling driving context; behavioral AI model",
                 "source category": "behavior model",
                 "source sub-category 1": "discrete behavior",
@@ -1056,7 +1056,7 @@
     "Model-Driven Engineering in Digital Thread Platforms: A Practical Use Case and Future Challenges": {
         "Technological Readiness Level": "Solution Proposal",
         "twinning target": null,
-        "twin lifecycle phase": null,
+        "twin lifecycle phase": "As-Operated",
         "use case domain": null,
         "Use Case": null,
         "modelTrafos": [
@@ -1309,34 +1309,6 @@
                 "target sub-category 1": "data",
                 "target sub-category 2": null,
                 "target model target category": "PT"
-            },
-            {
-                "model processing technique": "Model to Model Transformation",
-                "system lifecycle phase": "Implement",
-                "source": "BPMN Model",
-                "source category": "behavior model",
-                "source sub-category 1": "discrete behavior",
-                "source sub-category 2": null,
-                "source model target category": "PT",
-                "target": "DTDL Model",
-                "target category": "structural model",
-                "target sub-category 1": "data",
-                "target sub-category 2": null,
-                "target model target category": "PT"
-            },
-            {
-                "model processing technique": "Code Generation",
-                "system lifecycle phase": "Implement",
-                "source": "BPMN Model",
-                "source category": "behavior model",
-                "source sub-category 1": "discrete behavior",
-                "source sub-category 2": null,
-                "source model target category": "PT",
-                "target": "Java Templates for Device Management Microservices",
-                "target category": "software",
-                "target sub-category 1": "data processing",
-                "target sub-category 2": null,
-                "target model target category": null
             }
         ]
     },

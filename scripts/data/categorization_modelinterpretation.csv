@@ -1,6 +1,6 @@
 source;control;data processing;database;machine learning;other software;simulation software;visualization software
 architecture;0;0;0;0;0;0;1
-continuous behavior;0;0;0;0;0;6;0
+continuous behavior;0;0;0;0;0;5;0
 data;0;6;1;2;3;4;3
 discrete behavior;7;1;0;1;0;6;0
 ontology;1;1;0;0;1;1;0
