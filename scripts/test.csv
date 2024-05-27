@@ -1,66 +1,149 @@
-;Title
-0;A digital twin-driven hybrid approach for the prediction of performance degradation in transmission unit of CNC machine tool
-2;A framework for Model-Driven Engineering of resilient software-controlled systems
-4;A Methodology for Digital Twin Modeling and Deployment for Industry 4.0
-6;A Model-Driven Approach for Situational Intelligence & Operational Awareness
-7;A Novel Methodology to Construct Digital Twin Models for Spacecraft Operations Using Fault and Behaviour Trees
-10;"A pattern catalog for augmenting Digital Twin models with behavior; [Ein Musterkatalog zur Erweiterung von digitalen Zwillingsmodellen um Verhaltenssichten]"
-12;AML4DT: A Model-Driven Framework for Developing and Maintaining Digital Twins with AutomationML
-14;Case Study on Automated and Continuous Reliability Assessment of Software-Defined Manufacturing Based on Digital Twins
-16;Closed-Loop Systems Engineering (CLOSE): Integrating Experimentable Digital Twins with the Model-Driven Engineering Process
-17;Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context
-19;Concept of a Modular and System Model Driven Digital Twin for Engineering Education
-20;CPSAML: A Language and Code Generation Framework for Digital Twin Based Monitoring of Mobile Cyber-Physical Systems
-22;DataTime: a Framework to smoothly Integrate Past, Present and Future into Models
-23;Digital Behavioral Twins for Safe Connected Cars
-24;Digital Twin as Risk-Free Experimentation Aid for Techno-Socio-Economic Systems
-25;Digital Twin of an Electrical Motor Based on Empirical Performance Model
-27;Digital Twins Driving Model Based on Petri Net in Industrial Pipeline
-28;Enabling Semantic Interoperability of Asset Administration Shells through an Ontology-Based Modeling Method
-29;Ensuring consistency in scalable-detail models for DT-based control
-30;Generating customized low-code development platforms for digital twins
-37;Automated Model Transformation in modeling Digital Twins of Industrial Internet-of-Things Applications utilizing AutomationML
-38;Generating Digital Twin Cockpits for Parameter Management in the Engineering of Wind Turbines
-41;Generative and Model-driven SDK development for the Industrie 4.0 Digital Twin
-42;Integration of SysML Models in a 3D Environment for Virtual Testing and Validation
-43;Interface Development for Digital Twin of an Electric Motor Based on Empirical Performance Model
-45;Knowledge driven rapid development of white box digital twins for industrial plant systems
-47;Meta-model-based shop-floor digital twin architecture, modeling and application
-48;Model-Driven Development of a Digital Twin for Injection Molding
-50;Model-Driven Digital Twin Construction: Synthesizing the Integration of Cyber-Physical Systems with Their Information Systems
-55;Model-driven engineering city spaces via bidirectional model transformations
-56;Model-Driven Engineering in Digital Thread Platforms: A Practical Use Case and Future Challenges
-59;On the Engineering of IoT-Intensive Digital Twin Software Systems
-61;Proof of Concept for a Roundtrip Engineering IS for the New Enterprise in the Industry 4.0 Era
-62;Reliable Counterparts: Efficiently Testing Causal Relationships in Digital Twins
-63;Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework
-67;Supporting Digital Twins for the Retrofit in Aviation by a Model-Driven Data Handling
-68;Supporting the Implementation of Digital Twins for IoT-Enhanced BPs
-70;The Framework for Designing Autonomous Cyber-Physical Multi-agent Systems for Adaptive Resource Management
-73;The OMiLAB Digital Innovation environment: Agile conceptual models to bridge business value with Digital and Physical Twins for Product-Service Systems development
-74;Towards a Digital Twin for Cyber-Physical Production Systems: A Multi-Paradigm Modeling Approach in the Postal Industry
-76;Towards a Model-Driven Architecture for Interactive Digital Twin Cockpits
-79;Towards Reactive Planning with Digital Twins and Model-Driven Optimization
-80;Twin Process Model Driven Machining Quality Optimization for Complex Parts
-81;TwinOps - DevOps Meets Model-Based Engineering and Digital Twins for the Engineering of CPS
-85;Understanding and Improving Model-Driven IoT Systems through Accompanying Digital Twins
-87;Using Trace Alignments for Measuring the Similarity between a Physical and Its Digital Twin
-89;Using UML and OCL Models to Realize High-Level Digital Twins
-90;Workshop Management and Control System Based on Digital Twin
-93;A Model Based Framework for IoT-Aware Business Process Management
-96;A Model-Driven Digital Twin for Manufacturing Process Adaptation
-100;A Modeling Approach Supporting Digital Twin Engineering: Optimizing the Energy Consumption of Air Conditioning Facilities
-102;AC-ROS: Assurance case driven adaptation for the robot operating system
-104;An enhanced state-aware model learning approach for security analysis in lightweight protocol implementations
-105;Digital twin model-driven capacity evaluation and scheduling optimization for ship welding production line
-107;Empowering Industry 4.0 with Generative and Model-Driven SDK Development
-109;Explaining Cyberphysical System Behavior With Digital Twins
-118;Extracting Hardware Reconfiguration Models based on Knowledge Synthesis from STEP Files
-120;Generation of Digital Twins for Information Exchange Between Partners in the Industrie 4.0 Value Chain
-123;Model-based digital twins of medicine dispensers for healthcare IoT applications
-126;Modeling Urban Digital Twins over the Cloud-to-Thing Continuum
-127;Supporting Digital Twins Systems Integrating the MERODE Approach
-130;Supporting the Development of Digital Twins in Nuclear Waste Monitoring Systems
-131;Supporting the Implementation of Digital Twins for IoT-Enhanced BPs
-133;Survey and Practice on Architecture and Deployment Method of Digital Twin System for Intelligent Substation
-134;Towards Generating Model-Driven Speech Interfaces for Digital Twins
+screening;detailed;;;;;;;;;;
+3D crowdsourced parametric cadastral mapping: Pathways integrating BIM/IFC, crowdsourced data and LADM;3D crowdsourced parametric cadastral mapping: Pathways integrating BIM/IFC, crowdsourced data and LADM;;;;;;;;;;
+A data- and model-driven approach for cancer treatment;A data- and model-driven approach for cancer treatment;;;;;;;;;;
+A data-model fusion dispatch strategy for the building energy flexibility based on the digital twin;A data-model fusion dispatch strategy for the building energy flexibility based on the digital twin;;;;;;;;;;
+A Digital Twin Model-Driven Architecture for Cyber-Physical and Human Systems;A Digital Twin Model-Driven Architecture for Cyber-Physical and Human Systems;;;;;;;;;;
+A digital twin-driven hybrid approach for the prediction of performance degradation in transmission unit of CNC machine tool;A digital twin-driven hybrid approach for the prediction of performance degradation in transmission unit of CNC machine tool;;;;;;;;;;
+A Flexible and Modular Architecture for Edge Digital Twin: Implementation and Evaluation;A Flexible and Modular Architecture for Edge Digital Twin: Implementation and Evaluation;;;;;;;;;;
+A framework for Model-Driven Engineering of resilient software-controlled systems;A framework for Model-Driven Engineering of resilient software-controlled systems;;;;;;;;;;
+A life-cycle dynamic wear degradation model of planetary gear systems;A life-cycle dynamic wear degradation model of planetary gear systems;;;;;;;;;;
+A Lightweight Model-driven MES Simulation Framework Based On Probabilistic Finite Automata;A Lightweight Model-driven MES Simulation Framework Based On Probabilistic Finite Automata;;;;;;;;;;
+A Methodology for Digital Twin Modeling and Deployment for Industry 4.0;A Methodology for Digital Twin Modeling and Deployment for Industry 4.0;;;;;;;;;;
+A Model Based Framework for IoT-Aware Business Process Management;A Model Based Framework for IoT-Aware Business Process Management;;;;;;;;;;
+A Model-driven Approach for Knowledge-based Engineering of Industrial Digital Twins;A Model-driven Approach for Knowledge-based Engineering of Industrial Digital Twins;;;;;;;;;;
+A Model-Driven Approach for Situational Intelligence & Operational Awareness;A Model-Driven Approach for Situational Intelligence & Operational Awareness;;;;;;;;;;
+A Model-Driven Digital Twin for Manufacturing Process Adaptation;A Model-Driven Digital Twin for Manufacturing Process Adaptation;;;;;;;;;;
+A Model-Driven Platform for Engineering Holistic Digital Twins;A Model-Driven Platform for Engineering Holistic Digital Twins;;;;;;;;;;
+A Modeling Approach Supporting Digital Twin Engineering: Optimizing the Energy Consumption of Air Conditioning Facilities;A Modeling Approach Supporting Digital Twin Engineering: Optimizing the Energy Consumption of Air Conditioning Facilities;;;;;;;;;;
+A multi-model ensemble digital twin solution for real-time unsteady flow state estimation of a pumping station;A multi-model ensemble digital twin solution for real-time unsteady flow state estimation of a pumping station;;;;;;;;;;
+A neural control of the parallel Gas Turbine with differential link;A neural control of the parallel Gas Turbine with differential link;;;;;;;;;;
+A New 5S Radar Structure Design Model Driven by Digital Twin;A New 5S Radar Structure Design Model Driven by Digital Twin;;;;;;;;;;
+A New Modeling Approach for Power Grid Online Analysis;A New Modeling Approach for Power Grid Online Analysis;;;;;;;;;;
+A Novel Fused NARX-Driven Digital Twin Model for Aeroengine Gas Path Parameter Prediction;A Novel Fused NARX-Driven Digital Twin Model for Aeroengine Gas Path Parameter Prediction;;;;;;;;;;
+A Novel Methodology to Construct Digital Twin Models for Spacecraft Operations Using Fault and Behaviour Trees;A Novel Methodology to Construct Digital Twin Models for Spacecraft Operations Using Fault and Behaviour Trees;;;;;;;;;;
+"A pattern catalog for augmenting Digital Twin models with behavior; [Ein Musterkatalog zur Erweiterung von digitalen Zwillingsmodellen um Verhaltenssichten]";"A pattern catalog for augmenting Digital Twin models with behavior; [Ein Musterkatalog zur Erweiterung von digitalen Zwillingsmodellen um Verhaltenssichten]";;;;;;;;;;
+A software engineering point of view on digital twin architecture;A software engineering point of view on digital twin architecture;;;;;;;;;;
+A software platform for constructing a digital twin of the integrated energy system;A software platform for constructing a digital twin of the integrated energy system;;;;;;;;;;
+A virtual model knowledge updating method driven by data;A virtual model knowledge updating method driven by data;;;;;;;;;;
+AAS Capability-Based Operation and Engineering of Flexible Production Lines;AAS Capability-Based Operation and Engineering of Flexible Production Lines;;;;;;;;;;
+AC-ROS: Assurance case driven adaptation for the robot operating system;AC-ROS: Assurance case driven adaptation for the robot operating system;;;;;;;;;;
+AML4DT: A Model-Driven Framework for Developing and Maintaining Digital Twins with AutomationML;AML4DT: A Model-Driven Framework for Developing and Maintaining Digital Twins with AutomationML;;;;;;;;;;
+An AAS Modeling Tool for Capability-Based Engineering of Flexible Production Lines;An AAS Modeling Tool for Capability-Based Engineering of Flexible Production Lines;;;;;;;;;;
+An enhanced state-aware model learning approach for security analysis in lightweight protocol implementations;An enhanced state-aware model learning approach for security analysis in lightweight protocol implementations;;;;;;;;;;
+An EV-Traction Inverter Data-Driven Modelling for Digital Twin Development;An EV-Traction Inverter Data-Driven Modelling for Digital Twin Development;;;;;;;;;;
+An Optimal Operation Control Framework for Digital Twin Manufacturing Cell;An Optimal Operation Control Framework for Digital Twin Manufacturing Cell;;;;;;;;;;
+Applying a Healthcare Web of Things Framework for Infertility Treatments;Applying a Healthcare Web of Things Framework for Infertility Treatments;;;;;;;;;;
+Automated Model Transformation in modeling Digital Twins of Industrial Internet-of-Things Applications utilizing AutomationML;Automated Model Transformation in modeling Digital Twins of Industrial Internet-of-Things Applications utilizing AutomationML;;;;;;;;;;
+Case Study on Automated and Continuous Reliability Assessment of Software-Defined Manufacturing Based on Digital Twins;Case Study on Automated and Continuous Reliability Assessment of Software-Defined Manufacturing Based on Digital Twins;;;;;;;;;;
+Challenges and Possible Approaches for Sustainable Digital Twinning;Challenges and Possible Approaches for Sustainable Digital Twinning;;;;;;;;;;
+Challenges of Integrating Model-Based Digital Twins for Vehicle Diagnosis;Challenges of Integrating Model-Based Digital Twins for Vehicle Diagnosis;;;;;;;;;;
+Classification and Mapping of Layout Algorithms for Usage in Graph-like Modeling Languages;Classification and Mapping of Layout Algorithms for Usage in Graph-like Modeling Languages;;;;;;;;;;
+Closed-Loop Systems Engineering (CLOSE): Integrating Experimentable Digital Twins with the Model-Driven Engineering Process;Closed-Loop Systems Engineering (CLOSE): Integrating Experimentable Digital Twins with the Model-Driven Engineering Process;;;;;;;;;;
+Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context;Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context;;;;;;;;;;
+Concept of a Modular and System Model Driven Digital Twin for Engineering Education;Concept of a Modular and System Model Driven Digital Twin for Engineering Education;;;;;;;;;;
+Construction and verification of dual-fuel engine combustion model;Construction and verification of dual-fuel engine combustion model;;;;;;;;;;
+Construction of digital twin model of engine in-cylinder combustion based on data-driven;Construction of digital twin model of engine in-cylinder combustion based on data-driven;;;;;;;;;;
+Coordination and Explanation of Reconfigurations in Self-Adaptive High-Performance Systems;Coordination and Explanation of Reconfigurations in Self-Adaptive High-Performance Systems;;;;;;;;;;
+CPSAML: A Language and Code Generation Framework for Digital Twin Based Monitoring of Mobile Cyber-Physical Systems;CPSAML: A Language and Code Generation Framework for Digital Twin Based Monitoring of Mobile Cyber-Physical Systems;;;;;;;;;;
+Data- and model-driven digital twins for design and logistics control of product distribution;Data- and model-driven digital twins for design and logistics control of product distribution;;;;;;;;;;
+Data-Driven Methodology to Support Long-Lasting Logistics and Decision Making for Urban Last-Mile Operations;Data-Driven Methodology to Support Long-Lasting Logistics and Decision Making for Urban Last-Mile Operations;;;;;;;;;;
+DataTime: a Framework to smoothly Integrate Past, Present and Future into Models;DataTime: a Framework to smoothly Integrate Past, Present and Future into Models;;;;;;;;;;
+Decentralized Autonomous Operations and Organizations in TransVerse: Federated Intelligence for Smart Mobility;Decentralized Autonomous Operations and Organizations in TransVerse: Federated Intelligence for Smart Mobility;;;;;;;;;;
+Developing a Physical and Digital Twin: An Example Process Model;Developing a Physical and Digital Twin: An Example Process Model;;;;;;;;;;
+Development and prospect of digital twin model for stray light of spaceborne telescope;Development and prospect of digital twin model for stray light of spaceborne telescope;;;;;;;;;;
+Digital Behavioral Twins for Safe Connected Cars;Digital Behavioral Twins for Safe Connected Cars;;;;;;;;;;
+Digital modeling-driven chatter suppression for thin-walled part manufacturing;Digital modeling-driven chatter suppression for thin-walled part manufacturing;;;;;;;;;;
+Digital Twin as Risk-Free Experimentation Aid for Techno-Socio-Economic Systems;Digital Twin as Risk-Free Experimentation Aid for Techno-Socio-Economic Systems;;;;;;;;;;
+Digital Twin Conception of Intelligent Operation and Maintenance of Power Transformer;Digital Twin Conception of Intelligent Operation and Maintenance of Power Transformer;;;;;;;;;;
+Digital Twin Driven Green Performance Evaluation Methodology of Intelligent Manufacturing: Hybrid Model Based on Fuzzy Rough-Sets AHP, Multistage Weight Synthesis, and PROMETHEE II;Digital Twin Driven Green Performance Evaluation Methodology of Intelligent Manufacturing: Hybrid Model Based on Fuzzy Rough-Sets AHP, Multistage Weight Synthesis, and PROMETHEE II;;;;;;;;;;
+Digital Twin Enables Rational Design of Ultrahigh-Power Lithium-Ion Batteries;Digital Twin Enables Rational Design of Ultrahigh-Power Lithium-Ion Batteries;;;;;;;;;;
+Digital twin enhanced human-machine interaction in product lifecycle;Digital twin enhanced human-machine interaction in product lifecycle;;;;;;;;;;
+Digital Twin for Predictive Maintenance;Digital Twin for Predictive Maintenance;;;;;;;;;;
+Digital twin model construction method of water treatment plant;Digital twin model construction method of water treatment plant;;;;;;;;;;
+Digital Twin Model of Air-Immersed Transformer Based on Electro-Thermal Simulations;Digital Twin Model of Air-Immersed Transformer Based on Electro-Thermal Simulations;;;;;;;;;;
+Digital twin model-driven capacity evaluation and scheduling optimization for ship welding production line;Digital twin model-driven capacity evaluation and scheduling optimization for ship welding production line;;;;;;;;;;
+Digital Twin Operational Platform for Connectivity and Accessibility using Flask Python;Digital Twin Operational Platform for Connectivity and Accessibility using Flask Python;;;;;;;;;;
+Digital Twin Service Unit for AC Motor Stator Inter-Turn Short Circuit Fault Detection;Digital Twin Service Unit for AC Motor Stator Inter-Turn Short Circuit Fault Detection;;;;;;;;;;
+Digital Twin-Based Multiple Access Optimization and Monitoring via Model-Driven Bayesian Learning;Digital Twin-Based Multiple Access Optimization and Monitoring via Model-Driven Bayesian Learning;;;;;;;;;;
+Digital twinning of railway overhead line equipment from airborne lidar data;Digital twinning of railway overhead line equipment from airborne lidar data;;;;;;;;;;
+Digital Twins Based Intelligent State Prediction Method for Maneuvering-Target Tracking;Digital Twins Based Intelligent State Prediction Method for Maneuvering-Target Tracking;;;;;;;;;;
+Digital Twins Driving Model Based on Petri Net in Industrial Pipeline;Digital Twins Driving Model Based on Petri Net in Industrial Pipeline;;;;;;;;;;
+Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned;Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned;;;;;;;;;;
+Digital Twins for Sustainable Software Systems;Digital Twins for Sustainable Software Systems;;;;;;;;;;
+Dynamic design method of digital twin process model driven by knowledge-evolution machining features;Dynamic design method of digital twin process model driven by knowledge-evolution machining features;;;;;;;;;;
+Dynamic Runtime Integration of New Models in Digital Twins;Dynamic Runtime Integration of New Models in Digital Twins;;;;;;;;;;
+EMF-Syncer: scalable maintenance of view models over heterogeneous data-centric software systems at run time;EMF-Syncer: scalable maintenance of view models over heterogeneous data-centric software systems at run time;;;;;;;;;;
+Empowering Industry 4.0 with Generative and Model-Driven SDK Development;Empowering Industry 4.0 with Generative and Model-Driven SDK Development;;;;;;;;;;
+Enabling Semantic Interoperability of Asset Administration Shells through an Ontology-Based Modeling Method;Enabling Semantic Interoperability of Asset Administration Shells through an Ontology-Based Modeling Method;;;;;;;;;;
+Ensuring consistency in scalable-detail models for DT-based control;Ensuring consistency in scalable-detail models for DT-based control;;;;;;;;;;
+Explaining Cyberphysical System Behavior With Digital Twins;Explaining Cyberphysical System Behavior With Digital Twins;;;;;;;;;;
+Extracting Hardware Reconfiguration Models based on Knowledge Synthesis from STEP Files;Extracting Hardware Reconfiguration Models based on Knowledge Synthesis from STEP Files;;;;;;;;;;
+Fault Diagnosis and Task Evaluation of Satellite Power subsystem Based on Digital Twin Modeling and Simulation;Fault Diagnosis and Task Evaluation of Satellite Power subsystem Based on Digital Twin Modeling and Simulation;;;;;;;;;;
+Generating customized low-code development platforms for digital twins;Generating customized low-code development platforms for digital twins;;;;;;;;;;
+Generating Digital Twin Cockpits for Parameter Management in the Engineering of Wind Turbines;Generating Digital Twin Cockpits for Parameter Management in the Engineering of Wind Turbines;;;;;;;;;;
+Generation of Digital Twins for Information Exchange Between Partners in the Industrie 4.0 Value Chain;Generation of Digital Twins for Information Exchange Between Partners in the Industrie 4.0 Value Chain;;;;;;;;;;
+Generative and Model-driven SDK development for the Industrie 4.0 Digital Twin;Generative and Model-driven SDK development for the Industrie 4.0 Digital Twin;;;;;;;;;;
+GRuM-A flexible model-driven runtime monitoring framework and its application to automated aerial and ground vehicles;GRuM-A flexible model-driven runtime monitoring framework and its application to automated aerial and ground vehicles;;;;;;;;;;
+Holistic Network Virtualization and Pervasive Network Intelligence for 6G;Holistic Network Virtualization and Pervasive Network Intelligence for 6G;;;;;;;;;;
+Improved Electric Vehicle Digital Twin Performance Incorporating Detailed Lithium-ion Battery Model;Improved Electric Vehicle Digital Twin Performance Incorporating Detailed Lithium-ion Battery Model;;;;;;;;;;
+Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars;Incremental Causal Connection for Self-Adaptive Systems Based on Relational Reference Attribute Grammars;;;;;;;;;;
+Integration of SysML Models in a 3D Environment for Virtual Testing and Validation;Integration of SysML Models in a 3D Environment for Virtual Testing and Validation;;;;;;;;;;
+Interface Development for Digital Twin of an Electric Motor Based on Empirical Performance Model;Interface Development for Digital Twin of an Electric Motor Based on Empirical Performance Model;;;;;;;;;;
+Interface Management with Closed-Loop Systems Engineering (CLOSE);Interface Management with Closed-Loop Systems Engineering (CLOSE);;;;;;;;;;
+Job Shop Rescheduling Under Recessive Disturbance Based on Digital Twin;Job Shop Rescheduling Under Recessive Disturbance Based on Digital Twin;;;;;;;;;;
+Knowledge driven rapid development of white box digital twins for industrial plant systems;Knowledge driven rapid development of white box digital twins for industrial plant systems;;;;;;;;;;
+Learning to adapt - Software engineering for uncertainty;Learning to adapt - Software engineering for uncertainty;;;;;;;;;;
+Learning to Predict and Optimize Imperfect MIMO System Performance: Framework and Application;Learning to Predict and Optimize Imperfect MIMO System Performance: Framework and Application;;;;;;;;;;
+Measuring the Fidelity of Digital Twin Systems;Measuring the Fidelity of Digital Twin Systems;;;;;;;;;;
+Meta-model-based shop-floor digital twin architecture, modeling and application;Meta-model-based shop-floor digital twin architecture, modeling and application;;;;;;;;;;
+MIoTA: Modeling IoT applications for air conditioning facilities with ADOxx;MIoTA: Modeling IoT applications for air conditioning facilities with ADOxx;;;;;;;;;;
+Model-Based DevOps: Foundations and Challenges;Model-Based DevOps: Foundations and Challenges;;;;;;;;;;
+Model-based digital twins of medicine dispensers for healthcare IoT applications;Model-based digital twins of medicine dispensers for healthcare IoT applications;;;;;;;;;;
+Model-Driven Development of a Digital Twin for Injection Molding;Model-Driven Development of a Digital Twin for Injection Molding;;;;;;;;;;
+Model-Driven Digital Twin Construction: Synthesizing the Integration of Cyber-Physical Systems with Their Information Systems;Model-Driven Digital Twin Construction: Synthesizing the Integration of Cyber-Physical Systems with Their Information Systems;;;;;;;;;;
+Model-driven engineering city spaces via bidirectional model transformations;Model-driven engineering city spaces via bidirectional model transformations;;;;;;;;;;
+Model-Driven Engineering in Digital Thread Platforms: A Practical Use Case and Future Challenges;Model-Driven Engineering in Digital Thread Platforms: A Practical Use Case and Future Challenges;;;;;;;;;;
+Modeling Urban Digital Twins over the Cloud-to-Thing Continuum;Modeling Urban Digital Twins over the Cloud-to-Thing Continuum;;;;;;;;;;
+Modular Fault Ascription and Corrective Maintenance Using a Digital Twin;Modular Fault Ascription and Corrective Maintenance Using a Digital Twin;;;;;;;;;;Digital Twin of an Electrical Motor Based on Empirical Performance Model
+Multi-dimensional Model-driven Robot Digital Twin System;Multi-dimensional Model-driven Robot Digital Twin System;;;;;;;;;;Workshop Management and Control System Based on Digital Twin
+Multisource Model-Driven Digital Twin System of Robotic Assembly;Multisource Model-Driven Digital Twin System of Robotic Assembly;;;;;;;;;;Models Meet Data: Challenges to Create Virtual Entities for Digital Twins
+On the Engineering of IoT-Intensive Digital Twin Software Systems;On the Engineering of IoT-Intensive Digital Twin Software Systems;;;;;;;;;;Towards a Digital Z Framework Based on a Family of Architectures and a Virtual Knowledge Graph
+On the Notion of Digital Twins: A Modeling Perspective;On the Notion of Digital Twins: A Modeling Perspective;;;;;;;;;;Using Ptolemy II as a Framework for Virtual Entity Integration and Orchestration in Digital Twins
+Performance Evaluation: Model-Driven or Problem-Driven?;Performance Evaluation: Model-Driven or Problem-Driven?;;;;;;;;;;
+Principles of Building Digital Twins to Design Integrated Energy Systems;Principles of Building Digital Twins to Design Integrated Energy Systems;;;;;;;;;;
+Process Prediction with Digital Twins;Process Prediction with Digital Twins;;;;;;;;;;
+Proof of Concept for a Roundtrip Engineering IS for the New Enterprise in the Industry 4.0 Era;Proof of Concept for a Roundtrip Engineering IS for the New Enterprise in the Industry 4.0 Era;;;;;;;;;;
+Reliable Counterparts: Efficiently Testing Causal Relationships in Digital Twins;Reliable Counterparts: Efficiently Testing Causal Relationships in Digital Twins;;;;;;;;;;
+Research on Modeling Method of System Reliability Digital Twin;Research on Modeling Method of System Reliability Digital Twin;;;;;;;;;;
+Self-adaptive digital twin reference architecture to improve process quality;Self-adaptive digital twin reference architecture to improve process quality;;;;;;;;;;
+Semantic digital twins for organizational development;Semantic digital twins for organizational development;;;;;;;;;;
+Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework;Semantic Interoperability of Digital Twins: Ontology-based Capability Checking in AAS Modeling Framework;;;;;;;;;;
+Semi-Automatic generation of an lod1 and lod2 3d city model of tanauan city, batangas using openstreetmap and taal open lidar data in qgis;Semi-Automatic generation of an lod1 and lod2 3d city model of tanauan city, batangas using openstreetmap and taal open lidar data in qgis;;;;;;;;;;
+Simulation Method in Automotive, Aviation and Maritime Industries for Digital Twin: A Brief Survey;Simulation Method in Automotive, Aviation and Maritime Industries for Digital Twin: A Brief Survey;;;;;;;;;;
+Simulation-Based Engineering of Heterogeneous Collaborative Systems-A Novel Conceptual Framework;Simulation-Based Engineering of Heterogeneous Collaborative Systems-A Novel Conceptual Framework;;;;;;;;;;
+Smart Design and Simulation of Aerospace Control System Based on Digital Twin;Smart Design and Simulation of Aerospace Control System Based on Digital Twin;;;;;;;;;;
+Supporting Digital Twins for the Retrofit in Aviation by a Model-Driven Data Handling;Supporting Digital Twins for the Retrofit in Aviation by a Model-Driven Data Handling;;;;;;;;;;
+Supporting Digital Twins Systems Integrating the MERODE Approach;Supporting Digital Twins Systems Integrating the MERODE Approach;;;;;;;;;;
+Supporting the Development of Digital Twins in Nuclear Waste Monitoring Systems;Supporting the Development of Digital Twins in Nuclear Waste Monitoring Systems;;;;;;;;;;
+Supporting the Implementation of Digital Twins for IoT-Enhanced BPs;Supporting the Implementation of Digital Twins for IoT-Enhanced BPs;;;;;;;;;;
+Survey and Practice on Architecture and Deployment Method of Digital Twin System for Intelligent Substation;Survey and Practice on Architecture and Deployment Method of Digital Twin System for Intelligent Substation;;;;;;;;;;
+The Framework for Designing Autonomous Cyber-Physical Multi-agent Systems for Adaptive Resource Management;The Framework for Designing Autonomous Cyber-Physical Multi-agent Systems for Adaptive Resource Management;;;;;;;;;;
+The Interplay of AI and Digital Twin: Bridging the Gap between Data-Driven and Model-Driven Approaches;The Interplay of AI and Digital Twin: Bridging the Gap between Data-Driven and Model-Driven Approaches;;;;;;;;;;
+The OMiLAB Digital Innovation environment: Agile conceptual models to bridge business value with Digital and Physical Twins for Product-Service Systems development;The OMiLAB Digital Innovation environment: Agile conceptual models to bridge business value with Digital and Physical Twins for Product-Service Systems development;;;;;;;;;;
+The Research of Aero-engine Digital Twin Model Based on Model-driven and Data-driven Fusion Method;The Research of Aero-engine Digital Twin Model Based on Model-driven and Data-driven Fusion Method;;;;;;;;;;
+The THREAT-ARREST Cyber Range Platform;The THREAT-ARREST Cyber Range Platform;;;;;;;;;;
+Towards a Digital Twin for Cyber-Physical Production Systems: A Multi-Paradigm Modeling Approach in the Postal Industry;Towards a Digital Twin for Cyber-Physical Production Systems: A Multi-Paradigm Modeling Approach in the Postal Industry;;;;;;;;;;
+Towards a Lightweight Model-driven Smart-city Digital Twin;Towards a Lightweight Model-driven Smart-city Digital Twin;;;;;;;;;;
+Towards a Model-Driven Architecture for Interactive Digital Twin Cockpits;Towards a Model-Driven Architecture for Interactive Digital Twin Cockpits;;;;;;;;;;
+Towards a Reference Architecture for Leveraging Model Repositories for Digital Twins;Towards a Reference Architecture for Leveraging Model Repositories for Digital Twins;;;;;;;;;;
+Towards a Taxonomy of Digital Twin Evolution for Technical Sustainability;Towards a Taxonomy of Digital Twin Evolution for Technical Sustainability;;;;;;;;;;
+Towards Development Platforms for Digital Twins: A Model-Driven Low-Code Approach;Towards Development Platforms for Digital Twins: A Model-Driven Low-Code Approach;;;;;;;;;;
+Towards Generating Model-Driven Speech Interfaces for Digital Twins;Towards Generating Model-Driven Speech Interfaces for Digital Twins;;;;;;;;;;
+Towards Reactive Planning with Digital Twins and Model-Driven Optimization;Towards Reactive Planning with Digital Twins and Model-Driven Optimization;;;;;;;;;;
+Twin Process Model Driven Machining Quality Optimization for Complex Parts;Twin Process Model Driven Machining Quality Optimization for Complex Parts;;;;;;;;;;
+TwinOps - DevOps Meets Model-Based Engineering and Digital Twins for the Engineering of CPS;TwinOps - DevOps Meets Model-Based Engineering and Digital Twins for the Engineering of CPS;;;;;;;;;;
+UAV-Assisted Three-Dimensional Spectrum Mapping Driven by Spectrum Data and Channel Model;UAV-Assisted Three-Dimensional Spectrum Mapping Driven by Spectrum Data and Channel Model;;;;;;;;;;
+Understanding and Improving Model-Driven IoT Systems through Accompanying Digital Twins;Understanding and Improving Model-Driven IoT Systems through Accompanying Digital Twins;;;;;;;;;;
+Urban Intelligence: Toward the Digital Twin of Matera and Catania;Urban Intelligence: Toward the Digital Twin of Matera and Catania;;;;;;;;;;
+Using Trace Alignments for Measuring the Similarity between a Physical and Its Digital Twin;Using Trace Alignments for Measuring the Similarity between a Physical and Its Digital Twin;;;;;;;;;;
+Using UML and OCL Models to Realize High-Level Digital Twins;Using UML and OCL Models to Realize High-Level Digital Twins;;;;;;;;;;
