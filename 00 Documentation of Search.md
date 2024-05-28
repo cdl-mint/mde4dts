@@ -2,7 +2,7 @@
 # Scopus
 Link to search engine: https://www.scopus.com/search/form.uri?display=advanced
 
-181 Search Results on February 1st with the following search string: 
+181 Search Results on April 3rd 2024 with the following search string: 
 ```
 ( SRCTITLE ( "Digital Twin" ) OR TITLE-ABS-KEY ( "Digital Twin" ) OR SRCTITLE ( "Digital Twins" ) OR TITLE-ABS-KEY ( "Digital Twins" ) ) 
 AND ( SRCTITLE ( "Model Driven" ) OR TITLE-ABS-KEY ( "Model Driven" ) OR SRCTITLE ( Model-Driven ) OR TITLE-ABS-KEY ( Model-Driven ) ) 
@@ -11,7 +11,7 @@ AND PUBYEAR < 2024
 # Web of Science
 Link to search engine: https://www.webofscience.com/wos/woscc/advanced-search
 
-119 Search Results on February 1st with the following search string: 
+119 Search Results on April 3rd 2024 with the following search string: 
 ```
 (
     (TS=("Digital Twin") OR TI=("Digital Twin") OR SO=("Digital Twin") OR AB=("Digital Twin") OR CF=("Digital Twin") OR AK=("Digital Twin"))
@@ -26,7 +26,7 @@ Link to search engine: https://www.webofscience.com/wos/woscc/advanced-search
 # IEEE Xplore
 Link to search engine: https://ieeexplore.ieee.org/Xplore/home.jsp
 
-72 Search Results on February 1st with the following search string: 
+72 Search Results on April 3rd 2024 with the following search string: 
 ```
 (("Document Title": "Digital Twin" OR "Abstract": "Digital Twin" OR "Author Keywords": "Digital Twin" OR "Publication Title": "Digital Twin") 
 OR
@@ -40,7 +40,7 @@ OR
 # ACM
 Link to search engine: https://dl.acm.org/search/advanced
 
-26 Search Results on February 1st with the following search string: 
+26 Search Resultson April 3rd 2024 with the following search string: 
 ```
 (
 Title:("digital twin" OR "digital twins") 
