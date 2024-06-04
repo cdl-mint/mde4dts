@@ -1,7 +1,7 @@
-source;control;data;data processing;database;other software;simulation software;visualization software
-architecture;2;0;2;0;4;1;1
-continuous behavior;0;0;0;0;0;2;0
-data;0;0;8;4;2;0;6
-discrete behavior;2;0;1;0;1;1;1
-ontology;0;3;1;0;0;0;0
-ui configuration;0;0;0;0;0;0;6
+source;control;data processing;data storage;other software;simulation software;visualization software
+architecture;2;2;0;4;1;1
+continuous behavior;0;0;0;0;2;0
+data;0;8;4;2;0;6
+discrete behavior;2;1;0;1;1;1
+ontology;0;4;0;0;0;0
+ui configuration;0;0;0;0;0;6

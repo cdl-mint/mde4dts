@@ -53,7 +53,7 @@
                 "source model target category": "PT",
                 "target": "Knowledge Base of software digital twins (Metamodel proposed in Figure 5 of the paper) -> in fact, this is the class diagram of their knowledge base",
                 "target category": "Software",
-                "target sub-category 1": "database",
+                "target sub-category 1": "data storage",
                 "target sub-category 2": null,
                 "target model target category": null
             },
@@ -225,7 +225,7 @@
         "Technological Readiness Level": "Validation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
-        "use case domain": "Administrative",
+        "use case domain": "Adminstration",
         "Use Case": "Air Quality Opitmization System",
         "modelTrafos": [
             {
@@ -1269,7 +1269,7 @@
                 "source model target category": "PT",
                 "target": "SysML (Graph Database entries)",
                 "target category": "Software",
-                "target sub-category 1": "database",
+                "target sub-category 1": "data storage",
                 "target sub-category 2": null,
                 "target model target category": null
             }
@@ -1390,7 +1390,7 @@
         "Technological Readiness Level": "Solution Proposal",
         "twinning target": "Processes",
         "twin lifecycle phase": "As-Designed",
-        "use case domain": "Administrative",
+        "use case domain": "Adminstration",
         "Use Case": "sorting robot of a postal center",
         "modelTrafos": [
             {
@@ -1676,7 +1676,7 @@
                 "source model target category": "Software",
                 "target": "uml cd adapter that interprets CD and adapts a data lake accordingly (data lake stores data from the PT)",
                 "target category": "Software",
-                "target sub-category 1": "database",
+                "target sub-category 1": "data storage",
                 "target sub-category 2": null,
                 "target model target category": null
             }
@@ -1890,7 +1890,7 @@
         "Technological Readiness Level": "Validation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Operated",
-        "use case domain": "Transportation",
+        "use case domain": "Transportation and Storage",
         "Use Case": "Autonomously Driving Surveillance Car",
         "modelTrafos": [
             {
@@ -2207,9 +2207,9 @@
                 "source sub-category 1": "ontology",
                 "source sub-category 2": null,
                 "source model target category": "PT",
-                "target": "XSD",
-                "target category": "structural model",
-                "target sub-category 1": "data",
+                "target": "XSD Script",
+                "target category": "software",
+                "target sub-category 1": "data processing",
                 "target sub-category 2": null,
                 "target model target category": "PT"
             },
@@ -2221,9 +2221,9 @@
                 "source sub-category 1": "ontology",
                 "source sub-category 2": null,
                 "source model target category": "PT",
-                "target": "JSON Schema",
-                "target category": "structural model",
-                "target sub-category 1": "data",
+                "target": "JSON Schema Script",
+                "target category": "software",
+                "target sub-category 1": "data processing",
                 "target sub-category 2": null,
                 "target model target category": "PT"
             },
@@ -2235,9 +2235,9 @@
                 "source sub-category 1": "ontology",
                 "source sub-category 2": null,
                 "source model target category": "PT",
-                "target": "RSDF",
-                "target category": "structural model",
-                "target sub-category 1": "data",
+                "target": "RSFD Script",
+                "target category": "software",
+                "target sub-category 1": "data processing",
                 "target sub-category 2": null,
                 "target model target category": "PT"
             }
@@ -2298,7 +2298,7 @@
         "Technological Readiness Level": "Validation Research",
         "twinning target": "Systems of Systems",
         "twin lifecycle phase": "As-Designed",
-        "use case domain": "Transportation",
+        "use case domain": "Transportation and Storage",
         "Use Case": "Urban Transportation System of Malaga",
         "modelTrafos": [
             {
@@ -2321,7 +2321,7 @@
         "Technological Readiness Level": "Validation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Operated",
-        "use case domain": "Administrative",
+        "use case domain": "Adminstration",
         "Use Case": null,
         "modelTrafos": [
             {
@@ -2335,7 +2335,7 @@
                 "target": "Web API, Business Logic and Data Store of the digital twin ",
                 "target category": "software",
                 "target sub-category 1": "data processing",
-                "target sub-category 2": "database",
+                "target sub-category 2": "data storage",
                 "target model target category": null
             },
             {
@@ -2349,7 +2349,7 @@
                 "target": "Web API, Business Logic and Data Store of the digital twin ",
                 "target category": "software",
                 "target sub-category 1": "data processing",
-                "target sub-category 2": "database",
+                "target sub-category 2": "data storage",
                 "target model target category": null
             },
             {
