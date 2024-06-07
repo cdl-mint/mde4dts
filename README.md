@@ -22,8 +22,8 @@ We performed forward and backward snowballing on the remaining papers to obtain 
 
 
 # 5. Data extraction
-Each paper in this full set of relevant papers was read by three authors to extract all relevant data. The results for individual authors for each paper are collected in the file [03 extraction results.xlsx](./03%20extraction%20results.xlsx). The collected data was afterwards consolidated among the authors for each paper. The consolidated data, which was used to present the results of our study in the paper, is available in the file [04 extraction consolidation results.xlsx](./04%20extraction%20consolidation%20results.xlsx)
-**Description of file contents:** The file contains the sheet "extraction consolidation result" with the information on the individual papers, whereby the first two columns include id and title to identify the papers. Then, the information such as model processing technique, model category, and system life cycle phase is listed according to the RQs of our paper. Papers that contain more details regarding one column are described in several rows.
+Each paper in this full set of relevant papers was read by three authors to extract all relevant data. The results for individual authors for each paper are collected, discussed and finally consolidated, which was used to present the results of our study in the paper, is available in the file [03 extraction consolidation results.xlsx](./03%20extraction%20consolidation%20results.xlsx)
+**Description of file contents:** The file contains the sheet "extraction consolidation result" with the information on the individual papers, whereby the first two columns include id and title to identify the papers. Then, the information such as model processing technique, model category, and system life cycle phase is listed according to the RQs of our paper. Papers that contain more details regarding one column are described in several rows  (e.g., if one paper contains applications of several automation techniques, we create a dedicated row for each automation technique).
 
 
 # Data preparation and visualization
