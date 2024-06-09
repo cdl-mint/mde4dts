@@ -1,8 +1,0 @@
-IEEE: 67 (double-check)
-ACM: 26
-Scopus:181
-WoS: 
-
-after reducing duplicates: 186
-after screening: 151
-after detailed reviewing: 65
