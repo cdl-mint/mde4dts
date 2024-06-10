@@ -27,5 +27,6 @@ Each paper in this full set of relevant papers was read by three authors to extr
 
 
 # Data preparation and visualization
-To merge the consolidated extraction data with the paper metadata collected in step 1, we used the code in the file [extraction_data_preparation.ipynb](./extraction_data_preparation.ipynb), which stored the merged data in json format in the folder [/target/json](./target/json/).
-This json file was then used by the code collected in the file [visualizations.ipynb](./visualizations_Jingxi_2.ipynb) to create the visualizations of the raw data which are available in the folder [/target/img](./target/img/) and its sub-folders. The folder [/data](./data/) contains temporary files that are consumed or produced by these automation scripts.
+All automation scripts scripts that were used to create the visualizations shown in the paper based on the extracted data are collected in the folder [/scripts](./scripts).
+To merge the consolidated extraction data with the paper metadata collected in step 1, we used the code in the file [extraction_data_preparation.ipynb](./scripts/extraction_data_preparation.ipynb), which stored the merged data in json format in the folder [/scripts/data](./scripts/data/).
+This json file was then used by the code collected in the file [scatterplots.ipynb](./scripts/scatterplots.ipynb) to create the scatterplots. The barcharts were created directly based on the extracted data, using the code available in the file [barcharts.ipynb](./data/barcharts.ipynb). Both barcharts and scatterplots are available in the folder [./scripts/target/img](./scripts/target/img/) and its sub-folders. The folder [./scripts/data](./scripts/data/) contains temporary files that are consumed or produced by these automation scripts.
