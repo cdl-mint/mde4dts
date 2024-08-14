@@ -19,9 +19,9 @@ OR
 ("Document Title": "Model Driven" OR "Abstract": "Model Driven" OR "Author Keywords": "Model Driven" OR "Publication Title": "Model Driven") )
 ```
 3. In the following window, select "Conferences, Journals, Magazines" and click "Apply"
-![Screenshot of the publication type selection in IEEE Xplore](./pics/search_ieee_types.png)
+![Screenshot of the publication type selection in IEEE Xplore](./pics/search_ieee_types.PNG)
 4. In the left menu bar, select the "Range" option in the "Year" area and enter "empty" to "2023" as range (the website will automatically replace the empty value with "2018"). Also select search for "Documents" and "Show All Results" perform no other selections in this menubar.
-![Screenshot of the year selection in IEEE Xplore](./pics/search_ieee_config.png)
+![Screenshot of the year selection in IEEE Xplore](./pics/search_ieee_config.PNG)
 
 # ACM
 26 Search Results by performing the following procedure on April 3rd 2024
@@ -48,7 +48,7 @@ OR Keyword:("model driven" OR "model-driven")
 
 **The following screenshot shows the final configuration:**
 
-![Screenshot of ACM search configuration](./pics/search_acm.png)
+![Screenshot of ACM search configuration](./pics/search_acm.PNG)
 
 # Web of Science
 *Note: the selected databases for web of science are based on the subscription of the author's universities.*
@@ -57,7 +57,7 @@ OR Keyword:("model driven" OR "model-driven")
 1. go to https://www.webofscience.com/wos/woscc/advanced-search
 2. login if required
 3. Select "All Databases" for the "Search in" option and "All" for the "Collections" option. Based on the subscriptions of the authors' universities, this includes the following databases: Web of Science Core Collection, Grants Index, KCI-Korean Journal Database, MEDLINE, Preprint Citation Index, ProQuest Dissertations & Theses Citation Index, SciELO Citation Index
-![Screenshot of available Web of Science databases](./pics/search_wos_dbs.png)
+![Screenshot of available Web of Science databases](./pics/search_wos_dbs.PNG)
 4. In the textfield that says "Enter or edit your query here.", enter the following string:
 ```
 (
@@ -75,7 +75,7 @@ OR Keyword:("model driven" OR "model-driven")
 
 **The following screenshot shows the final configuration:**
 
-![Screenshot of Web of Science search configuration](./pics/search_wos.png)
+![Screenshot of Web of Science search configuration](./pics/search_wos.PNG)
 
 # Scopus
 181 Search Results by performing the following procedure on April 3rd 2024: 
