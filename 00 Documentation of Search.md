@@ -4,7 +4,7 @@
 
 # IEEE Xplore
 
-72 Search Results by performing the following procedure on April 3rd 2024:
+73 Search Results by performing the following procedure on April 3rd 2024:
 
 1. Go to https://ieeexplore.ieee.org/Xplore/home.jsp
 2. Enter the following String in the search field and press enter:
@@ -24,10 +24,10 @@ OR
 ![Screenshot of the year selection in IEEE Xplore](./pics/search_ieee_config.PNG)
 
 # ACM
-26 Search Results by performing the following procedure on April 3rd 2024
+50 Search Results by performing the following procedure on April 3rd 2024
 
 1. Go to https://dl.acm.org/search/advanced
-2. Select "The ACM Full-Text Collection as Database
+2. Select "The ACM Guide to Computing Literature"
 3. Enter the following String in the textfield to the left of "Anywhere" in the "Search Within" field:
 ```
 (
