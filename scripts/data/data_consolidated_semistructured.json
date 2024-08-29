@@ -2436,5 +2436,65 @@
                 "target model target category": null
             }
         ]
+    },
+    "Applying Discrete Event Simulation on Patient Flow Scenarios with Health Monitoring Systems": {
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": "Systems of Systems",
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": "H - Human heath and social work activities",
+        "Use Case": "health monitoring",
+        "modelTrafos": [
+            {
+                "model processing technique": "Code Generation",
+                "system lifecycle phase": "Operate",
+                "source": "simulation model",
+                "source category": "behavior model",
+                "source sub-category 1": "discrete behavior",
+                "source sub-category 2": null,
+                "source model target category": "PT",
+                "target": "simulation data",
+                "target category": "software",
+                "target sub-category 1": null,
+                "target sub-category 2": null,
+                "target model target category": null
+            },
+            {
+                "model processing technique": "Model Interpretation",
+                "system lifecycle phase": "Operate",
+                "source": "simulation model",
+                "source category": "behavior model",
+                "source sub-category 1": "discrete behavior",
+                "source sub-category 2": null,
+                "source model target category": "PT",
+                "target": "MoSTHeath Framework",
+                "target category": "software",
+                "target sub-category 1": "control",
+                "target sub-category 2": null,
+                "target model target category": null
+            }
+        ]
+    },
+    "Research on Digital Twin Technology of Small Hydraulic System": {
+        "Technological Readiness Level": "Solution Proposal",
+        "twinning target": "Individual Systems",
+        "twin lifecycle phase": "As-Designed",
+        "use case domain": null,
+        "Use Case": "no use case",
+        "modelTrafos": [
+            {
+                "model processing technique": "Model Interpretation",
+                "system lifecycle phase": "Operate",
+                "source": "simulation model",
+                "source category": "behavior model",
+                "source sub-category 1": "continuous behavior",
+                "source sub-category 2": null,
+                "source model target category": "PT",
+                "target": "maintenance platform",
+                "target category": "software",
+                "target sub-category 1": "visualization software",
+                "target sub-category 2": null,
+                "target model target category": null
+            }
+        ]
     }
 }

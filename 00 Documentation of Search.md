@@ -26,9 +26,8 @@ OR
 # ACM
 50 Search Results by performing the following procedure on April 3rd 2024
 
-1. Go to https://dl.acm.org/search/advanced
-2. Select "The ACM Guide to Computing Literature"
-3. Enter the following String in the textfield to the left of "Anywhere" in the "Search Within" field:
+1. Go to https://dl.acm.org/
+2. Enter the following String in the search field and press "Enter":
 ```
 (
 Title:("digital twin" OR "digital twins") 
@@ -44,7 +43,8 @@ OR Abstract:("model driven" OR "model-driven")
 OR Keyword:("model driven" OR "model-driven")
 )
 ```
-4. In the "Publication Date" area, select "Custom Range" and for the "To" date, select "Dec" as month and "2023" as year.
+3. Make sure that the selected database is "The ACM Guide to Computing Literature", as indicated in the screenshot below
+4. In the Sidebar to the left, reduce the years to "2018-2023"
 
 **The following screenshot shows the final configuration:**
 
