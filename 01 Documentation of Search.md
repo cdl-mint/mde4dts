@@ -1,7 +1,3 @@
-
-
-
-
 # IEEE Xplore
 
 73 Search Results by performing the following procedure on April 3rd 2024:
@@ -51,7 +47,7 @@ OR Keyword:("model driven" OR "model-driven")
 ![Screenshot of ACM search configuration](./pics/search_acm.PNG)
 
 # Web of Science
-*Note: the selected databases for web of science are based on the subscription of the author's universities.*
+*Note: the selected databases for web of science are based on the subscription of the author's universities. Unfortunately, search results also depend on the specific subscription to the WoS Core Collection database, which is different for individual universities. For example, for the subscription provided by the "Consortium of Austrian University Libraries" provided by the Johannes Kepler University, we retrieved 118 search results. For the Subscription provided by the "University of Stuttgart", we retrieved*
 
 119 Search Results by performing the following procedure on April 3rd 2024: 
 1. go to https://www.webofscience.com/wos/woscc/advanced-search
