@@ -74,8 +74,8 @@ OR Keyword:("model driven" OR "model-driven")
 ![Screenshot of Web of Science search configuration](./pics/search_wos.PNG)
 
 # Scopus
-182 Search Results by performing the following procedure on April 3rd 2024: 
-1. Go tohttps://www.scopus.com/search/form.uri?display=advanced
+183 Search Results by performing the following procedure on April 3rd 2024: 
+1. Go to https://www.scopus.com/search/form.uri?display=advanced
 2. Enter the following String in the "Enter Search String" field:
 ```
 ( SRCTITLE ( "Digital Twin" ) OR TITLE-ABS-KEY ( "Digital Twin" ) OR SRCTITLE ( "Digital Twins" ) OR TITLE-ABS-KEY ( "Digital Twins" ) ) 
