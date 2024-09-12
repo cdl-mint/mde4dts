@@ -4,7 +4,7 @@ In the following, we describe the individual steps of the procedure performed to
 # 1. Keyword-based search
 First, we performed a keyword-based search in different literature databases using the conceptual search string 
 "Digital Twin*" AND (Model-Driven) OR "MODEL DRIVEN
-Details on the specifics of executing this search query in the different search engines of the selected literature databases are given in the file [00 Documentation of Search.md](./00%20Documentation%20of%20Search.md)
+Details on the specifics of executing this search query in the different search engines of the selected literature databases are given in the file [01 Documentation of Search.md](./01%20Documentation%20of%20Search.md)
 
 The results of this keyword-based search (paper titles and metadata) are available in the file [00 Search Results.csv](./00%20Search%20Results.csv)
 We already excluded duplicates and papers that were not written in english in this initial step. The papers that remained after exclusion were forwarded to Step 2.
