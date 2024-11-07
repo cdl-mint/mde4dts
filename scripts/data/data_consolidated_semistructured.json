@@ -258,7 +258,7 @@
             }
         ]
     },
-    "Case Study on Automated and Continuous Reliability Assessment of Software-Defined C - Manufacturing Based on Digital Twins": {
+    "Case Study on Automated and Continuous Reliability Assessment of Software-Defined Manufacturing Based on Digital Twins": {
         "Technological Readiness Level": "Validation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Operated",
@@ -355,7 +355,7 @@
             }
         ]
     },
-    "Concept of a Modular and System Model Driven Digital Twin for Engineering P - Education": {
+    "Concept of a Modular and System Model Driven Digital Twin for Engineering Education": {
         "Technological Readiness Level": "Solution Proposal",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
@@ -775,7 +775,7 @@
         "Technological Readiness Level": "Validation Research",
         "twinning target": null,
         "twin lifecycle phase": "As-Designed",
-        "use case domain": null,
+        "use case domain": "C - Manufacturing",
         "Use Case": null,
         "modelTrafos": [
             {
@@ -1478,7 +1478,7 @@
         "Technological Readiness Level": "Evaluation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
-        "use case domain": null,
+        "use case domain": "C - Manufacturing",
         "Use Case": null,
         "modelTrafos": [
             {
@@ -1590,7 +1590,7 @@
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Operated",
         "use case domain": "F - Construction",
-        "Use Case": "smart lawn watering system; heating, ventilation, and air conditioning of a\r\nsmart home",
+        "Use Case": "smart lawn watering system; heating, ventilation, and air conditioning of a\nsmart home",
         "modelTrafos": [
             {
                 "model processing technique": "Code Generation",
@@ -1784,7 +1784,7 @@
             }
         ]
     },
-    "A Model-Driven Digital Twin for C - Manufacturing Process Adaptation": {
+    "A Model-Driven Digital Twin for Manufacturing Process Adaptation": {
         "Technological Readiness Level": "Validation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
@@ -2159,7 +2159,7 @@
         "Technological Readiness Level": "Validation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
-        "use case domain": null,
+        "use case domain": "C - Manufacturing",
         "Use Case": null,
         "modelTrafos": [
             {
@@ -2247,7 +2247,7 @@
         "Technological Readiness Level": "Evaluation Research",
         "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Operated",
-        "use case domain": "Human Health",
+        "use case domain": "Q - Human Health",
         "Use Case": "Healthcare System of Oslo",
         "modelTrafos": [
             {
@@ -2441,7 +2441,7 @@
         "Technological Readiness Level": "Solution Proposal",
         "twinning target": "Systems of Systems",
         "twin lifecycle phase": "As-Designed",
-        "use case domain": "H - Human heath and social work activities",
+        "use case domain": "Q - Human Health",
         "Use Case": "health monitoring",
         "modelTrafos": [
             {
@@ -2454,7 +2454,7 @@
                 "source model target category": "PT",
                 "target": "simulation data",
                 "target category": "software",
-                "target sub-category 1": null,
+                "target sub-category 1": "data processing",
                 "target sub-category 2": null,
                 "target model target category": null
             },
