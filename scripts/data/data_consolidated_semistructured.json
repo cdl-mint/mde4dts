@@ -1661,7 +1661,7 @@
     },
     "Using UML and OCL Models to Realize High-Level Digital Twins": {
         "Technological Readiness Level": "Solution Proposal",
-        "twinning target": null,
+        "twinning target": "Individual Systems",
         "twin lifecycle phase": "As-Designed",
         "use case domain": "H - Transport",
         "Use Case": "lego mindstorms car",
