@@ -49,7 +49,7 @@ OR Keyword:("model driven" OR "model-driven")
 # Web of Science
 *Note: the selected databases for web of science are based on the subscription of the author's universities. Unfortunately, search results also depend on the specific subscription to the WoS Core Collection database, which is different for individual universities. For example, for the subscription provided by the "Consortium of Austrian University Libraries" provided by the Johannes Kepler University, we retrieved 118 search results. For the Subscription provided by the "University of Stuttgart", we retrieved 122 publications.*
 
-119 Search Results by performing the following procedure on April 3rd 2024: 
+122 Search Results by performing the following procedure on April 3rd 2024: 
 1. go to https://www.webofscience.com/wos/woscc/advanced-search
 2. login if required
 3. Select "All Databases" for the "Search in" option and "All" for the "Collections" option. Based on the subscriptions of the authors' universities, this includes the following databases: Web of Science Core Collection, Grants Index, KCI-Korean Journal Database, MEDLINE, Preprint Citation Index, ProQuest Dissertations & Theses Citation Index, SciELO Citation Index
@@ -74,7 +74,7 @@ OR Keyword:("model driven" OR "model-driven")
 ![Screenshot of Web of Science search configuration](./pics/search_wos.PNG)
 
 # Scopus
-183 Search Results by performing the following procedure on April 3rd 2024: 
+182 Search Results by performing the following procedure on April 3rd 2024: 
 1. Go to https://www.scopus.com/search/form.uri?display=advanced
 2. Enter the following String in the "Enter Search String" field:
 ```
