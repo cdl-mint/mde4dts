@@ -22,9 +22,9 @@ OR
 # ACM
 50 Search Results by performing the following procedure on September 1st 2024 (available in file [/01 raw data/acm.csv](/01%20raw%20data/acm.csv)):
 
-```diff
-- **Note:** When executing this search for ACM again on November 12th 2024, we realized that the results changed due to a very recent update of the database, from 50 to 64. However, when crosschecking these new results with our initial search from September 1st, we found that the additional papers were already included in our corpus through IEEE and Web of Science.
-```
+> [!CAUTION]
+> **Note:** When executing this search for ACM again on November 12th 2024, we realized that the results changed due to a very recent update of the database, from 50 to 64. However, when crosschecking these new results with our initial search from September 1st, we found that the additional papers were already included in our corpus through IEEE and Web of Science.
+
 1. Go to https://dl.acm.org/
 2. Enter the following String in the search field and press "Enter":
 ```
