@@ -21,7 +21,7 @@ OR
 
 # ACM
 50 Search Results by performing the following procedure on September 1st 2024 (available in file [/01 raw data/acm.csv](/01%20raw%20data/acm.csv)):
-- **Note:** When executing this search for ACM again on November 12th 2024, we realized that the results changed from 50 to 64. However, when crosschecking these new results with our initial search from April 3rd, we found that the additional papers were already included in our corpus through IEEE or Web of Science. Thus, we decided to keep the initial number of search results for ACM, as this was the result obtained on April 3rd 2024.
+- <span style="color:red">**Note:** When executing this search for ACM again on November 12th 2024, we realized that the results changed due to a very recent update of the database, from 50 to 64. However, when crosschecking these new results with our initial search from September 1st, we found that the additional papers were already included in our corpus through IEEE and Web of Science.</span>
 
 1. Go to https://dl.acm.org/
 2. Enter the following String in the search field and press "Enter":
