@@ -2,7 +2,7 @@ This repository contains all data created for our systematic mapping study entit
 In the following, we describe the individual steps of the procedure performed to obtain the results for this study, and provide links to the relevant files for each step.
 
 ```diff
-- **Note:** When executing our keywords-based search for ACM again on November 12th 2024, we realized that the results changed due to a very recent update of the database, from 50 to 64. However, when crosschecking these new results with our initial search from September 1st, we found that the additional papers were already included in our corpus through IEEE and Web of Science.
+Important Note: When executing our keywords-based search for ACM again on November 12th 2024, we realized that the results changed due to a very recent update of the database, from 50 to 64. However, when crosschecking these new results with our initial search from September 1st, we found that the additional papers were already included in our corpus through IEEE and Web of Science.
 ```
 
 # Step 1: Keyword-based search
